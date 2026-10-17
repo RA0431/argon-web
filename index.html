@@ -387,18 +387,20 @@ function renderSongs(p) {
         <label class="field"><span>Song name *</span><input name="title" maxlength="150" required value="${esc(e?.title || '')}"></label>
         <label class="field"><span>Artist *</span><input name="artist" maxlength="150" required value="${esc(e?.artist || '')}"></label>
         <label class="field"><span>Album / Movie</span><input name="album" maxlength="150" value="${esc(e?.album || '')}"></label>
+        <label class="field"><span>Song link (direct .mp3, https) *</span><input name="link" type="url" placeholder="https://…/song.mp3" value="${esc(e?.link || '')}"></label>
+        <label class="field"><span>Cover image link</span><input name="imageLink" type="url" placeholder="https://…/cover.jpg" value="${esc(e?.image || '')}"></label>
+        <details class="alt" id="upAlt"><summary>Or upload a file from this computer</summary>
         ${ghBox()}
-        <div class="field"><span>Song file${e ? ' (choose only to replace)' : ' *'}</span>
+        <div class="field"><span>Song file</span>
           <label class="drop" id="songDrop"><input type="file" name="songFile" accept="audio/*,.mp3,.m4a,.aac,.ogg,.wav"><span class="ic">♪</span><span class="grow"><b class="ellipsis">Choose MP3 / audio file</b><small>or drag it here · up to 25 MB</small></span></label></div>
-        <details class="alt" id="linkAlt"${e?.link ? ' open' : ''}><summary>Or paste a link instead</summary>
-          <label class="field"><span>Song link (direct .mp3, https)</span><input name="link" type="url" placeholder="https://…/song.mp3" value="${esc(e?.link || '')}"></label></details>
         <div class="field"><span>Cover image</span>
-          <label class="drop" id="imgDrop"><input type="file" name="imgFile" accept="image/*"><span class="ic">🖼</span><span class="grow"><b class="ellipsis">${e?.image ? 'Change cover image' : 'Choose cover image'}</b><small>JPG / PNG · optional · up to 5 MB</small></span></label></div>
+          <label class="drop" id="imgDrop"><input type="file" name="imgFile" accept="image/*"><span class="ic">🖼</span><span class="grow"><b class="ellipsis">Choose cover image</b><small>JPG / PNG · optional · up to 5 MB</small></span></label></div>
+        </details>
         <input type="hidden" name="image" value="${esc(e?.image || '')}">
         <div id="upProg" class="hidden"><div class="bar"><i></i></div><div class="small muted" id="upText"></div></div>
         <label class="field"><span>Language</span><select name="language">${['', 'hindi', 'punjabi', 'english', 'haryanvi', 'bhojpuri', 'tamil', 'telugu', 'marathi', 'gujarati', 'bengali', 'other'].map((l) => `<option value="${l}" ${e?.language === l ? 'selected' : ''}>${l ? l[0].toUpperCase() + l.slice(1) : '—'}</option>`).join('')}</select></label>
         <div class="note" id="linkNote"></div>
-        <div class="row"><button type="button" class="btn" id="checkLink">Check</button><button class="btn primary" type="submit" id="saveSong">${e ? 'Save changes' : 'Add song'}</button>${e || state.fromRequest ? '<button type="button" class="btn" id="cancelEdit">Cancel</button>' : ''}</div>
+        <div class="row"><button type="button" class="btn" id="checkLink">Check link</button><button class="btn primary" type="submit" id="saveSong">${e ? 'Save changes' : 'Add song'}</button>${e || state.fromRequest ? '<button type="button" class="btn" id="cancelEdit">Cancel</button>' : ''}</div>
       </form>
       <div id="songList"></div>
     </div>`;
@@ -418,7 +420,7 @@ function renderSongs(p) {
       showLinkNote(d < 0 ? { s: 'bad', why: 'This file can’t be played. Choose an MP3 or M4A file.' } : { s: 'file', d });
       return;
     }
-    if (!f.link.value.trim()) { showLinkNote({ s: 'bad', why: 'Choose a song file (or paste a link).' }); return; }
+    if (!f.link.value.trim()) { showLinkNote({ s: 'bad', why: 'Paste the song link first.' }); return; }
     showLinkNote(await testLink(f.link.value.trim()));
   };
   if ($('#cancelEdit')) $('#cancelEdit').onclick = () => { state.editing = null; state.fromRequest = null; renderPanel(); };
@@ -527,10 +529,10 @@ function showLinkNote(r) {
 async function saveSong(ev) {
   ev.preventDefault();
   const f = ev.target.elements;
-  const data = { title: f.title.value.trim(), artist: f.artist.value.trim(), album: f.album.value.trim(), link: f.link.value.trim(), image: f.image.value.trim(), language: f.language.value };
+  const data = { title: f.title.value.trim(), artist: f.artist.value.trim(), album: f.album.value.trim(), link: f.link.value.trim(), image: f.imageLink.value.trim() || f.image.value.trim(), language: f.language.value };
   const songFile = f.songFile.files[0], imgFile = f.imgFile.files[0];
   if (!data.title || !data.artist) { toast('Song name and artist are needed'); return; }
-  if (!songFile && !data.link) { toast('Choose the song file'); return; }
+  if (!songFile && !data.link) { toast('Paste the song link'); return; }
   if ((songFile || imgFile) && !ghGet().token) { toast('Connect GitHub first (box above) to upload files'); $('#ghToken')?.focus(); return; }
   const btn = $('#saveSong'); btn.disabled = true;
   const idle = () => { btn.disabled = false; btn.textContent = state.editing ? 'Save changes' : 'Add song'; $('#upProg')?.classList.add('hidden'); };
