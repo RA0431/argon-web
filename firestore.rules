@@ -1,0 +1,73 @@
+rules_version = '2';
+
+// Argon security rules — paste into Firebase console → Firestore Database → Rules → Publish.
+// The app and the website can only do what these rules allow, even if someone copies the app's code.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isMe(uid) { return signedIn() && request.auth.uid == uid; }
+    // Admins are added by hand in the console: collection "admins", document ID = the admin's UID
+    function isAdmin() { return signedIn() && exists(/databases/$(database)/documents/admins/$(request.auth.uid)); }
+    function text(v, max) { return v is string && v.size() <= max; }
+    // Blocked on the website (collection "blocked", written only by the admin)
+    function isBlocked(uid) { return exists(/databases/$(database)/documents/blocked/$(uid)); }
+    function phoneBlocked(phone) { return phone is string && phone != '' && exists(/databases/$(database)/documents/blockedPhones/$(phone)); }
+
+    // App users: everyone sees and edits only their own profile; the admin sees all of them.
+    match /users/{uid} {
+      allow read: if isMe(uid) || isAdmin();
+      allow create: if isMe(uid) && !isBlocked(uid) && !phoneBlocked(request.resource.data.phone)
+        && request.resource.data.keys().hasOnly(['uid', 'name', 'email', 'phone', 'photo', 'method', 'lastSeen', 'app', 'device', 'createdAt', 'blocked', 'passwordChangedAt'])
+        && request.resource.data.uid == uid
+        && request.resource.data.blocked == false
+        && text(request.resource.data.name, 60);
+      allow update: if (isMe(uid)
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['name', 'email', 'phone', 'photo', 'method', 'lastSeen', 'app', 'device', 'passwordChangedAt'])
+          && text(request.resource.data.name, 60))
+        || (isAdmin() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['blocked', 'name']));
+      allow delete: if (isMe(uid) && !isBlocked(uid)) || isAdmin();
+    }
+
+    // Blocked users: the app checks this when it starts; only the admin can change it
+    match /blocked/{uid} {
+      allow read: if isMe(uid) || isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // Blocked phone numbers (phone login): the app checks a number before signing in
+    match /blockedPhones/{phone} {
+      allow get: if true;
+      allow list: if isAdmin();
+      allow write: if isAdmin();
+    }
+
+    // Songs added on the website: every signed-in user can play them, only the admin can change them.
+    match /songs/{id} {
+      allow read: if signedIn();
+      allow create, update: if isAdmin()
+        && text(request.resource.data.title, 150)
+        && text(request.resource.data.link, 1000)
+        && request.resource.data.link.matches('https://.+');
+      allow delete: if isAdmin();
+    }
+
+    // Song requests sent from the app
+    match /requests/{id} {
+      allow create: if signedIn() && !isBlocked(request.auth.uid)
+        && request.resource.data.keys().hasOnly(['uid', 'name', 'text', 'status', 'createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.status == 'pending'
+        && text(request.resource.data.text, 200)
+        && text(request.resource.data.name, 60);
+      allow read: if isAdmin() || (signedIn() && resource.data.uid == request.auth.uid);
+      allow update, delete: if isAdmin();
+    }
+
+    // Admin list: nobody can add themselves from the app or the website
+    match /admins/{uid} {
+      allow read: if isMe(uid);
+      allow write: if false;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+# Runs every hour: asks YouTube + Apple Music what India is listening to right now
+# and saves it as trending.json. The Argon app reads that file (one YouTube request
+# per hour for ALL users together, so any number of people can use the app).
+name: Update trending
+
+on:
+  schedule:
+    - cron: '7 * * * *' # every hour (at minute 7)
+  workflow_dispatch: {} # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trending
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build trending.json
+        run: node scripts/update-trending.mjs
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          REGION: IN
+
+      - name: Save
+        run: |
+          git config user.name "argon-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add trending.json
+          git diff --cached --quiet || (git commit -m "Update trending" && git push)
