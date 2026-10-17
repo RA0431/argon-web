@@ -8,10 +8,10 @@
 //
 // Paste the SAME values as in the app (src/firebase-config.js).
 export const FIREBASE_CONFIG = {
-  apiKey: '',
-  authDomain: '',
-  projectId: '',
-  storageBucket: '',
-  messagingSenderId: '',
-  appId: '',
+  apiKey: 'AIzaSyDTSZgDtQwwEZYVCHD5Co3XVKSwQdPHYQ4',
+  authDomain: 'argon-music.firebaseapp.com',
+  projectId: 'argon-music',
+  storageBucket: 'argon-music.firebasestorage.app',
+  messagingSenderId: '691399894105',
+  appId: '1:691399894105:web:1655ea83ea6dd7b3403d48',
 };
