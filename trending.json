@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T12:33:32.466Z",
+ "updated": "2026-10-18T13:30:41.048Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -18,8 +18,8 @@
   {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "3-acMgK2",
-   "saavnTitle": "One Name"
+   "saavnId": "MR9vBb1t",
+   "saavnTitle": "One Name (From \"Jailer 2\")"
   },
   {
    "title": "Straight Up",
@@ -40,12 +40,6 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": "OTmiAydz",
-   "saavnTitle": "ANTIDOTE"
-  },
-  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
@@ -58,22 +52,10 @@
    "saavnTitle": "Jailer 2 Theme"
   },
   {
-   "title": "Real Bad Man",
+   "title": "Antidote",
    "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
-  },
-  {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
   },
   {
    "title": "Bindaas",
@@ -82,16 +64,34 @@
    "saavnTitle": "Bindaas"
   },
   {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
+  },
+  {
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
+  },
+  {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "Kaali Hoodie",
+   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
+   "saavnId": "gNhYtgJc",
+   "saavnTitle": "Kaali Hoodie"
+  },
+  {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
-  },
-  {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -106,16 +106,16 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Kaali Hoodie",
-   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
-   "saavnId": "gNhYtgJc",
-   "saavnTitle": "Kaali Hoodie"
+   "title": "Hukum Reloaded",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "haBhsw5G",
+   "saavnTitle": "Hukum Reloaded"
   },
   {
-   "title": "Aujla Szn",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "iAKpx8Y8",
-   "saavnTitle": "Aujla Szn"
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "Gehra Hua",
@@ -124,10 +124,10 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
+   "title": "Aujla Szn",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "iAKpx8Y8",
+   "saavnTitle": "Aujla Szn"
   },
   {
    "title": "For A Reason",
@@ -142,16 +142,16 @@
    "saavnTitle": "Shaitaan"
   },
   {
+   "title": "Said & Done",
+   "artist": "Arjan Dhillon & Qarn Mallhi",
+   "saavnId": "_A1mPVbo",
+   "saavnTitle": "Said & Done"
+  },
+  {
    "title": "KALYANI (Remix)",
    "artist": "ARJN, KDS, FIFTY4 & Shreya Ghoshal",
    "saavnId": "y-0pauOM",
    "saavnTitle": "KALYANI"
-  },
-  {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
   }
  ]
 }
