@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T03:30:42.908Z",
+ "updated": "2026-10-18T04:31:35.712Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -12,8 +12,8 @@
   {
    "title": "One Sun One Moon (From \"Jailer 2\")",
    "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": "bWAryKJA",
-   "saavnTitle": "One Sun One Moon"
+   "saavnId": "GGqUD2RU",
+   "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
   },
   {
    "title": "One Name",
@@ -64,16 +64,16 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Jailer 2 Theme",
-   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
-   "saavnId": "iRFJJeqr",
-   "saavnTitle": "Jailer 2 Theme"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "Jailer 2 Theme",
+   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
+   "saavnId": "iRFJJeqr",
+   "saavnTitle": "Jailer 2 Theme"
   },
   {
    "title": "IYKYK",
@@ -88,16 +88,16 @@
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
+  },
+  {
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
   },
   {
    "title": "Barsaat",
@@ -106,16 +106,16 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Aujla Szn",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "iAKpx8Y8",
-   "saavnTitle": "Aujla Szn"
-  },
-  {
    "title": "Kaali Hoodie",
    "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
    "saavnId": "gNhYtgJc",
    "saavnTitle": "Kaali Hoodie"
+  },
+  {
+   "title": "Aujla Szn",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "iAKpx8Y8",
+   "saavnTitle": "Aujla Szn"
   },
   {
    "title": "For A Reason",
@@ -142,16 +142,16 @@
    "saavnTitle": "I Really Do..."
   },
   {
-   "title": "Said & Done",
-   "artist": "Arjan Dhillon & Qarn Mallhi",
-   "saavnId": "_A1mPVbo",
-   "saavnTitle": "Said & Done"
-  },
-  {
    "title": "KALYANI (Remix)",
    "artist": "ARJN, KDS, FIFTY4 & Shreya Ghoshal",
    "saavnId": "y-0pauOM",
    "saavnTitle": "KALYANI"
+  },
+  {
+   "title": "Shaitaan",
+   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
+   "saavnId": "9LT1Sk4o",
+   "saavnTitle": "Shaitaan"
   }
  ]
 }
