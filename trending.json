@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T13:48:34.896Z",
+ "updated": "2026-10-19T14:39:06.814Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -70,22 +70,16 @@
    "saavnTitle": "Real Bad Man"
   },
   {
-   "title": "Kaali Hoodie",
-   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
-   "saavnId": "gNhYtgJc",
-   "saavnTitle": "Kaali Hoodie"
-  },
-  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+   "title": "Kaali Hoodie",
+   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
+   "saavnId": "gNhYtgJc",
+   "saavnTitle": "Kaali Hoodie"
   },
   {
    "title": "IYKYK",
@@ -94,16 +88,16 @@
    "saavnTitle": "IYKYK"
   },
   {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
    "title": "Hukum Reloaded",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "haBhsw5G",
    "saavnTitle": "Hukum Reloaded"
-  },
-  {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -118,22 +112,28 @@
    "saavnTitle": "Shaitaan"
   },
   {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
+  },
+  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
    "title": "Aujla Szn",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "iAKpx8Y8",
    "saavnTitle": "Aujla Szn"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "For A Reason",
