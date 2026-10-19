@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T07:50:34.134Z",
+ "updated": "2026-10-19T08:41:36.774Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -46,6 +46,12 @@
    "saavnTitle": "Jailer 2 Theme"
   },
   {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
+  },
+  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
@@ -56,12 +62,6 @@
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
-  },
-  {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
   },
   {
    "title": "Real Bad Man",
@@ -82,16 +82,16 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
-  },
-  {
    "title": "Kaali Hoodie",
    "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
    "saavnId": "gNhYtgJc",
    "saavnTitle": "Kaali Hoodie"
+  },
+  {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "Barsaat",
@@ -100,16 +100,16 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
    "title": "Hukum Reloaded",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "haBhsw5G",
    "saavnTitle": "Hukum Reloaded"
+  },
+  {
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
   },
   {
    "title": "Softly",
@@ -122,6 +122,12 @@
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+  },
+  {
+   "title": "Shaitaan",
+   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
+   "saavnId": "9LT1Sk4o",
+   "saavnTitle": "Shaitaan"
   },
   {
    "title": "Aujla Szn",
@@ -139,12 +145,6 @@
    "title": "On Top",
    "artist": "Karan Aujla",
    "saavnId": null
-  },
-  {
-   "title": "Shaitaan",
-   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
-   "saavnId": "9LT1Sk4o",
-   "saavnTitle": "Shaitaan"
   },
   {
    "title": "KALYANI (Remix)",
