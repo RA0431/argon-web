@@ -3,632 +3,77 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="robots" content="noindex, nofollow" />
-<title>Argon Admin</title>
+<title>Listen on Argon Music</title>
+<meta name="description" content="A song shared from Argon Music. Open it in the Argon app." />
+<meta property="og:title" content="Listen on Argon Music" />
+<meta property="og:description" content="A song shared from Argon Music. Tap to open it in the app." />
+<meta name="theme-color" content="#020617" />
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23fff'/%3E%3Crect x='15' y='40' width='10' height='20' rx='5' fill='%238b5cf6'/%3E%3Crect x='35' y='25' width='10' height='50' rx='5' fill='%236366f1'/%3E%3Crect x='55' y='10' width='10' height='80' rx='5' fill='%233b82f6'/%3E%3Crect x='75' y='30' width='10' height='40' rx='5' fill='%2322d3ee'/%3E%3C/svg%3E" />
 <style>
-  :root {
-    --bg: #070b18; --panel: #0f1629; --panel2: #141c33; --line: rgba(255,255,255,.09); --text: #e8edf7; --muted: #8a96ad;
-    --accent: #22d3ee; --accent2: #8b5cf6; --ok: #22c55e; --warn: #f59e0b; --bad: #ef4444; --radius: 16px;
-    color-scheme: dark;
-  }
+  :root { --bg: #020617; --fg: #f8fafc; --muted: #94a3b8; --line: rgba(255,255,255,.1); --accent: #22d3ee; --accent2: #8b5cf6; color-scheme: dark; }
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.45 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; -webkit-font-smoothing: antialiased; }
-  body::before { content: ""; position: fixed; inset: -20% -10% auto auto; width: 60vw; height: 60vw; background: radial-gradient(closest-side, rgba(34,211,238,.10), transparent); pointer-events: none; z-index: -1; }
-  button, input, select { font: inherit; color: inherit; }
-  button { cursor: pointer; }
-  a { color: var(--accent); text-decoration: none; }
-  .hidden { display: none !important; }
-  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 20px 60px; }
-  .logo { width: 36px; height: 36px; border-radius: 10px; background: #fff; display: grid; place-items: center; padding: 6px; flex: none; }
-  header.top { position: sticky; top: 0; z-index: 10; background: rgba(7,11,24,.85); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
-  header.top .wrap { display: flex; align-items: center; gap: 12px; height: 64px; padding-bottom: 0; }
-  header.top h1 { font-size: 18px; margin: 0; font-weight: 800; letter-spacing: -.01em; white-space: nowrap; }
-  @media (max-width: 560px) { .who { display: none; } }
-  header.top .sp { flex: 1; }
-  .who { color: var(--muted); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 40vw; }
-  .btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid var(--line); background: rgba(255,255,255,.06); padding: 9px 14px; border-radius: 12px; font-weight: 600; font-size: 14px; transition: background .15s, transform .1s; white-space: nowrap; }
-  .btn:hover { background: rgba(255,255,255,.11); }
-  .btn:active { transform: scale(.97); }
-  .btn.primary { background: var(--accent); color: #04121a; border-color: transparent; }
-  .btn.primary:hover { background: #67e8f9; }
-  .btn.danger { color: #fca5a5; }
-  .btn.small { padding: 6px 10px; font-size: 13px; border-radius: 10px; }
-  .btn:disabled { opacity: .55; cursor: default; }
-  .center { min-height: 100vh; display: grid; place-items: center; padding: 24px; }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); }
-  .login { width: min(420px, 100%); padding: 32px; text-align: center; }
-  .login h2 { margin: 18px 0 6px; font-size: 26px; }
-  .login p { color: var(--muted); margin: 0 0 24px; }
-  .uidbox { margin-top: 16px; padding: 12px; border-radius: 12px; background: var(--panel2); font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; word-break: break-all; text-align: left; }
-  .tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 24px 0; }
-  .tile { text-align: left; padding: 18px; border-radius: var(--radius); background: var(--panel); border: 1px solid var(--line); position: relative; overflow: hidden; }
-  .tile.active { border-color: rgba(34,211,238,.6); box-shadow: 0 0 0 1px rgba(34,211,238,.35), 0 12px 40px -18px rgba(34,211,238,.5); }
-  .tile .label { color: var(--muted); font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
-  .tile .num { font-size: 32px; font-weight: 800; margin-top: 6px; letter-spacing: -.02em; }
-  .tile .sub { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
-  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); display: inline-block; }
-  .dot.ok { background: var(--ok); box-shadow: 0 0 10px var(--ok); } .dot.warn { background: var(--warn); } .dot.bad { background: var(--bad); }
-  .panel { padding: 20px; }
-  .panel-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
-  .panel-head h2 { margin: 0; font-size: 20px; flex: 1; min-width: 160px; }
-  .search { background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 9px 12px; min-width: 220px; outline: none; }
-  .search:focus, .field input:focus, .field select:focus { border-color: var(--accent); }
-  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
-  .chip { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: transparent; font-size: 13px; font-weight: 600; color: var(--muted); }
-  .chip.on { background: rgba(34,211,238,.14); color: var(--accent); border-color: rgba(34,211,238,.4); }
-  table { width: 100%; border-collapse: collapse; }
-  th { text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; padding: 10px; border-bottom: 1px solid var(--line); }
-  td { padding: 12px 10px; border-bottom: 1px solid var(--line); vertical-align: middle; }
-  tr.click { cursor: pointer; } tr.click:hover td { background: rgba(255,255,255,.025); }
-  .user { display: flex; align-items: center; gap: 12px; min-width: 0; }
-  .av { width: 38px; height: 38px; border-radius: 50%; flex: none; display: grid; place-items: center; font-weight: 800; color: #fff; background: linear-gradient(135deg, var(--accent), var(--accent2)); overflow: hidden; }
-  .av img { width: 100%; height: 100%; object-fit: cover; }
-  .name { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .muted { color: var(--muted); } .small { font-size: 12.5px; }
-  .badge { display: inline-block; padding: 3px 8px; border-radius: 8px; font-size: 11px; font-weight: 800; letter-spacing: .04em; background: rgba(255,255,255,.08); color: #cbd5e1; }
-  .badge.google { background: rgba(59,130,246,.18); color: #93c5fd; } .badge.phone { background: rgba(34,197,94,.16); color: #86efac; } .badge.email { background: rgba(245,158,11,.16); color: #fcd34d; }
-  .badge.blocked { background: rgba(239,68,68,.18); color: #fca5a5; } .badge.pending { background: rgba(245,158,11,.16); color: #fcd34d; } .badge.added { background: rgba(34,197,94,.16); color: #86efac; }
-  .grid2 { display: grid; grid-template-columns: 380px minmax(0, 1fr); gap: 18px; align-items: start; }
-  .form { padding: 18px; position: sticky; top: 84px; }
-  .form h3 { margin: 0 0 14px; font-size: 16px; }
-  .field { display: block; margin-bottom: 12px; }
-  .field span { display: block; font-size: 12.5px; color: var(--muted); font-weight: 600; margin-bottom: 6px; }
-  .field input, .field select { width: 100%; background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; outline: none; }
-  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-  .note { font-size: 13px; margin: 6px 0 12px; min-height: 18px; }
-  .note.ok { color: #86efac; } .note.bad { color: #fca5a5; } .note.warn { color: #fcd34d; }
-  .drop { display: flex; align-items: center; gap: 12px; border: 1.5px dashed var(--line); border-radius: 14px; padding: 14px; background: var(--panel2); cursor: pointer; transition: border-color .15s, background .15s; }
-  .drop:hover, .drop.over { border-color: var(--accent); background: rgba(34,211,238,.06); }
-  .drop input { display: none; }
-  .drop .ic { width: 38px; height: 38px; border-radius: 10px; display: grid; place-items: center; background: rgba(34,211,238,.12); color: var(--accent); flex: none; font-size: 18px; }
-  .drop b { display: block; font-size: 14px; } .drop small { color: var(--muted); font-size: 12px; }
-  .drop.has { border-style: solid; border-color: rgba(34,197,94,.5); }
-  .gh { border: 1px solid var(--line); border-radius: 14px; padding: 12px; margin-bottom: 14px; background: rgba(255,255,255,.02); font-size: 13px; }
-  .gh ol { margin: 6px 0 10px 18px; padding: 0; color: var(--muted); } .gh ol li { margin: 3px 0; }
-  .gh a { color: var(--accent); }
-  .alt { font-size: 12.5px; color: var(--muted); margin: -4px 0 12px; } .alt summary { cursor: pointer; } .alt[open] summary { margin-bottom: 8px; }
-  .bar { height: 6px; border-radius: 6px; background: var(--panel2); overflow: hidden; margin: 6px 0 4px; } .bar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), var(--accent2)); transition: width .2s; }
-  .song { display: flex; align-items: center; gap: 12px; padding: 10px; border-radius: 14px; }
-  .song:hover { background: rgba(255,255,255,.03); }
-  .cover { width: 52px; height: 52px; border-radius: 10px; object-fit: cover; flex: none; background: var(--panel2); }
-  .grow { flex: 1; min-width: 0; }
-  .ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .link { font: 12px ui-monospace, Menlo, monospace; color: var(--muted); }
-  .empty { padding: 40px 10px; text-align: center; color: var(--muted); }
-  .tabs { display: inline-flex; padding: 4px; border-radius: 14px; background: var(--panel2); border: 1px solid var(--line); gap: 4px; }
-  .tabs button { border: 0; background: transparent; padding: 7px 14px; border-radius: 10px; font-weight: 700; font-size: 13px; color: var(--muted); }
-  .tabs button.on { background: var(--accent); color: #04121a; }
-  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: #0b1222; border: 1px solid var(--line); padding: 12px 18px; border-radius: 14px; box-shadow: 0 20px 50px -20px #000; z-index: 50; font-weight: 600; }
-  .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,.6); backdrop-filter: blur(4px); display: grid; place-items: center; z-index: 40; padding: 16px; }
-  .modal { width: min(560px, 100%); max-height: 88vh; overflow: auto; padding: 22px; }
-  .kv { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 8px 14px; margin: 16px 0; font-size: 14px; }
-  .kv div:nth-child(odd) { color: var(--muted); }
-  .kv div { word-break: break-word; }
-  @media (max-width: 900px) {
-    .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-    .grid2 { grid-template-columns: minmax(0, 1fr); }
-    .form { position: static; min-width: 0; }
-    .song { flex-wrap: wrap; }
-    .song .row { width: 100%; padding-left: 64px; }
-    table.responsive thead { display: none; }
-    table.responsive tr { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; padding: 12px 4px; border-bottom: 1px solid var(--line); }
-    table.responsive td { border: 0; padding: 2px 6px; }
-    table.responsive td[data-k]::before { content: attr(data-k) " · "; color: var(--muted); font-size: 12px; }
-    table.responsive td.first { grid-column: 1 / -1; }
-  }
+  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--fg); font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  body { min-height: 100dvh; display: grid; place-items: center; padding: 24px 16px calc(24px + env(safe-area-inset-bottom)); overflow-x: hidden; }
+  .bg { position: fixed; inset: -10%; background-size: cover; background-position: center; filter: blur(60px) saturate(1.3); opacity: .35; transform: scale(1.1); }
+  .glow { position: fixed; width: 40rem; height: 40rem; border-radius: 50%; filter: blur(90px); opacity: .25; pointer-events: none; }
+  .g1 { top: -18rem; left: -14rem; background: var(--accent); } .g2 { bottom: -20rem; right: -16rem; background: var(--accent2); }
+  .card { position: relative; width: min(420px, 100%); text-align: center; padding: 28px 22px 24px; border-radius: 32px; background: rgba(15,23,42,.72); border: 1px solid var(--line); box-shadow: 0 40px 100px -40px #000; }
+  .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: .02em; color: #cbd5e1; font-size: 14px; }
+  .logo { width: 30px; height: 30px; border-radius: 9px; background: #fff; display: grid; place-items: center; }
+  .cover { width: min(260px, 70vw); aspect-ratio: 1; margin: 22px auto 0; border-radius: 26px; object-fit: cover; background: linear-gradient(135deg, #0e7490, #6d28d9); box-shadow: 0 30px 70px -25px rgba(0,0,0,.9); display: block; }
+  h1 { margin: 22px 0 4px; font-size: 26px; line-height: 1.2; letter-spacing: -.01em; overflow-wrap: anywhere; }
+  .artist { color: var(--muted); font-size: 16px; margin: 0; overflow-wrap: anywhere; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 15px 18px; border-radius: 18px; font-weight: 800; font-size: 16px; text-decoration: none; border: 0; cursor: pointer; }
+  .primary { margin-top: 26px; background: linear-gradient(90deg, var(--accent), #3b82f6 55%, var(--accent2)); color: #04121a; box-shadow: 0 12px 30px -10px rgba(34,211,238,.55); }
+  .secondary { margin-top: 10px; background: rgba(255,255,255,.08); color: var(--fg); border: 1px solid var(--line); }
+  .note { margin: 16px 4px 0; color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+  .hide { display: none !important; }
+  .warn { margin-top: 14px; padding: 10px 12px; border-radius: 14px; background: rgba(245,158,11,.12); color: #fcd34d; font-size: 13px; }
 </style>
 </head>
 <body>
-<div id="app"></div>
-<div id="toast" class="toast hidden"></div>
-<audio id="player" preload="none"></audio>
+<div class="bg" id="bg"></div>
+<div class="glow g1"></div><div class="glow g2"></div>
+<main class="card">
+  <div class="brand"><span class="logo"><svg viewBox="0 0 100 100" width="20" height="20"><rect x="15" y="40" width="10" height="20" rx="5" fill="#8b5cf6"/><rect x="35" y="25" width="10" height="50" rx="5" fill="#6366f1"/><rect x="55" y="10" width="10" height="80" rx="5" fill="#3b82f6"/><rect x="75" y="30" width="10" height="40" rx="5" fill="#22d3ee"/></svg></span>ARGON MUSIC</div>
+  <img class="cover" id="cover" alt="" />
+  <h1 id="title">A song for you</h1>
+  <p class="artist" id="artist">Shared from Argon Music</p>
+  <a class="btn primary" id="open" href="#">▶&nbsp; Open in Argon Music</a>
+  <div class="warn hide" id="noapp">Argon Music isn't installed on this phone yet.</div>
+  <a class="btn secondary" id="get" href="#">Get Argon Music</a>
+  <p class="note" id="note">Opens the song in the Argon Music app on Android.</p>
+</main>
+<script>
+  // Where people download the app (upload the APK to a GitHub Release of this repository)
+  var APP_URL = 'https://github.com/RA0431/argon-web/releases/latest';
+  var PACKAGE = 'com.argon.music';
 
-<script type="module">
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js';
-import { getAuth, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signOut } from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js';
-import {
-  getFirestore, doc, getDoc, setDoc, collection, query, orderBy, limit, onSnapshot, addDoc, updateDoc, deleteDoc, serverTimestamp,
-} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js';
-import { FIREBASE_CONFIG } from './firebase-config.js';
-
-const SAAVN_API = 'https://jiosavan-api2.vercel.app/api'; // used by "Search catalog"
-const $ = (sel, root = document) => root.querySelector(sel);
-const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
-const decode = (s) => { const t = document.createElement('textarea'); t.innerHTML = s ?? ''; return t.value; };
-const toDate = (v) => (v?.toDate ? v.toDate() : v ? new Date(v) : null);
-const fmtDate = (v) => { const d = toDate(v); return d ? d.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' }) : '—'; };
-const fmtAgo = (v) => {
-  const d = toDate(v); if (!d) return '—';
-  const s = (Date.now() - d.getTime()) / 1000;
-  if (s < 90) return 'just now'; if (s < 3600) return `${Math.round(s / 60)} min ago`; if (s < 86400) return `${Math.round(s / 3600)} h ago`;
-  if (s < 86400 * 30) return `${Math.round(s / 86400)} days ago`; return fmtDate(d);
-};
-const initial = (n) => (String(n || '?').trim()[0] || '?').toUpperCase();
-const avatar = (u) => `<span class="av">${u.photo ? `<img src="${esc(u.photo)}" alt="" referrerpolicy="no-referrer">` : esc(initial(u.name))}</span>`;
-const methodBadge = (m) => `<span class="badge ${esc(m)}">${esc({ google: 'GOOGLE', phone: 'PHONE', email: 'EMAIL' }[m] || String(m || '—').toUpperCase())}</span>`;
-let toastTimer;
-/* ---- File uploads go to this website's own GitHub repository (free). The admin pastes a GitHub token once;
-   it stays only in this browser (localStorage) and is never saved in Firebase. */
-const GH_KEY = 'argon:gh';
-const ghDefault = () => {
-  const host = location.hostname.match(/^([^.]+)\.github\.io$/i);
-  return { owner: host ? host[1] : '', repo: location.pathname.split('/').filter(Boolean)[0] || '', token: '' };
-};
-const ghGet = () => { try { return { ...ghDefault(), ...JSON.parse(localStorage.getItem(GH_KEY) || '{}') }; } catch { return ghDefault(); } };
-const ghSet = (v) => { try { localStorage.setItem(GH_KEY, JSON.stringify(v)); } catch { /* private mode */ } };
-const MAX_SONG = 25 * 1024 * 1024, MAX_IMG = 5 * 1024 * 1024;
-const fmtSize = (b) => (b > 1048576 ? (b / 1048576).toFixed(1) + ' MB' : Math.max(1, Math.round(b / 1024)) + ' KB');
-const slug = (t) => String(t || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 50) || 'song';
-const extOf = (f, fallback) => { const m = /\.([a-z0-9]{2,4})$/i.exec(f.name || ''); return (m ? m[1] : fallback).toLowerCase(); };
-const fileBase64 = (file) => new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(String(r.result).split(',')[1] || ''); r.onerror = () => rej(new Error('Could not read the file')); r.readAsDataURL(file); });
-const fileDuration = (file) => new Promise((res) => {
-  const a = new Audio(); const u = URL.createObjectURL(file); let done = false;
-  const end = (d) => { if (done) return; done = true; URL.revokeObjectURL(u); res(Number.isFinite(d) && d > 0 ? d : 0); };
-  a.preload = 'metadata'; a.onloadedmetadata = () => end(a.duration); a.onerror = () => end(-1); a.src = u; setTimeout(() => end(0), 8000);
-});
-// Upload one file to <repo>/<folder>/<name>; returns the public GitHub Pages link
-function ghUpload(file, folder, name, onProgress) {
-  const gh = ghGet();
-  return fileBase64(file).then((content) => new Promise((resolve, reject) => {
-    const path = `${folder}/${name}`;
-    const x = new XMLHttpRequest();
-    x.open('PUT', `https://api.github.com/repos/${encodeURIComponent(gh.owner)}/${encodeURIComponent(gh.repo)}/contents/${path}`);
-    x.setRequestHeader('Authorization', 'Bearer ' + gh.token);
-    x.setRequestHeader('Accept', 'application/vnd.github+json');
-    x.upload.onprogress = (e) => { if (e.lengthComputable && onProgress) onProgress(e.loaded / e.total); };
-    x.onload = () => {
-      if (x.status === 200 || x.status === 201) resolve(`https://${gh.owner.toLowerCase()}.github.io/${gh.repo}/${path}`);
-      else if (x.status === 401) reject(new Error('GitHub token is wrong or expired — connect GitHub again.'));
-      else if (x.status === 403 || x.status === 404) reject(new Error('The token cannot write to ' + gh.owner + '/' + gh.repo + ' — give it "Contents: Read and write" for this repository.'));
-      else if (x.status === 413 || x.status === 422) reject(new Error('GitHub refused the file (too big or same name).'));
-      else reject(new Error('Upload failed (' + x.status + ')'));
-    };
-    x.onerror = () => reject(new Error('Upload failed — check the internet connection.'));
-    x.send(JSON.stringify({ message: `Add ${path}`, content }));
-  }));
-}
-const toast = (msg) => { const t = $('#toast'); t.textContent = msg; t.classList.remove('hidden'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.add('hidden'), 2600); };
-const LOGO = '<span class="logo"><svg viewBox="0 0 100 100" width="100%" height="100%"><rect x="15" y="40" width="10" height="20" rx="5" fill="#8b5cf6"/><rect x="35" y="25" width="10" height="50" rx="5" fill="#6366f1"/><rect x="55" y="10" width="10" height="80" rx="5" fill="#3b82f6"/><rect x="75" y="30" width="10" height="40" rx="5" fill="#22d3ee"/></svg></span>';
-
-if (!FIREBASE_CONFIG.apiKey) {
-  $('#app').innerHTML = `<div class="center"><div class="card login">${LOGO}<h2>Almost ready</h2><p>Paste your Firebase settings into <b>firebase-config.js</b> (same values as in the app), then reload this page.</p></div></div>`;
-  throw new Error('firebase-config.js is empty');
-}
-
-const fb = initializeApp(FIREBASE_CONFIG);
-const auth = getAuth(fb);
-const db = getFirestore(fb);
-
-const state = { view: 'users', users: [], songs: [], requests: [], userFilter: 'all', userQuery: '', reqFilter: 'pending', songTab: 'mine', songQuery: '', editing: null, fromRequest: null, feed: null, catalog: [] };
-let stops = [];
-
-/* ------------------------------------------------------------------ sign in */
-function showLogin(msg = '') {
-  stops.forEach((f) => f()); stops = [];
-  $('#app').innerHTML = `<div class="center"><div class="card login">
-    <div style="display:flex;justify-content:center">${LOGO}</div>
-    <h2>Argon Admin</h2><p>Sign in with the Google account you added as admin.</p>
-    <button class="btn primary" id="google" style="width:100%;padding:12px">Sign in with Google</button>
-    <div class="note bad" id="loginErr">${esc(msg)}</div></div></div>`;
-  $('#google').onclick = async () => {
-    $('#loginErr').textContent = '';
-    try { await signInWithPopup(auth, new GoogleAuthProvider()); } catch (e) {
-      if (!/popup-closed|cancelled/.test(e.code || '')) $('#loginErr').textContent = e.code === 'auth/unauthorized-domain' ? 'Add this website address in Firebase → Authentication → Settings → Authorized domains.' : 'Sign-in failed. Please try again.';
-    }
-  };
-}
-function showNotAdmin(user) {
-  $('#app').innerHTML = `<div class="center"><div class="card login">
-    <div style="display:flex;justify-content:center">${LOGO}</div>
-    <h2>Not an admin yet</h2><p>${esc(user.email)} is signed in, but it isn't on the admin list.</p>
-    <p class="small" style="margin-bottom:8px">Firebase console → Firestore Database → Start collection <b>admins</b> → Document ID:</p>
-    <div class="uidbox" id="uid">${esc(user.uid)}</div>
-    <div class="row" style="justify-content:center;margin-top:16px">
-      <button class="btn" id="copyUid">Copy ID</button><button class="btn" id="retry">Check again</button><button class="btn" id="out">Sign out</button>
-    </div></div></div>`;
-  $('#copyUid').onclick = () => navigator.clipboard.writeText(user.uid).then(() => toast('ID copied'));
-  $('#retry').onclick = () => start(user);
-  $('#out').onclick = () => signOut(auth);
-}
-
-onAuthStateChanged(auth, (user) => { if (!user) showLogin(); else start(user); });
-
-async function start(user) {
-  let admin = false;
-  try { admin = (await getDoc(doc(db, 'admins', user.uid))).exists(); } catch { admin = false; }
-  if (!admin) { showNotAdmin(user); return; }
-  shell(user);
-  stops.forEach((f) => f()); stops = [];
-  const live = (q, key) => stops.push(onSnapshot(q, (snap) => { state[key] = snap.docs.map((d) => ({ id: d.id, ...d.data() })); refresh(key); }, (e) => toast(`Couldn't load ${key}: ${e.code || e.message}`)));
-  live(query(collection(db, 'users'), orderBy('lastSeen', 'desc'), limit(2000)), 'users');
-  live(query(collection(db, 'songs'), orderBy('createdAt', 'desc'), limit(1000)), 'songs');
-  live(query(collection(db, 'requests'), orderBy('createdAt', 'desc'), limit(500)), 'requests');
-  fetch('trending.json', { cache: 'no-cache' }).then((r) => r.json()).then((f) => { state.feed = f; renderTiles(); }).catch(() => { state.feed = false; renderTiles(); });
-}
-
-/* ------------------------------------------------------------------ layout */
-function shell(user) {
-  $('#app').innerHTML = `
-    <header class="top"><div class="wrap">${LOGO}<h1>Argon Admin</h1><span class="sp"></span><span class="who">${esc(user.email)}</span><button class="btn small" id="signout">Sign out</button></div></header>
-    <main class="wrap"><section class="tiles" id="tiles"></section><section class="card panel" id="panel"></section></main>`;
-  $('#signout').onclick = () => signOut(auth);
-  render();
-}
-function render() { if (!$('#tiles')) return; renderTiles(); renderPanel(); }
-// Live data arrived: redraw only what shows it (never the song form the admin may be typing in)
-function refresh(key) {
-  if (!$('#tiles')) return;
-  renderTiles();
-  if (state.view === 'songs' && key === 'songs') renderSongList();
-  else if (state.view === 'requests' && key === 'requests') renderPanel();
-  else if (state.view === 'users' && key === 'users') {
-    const typing = document.activeElement?.id === 'uq';
-    renderPanel();
-    if (typing) { const uq = $('#uq'); uq.focus(); uq.setSelectionRange(uq.value.length, uq.value.length); }
+  var q = new URLSearchParams(location.search);
+  var id = (q.get('id') || '').slice(0, 80);
+  var title = (q.get('t') || '').slice(0, 150);
+  var artist = (q.get('a') || '').slice(0, 150);
+  var img = q.get('i') || '';
+  var $ = function (x) { return document.getElementById(x); };
+  if (title) { $('title').textContent = title; document.title = title + (artist ? ' – ' + artist : '') + ' · Argon Music'; }
+  if (artist) $('artist').textContent = artist;
+  if (/^https:\/\/[^\s"'<>]+$/.test(img)) {
+    $('cover').src = img.replace(/150x150/, '500x500');
+    $('cover').onerror = function () { this.src = img; this.onerror = null; };
+    $('bg').style.backgroundImage = 'url("' + img.replace(/"/g, '') + '")';
   }
-}
-
-function renderTiles() {
-  const today = new Date(); today.setHours(0, 0, 0, 0);
-  const newToday = state.users.filter((u) => toDate(u.createdAt) >= today).length;
-  const active24 = state.users.filter((u) => toDate(u.lastSeen) > Date.now() - 864e5).length;
-  const pending = state.requests.filter((r) => r.status !== 'added').length;
-  const f = state.feed;
-  const fAge = f?.updated ? (Date.now() - new Date(f.updated)) / 36e5 : null;
-  const fDot = f === null ? '' : !f || !f.updated ? 'bad' : fAge < 3 ? 'ok' : 'warn';
-  const fText = f === null ? 'Checking…' : !f ? 'trending.json not found' : !f.updated ? 'Not updated yet — run the workflow' : `Updated ${fmtAgo(f.updated)} · ${(f.youtube || []).length} YouTube songs`;
-  const tile = (id, label, num, sub, dot = '') => `<button class="tile ${state.view === id ? 'active' : ''}" data-view="${id}">
-      <div class="label">${dot ? `<span class="dot ${dot}"></span>` : ''}${label}</div><div class="num">${num}</div><div class="sub">${sub}</div></button>`;
-  const peopleCount = new Set(state.users.map((u) => (u.method === 'phone' && u.phone ? 'p:' + u.phone : u.id))).size;
-  $('#tiles').innerHTML = tile('users', 'Users', peopleCount, `${newToday} new today · ${active24} active in 24 h`)
-    + tile('songs', 'Songs', state.songs.length, 'Added by you')
-    + tile('requests', 'Requests', pending, `${state.requests.length} total`)
-    + tile('youtube', 'YouTube trending', fDot === 'ok' ? 'Live' : fDot === 'warn' ? 'Late' : '—', fText, fDot);
-  $('#tiles').querySelectorAll('[data-view]').forEach((b) => { b.onclick = () => { state.view = b.dataset.view; render(); }; });
-}
-
-function renderPanel() {
-  const p = $('#panel');
-  if (state.view === 'users') return renderUsers(p);
-  if (state.view === 'songs') return renderSongs(p);
-  if (state.view === 'requests') return renderRequests(p);
-  return renderFeed(p);
-}
-
-/* ------------------------------------------------------------------ users */
-function renderUsers(p) {
-  const q = state.userQuery.toLowerCase();
-  // Phone login belongs to one phone: after a reinstall the same number gets a new account → show it once
-  const seen = new Map();
-  const people = [];
-  state.users.forEach((u) => {
-    if (u.method === 'phone' && u.phone) {
-      const first = seen.get(u.phone);
-      if (first) { first.uids.push(u.id); first.installs += 1; if (u.blocked) first.blocked = true; return; }
-      const row = { ...u, uids: [u.id], installs: 1 };
-      seen.set(u.phone, row);
-      people.push(row);
-    } else people.push({ ...u, uids: [u.id], installs: 1 });
-  });
-  state.people = people;
-  const list = people.filter((u) => {
-    if (state.userFilter === 'blocked' && !u.blocked) return false;
-    if (['google', 'phone', 'email'].includes(state.userFilter) && u.method !== state.userFilter) return false;
-    return !q || [u.name, u.email, u.phone, u.id].some((x) => String(x || '').toLowerCase().includes(q));
-  });
-  const chip = (id, label) => `<button class="chip ${state.userFilter === id ? 'on' : ''}" data-f="${id}">${label}</button>`;
-  p.innerHTML = `<div class="panel-head"><h2>Users</h2>
-      <div class="chips">${chip('all', 'All')}${chip('google', 'Google')}${chip('phone', 'Phone')}${chip('email', 'Email')}${chip('blocked', 'Blocked')}</div>
-      <input class="search" id="uq" placeholder="Search name, email, phone" value="${esc(state.userQuery)}"></div>
-    ${list.length ? `<table class="responsive"><thead><tr><th>User</th><th>Contact</th><th>Login</th><th>Joined</th><th>Last active</th><th>Password</th><th>Status</th></tr></thead><tbody>
-      ${list.map((u) => `<tr class="click" data-uid="${esc(u.id)}">
-        <td class="first"><div class="user">${avatar(u)}<div style="min-width:0"><div class="name">${esc(u.name || 'No name')}</div><div class="muted small ellipsis">${esc(u.app ? 'App v' + u.app : '')}${u.installs > 1 ? ` · ${u.installs} installs` : ''}</div></div></div></td>
-        <td data-k="Contact">${esc(u.email || u.phone || '—')}</td>
-        <td data-k="Login">${methodBadge(u.method)}</td>
-        <td data-k="Joined">${fmtDate(u.createdAt)}</td>
-        <td data-k="Active">${fmtAgo(u.lastSeen)}</td>
-        <td data-k="Password">${u.method === 'email' ? `<span title="Passwords are encrypted and can never be shown">●●●●●●</span> <span class="muted small">${u.passwordChangedAt ? 'set ' + fmtDate(u.passwordChangedAt) : ''}</span>` : '<span class="muted">—</span>'}</td>
-        <td data-k="Status"><button class="btn small ${u.blocked ? '' : 'danger'}" data-block="${esc(u.id)}">${u.blocked ? 'Unblock' : 'Block'}</button></td>
-      </tr>`).join('')}</tbody></table>` : `<div class="empty">${state.users.length ? 'No users match.' : 'No users yet. They appear here as soon as someone signs in to the app.'}</div>`}`;
-  p.querySelectorAll('[data-f]').forEach((b) => { b.onclick = () => { state.userFilter = b.dataset.f; renderPanel(); }; });
-  const uq = $('#uq'); uq.oninput = () => { state.userQuery = uq.value; renderPanel(); $('#uq').focus(); $('#uq').setSelectionRange(uq.value.length, uq.value.length); };
-  p.querySelectorAll('[data-block]').forEach((b) => {
-    b.onclick = async (e) => {
-      e.stopPropagation();
-      const u = state.people.find((x) => x.id === b.dataset.block);
-      const block = !u.blocked;
-      try {
-        for (const id of u.uids) {
-          if (block) await setDoc(doc(db, 'blocked', id), { at: serverTimestamp(), by: auth.currentUser?.email || '' });
-          else await deleteDoc(doc(db, 'blocked', id));
-          await updateDoc(doc(db, 'users', id), { blocked: block });
-        }
-        // phone login: block the number itself, so a reinstall can't get around it
-        if (u.method === 'phone' && u.phone) {
-          if (block) await setDoc(doc(db, 'blockedPhones', u.phone), { at: serverTimestamp(), by: auth.currentUser?.email || '' });
-          else await deleteDoc(doc(db, 'blockedPhones', u.phone));
-        }
-        toast(block ? `${u.name || 'User'} blocked` : `${u.name || 'User'} unblocked`);
-      } catch (er) { toast('Not allowed: ' + (er.code || er.message)); }
-    };
-  });
-  p.querySelectorAll('[data-uid]').forEach((r) => { r.onclick = () => showUser(r.dataset.uid); });
-}
-function showUser(uid) {
-  const u = (state.people || state.users).find((x) => x.id === uid); if (!u) return;
-  const uids = u.uids || [uid];
-  const reqs = state.requests.filter((r) => uids.includes(r.uid));
-  const bg = document.createElement('div'); bg.className = 'modal-bg';
-  bg.innerHTML = `<div class="card modal"><div class="user">${avatar(u)}<div style="min-width:0"><div class="name" style="font-size:18px">${esc(u.name || 'No name')}</div><div class="muted small">${methodBadge(u.method)} ${u.blocked ? '<span class="badge blocked">BLOCKED</span>' : ''}</div></div></div>
-    <div class="kv">
-      <div>Email</div><div>${esc(u.email || '—')}</div><div>Phone</div><div>${esc(u.phone || '—')}</div>
-      <div>Password</div><div>${u.method === 'email' ? `●●●●●● <span class="muted small">(encrypted — nobody can see it${u.passwordChangedAt ? '; set ' + fmtDate(u.passwordChangedAt) : ''})</span>` : u.method === 'phone' ? 'No password (number taken from the phone\'s SIM)' : 'No password (signs in with ' + esc(u.method) + ')'}</div>
-      ${u.installs > 1 ? `<div>Installs</div><div>${u.installs} (app reinstalled on the same number)</div>` : ''}
-      <div>Joined</div><div>${fmtDate(u.createdAt)}</div><div>Last active</div><div>${fmtAgo(u.lastSeen)}</div>
-      <div>App version</div><div>${esc(u.app || '—')}</div><div>Device</div><div class="small muted">${esc(u.device || '—')}</div><div>User ID</div><div class="link">${esc(u.id)}</div>
-    </div>
-    <h3 style="margin:18px 0 8px;font-size:15px">Requests (${reqs.length})</h3>
-    ${reqs.length ? reqs.map((r) => `<div class="row" style="justify-content:space-between;padding:6px 0"><span>${esc(r.text)}</span><span class="badge ${r.status === 'added' ? 'added' : 'pending'}">${r.status === 'added' ? 'ADDED' : 'PENDING'}</span></div>`).join('') : '<div class="muted small">No requests.</div>'}
-    <div class="row" style="justify-content:flex-end;margin-top:18px"><button class="btn" data-close>Close</button></div></div>`;
-  bg.onclick = (e) => { if (e.target === bg || e.target.hasAttribute('data-close')) bg.remove(); };
-  document.body.appendChild(bg);
-}
-
-/* ------------------------------------------------------------------ songs */
-function renderSongs(p) {
-  const e = state.editing;
-  p.innerHTML = `<div class="panel-head"><h2>Songs</h2>
-      <div class="tabs"><button data-tab="mine" class="${state.songTab === 'mine' ? 'on' : ''}">Argon songs (${state.songs.length})</button><button data-tab="catalog" class="${state.songTab === 'catalog' ? 'on' : ''}">Search JioSaavn</button></div>
-      <input class="search" id="sq" placeholder="${state.songTab === 'mine' ? 'Filter your songs' : 'Search songs on JioSaavn…'}" value="${esc(state.songQuery)}"></div>
-    <div class="grid2">
-      <form class="card form" id="songForm" autocomplete="off">
-        <h3>${e ? 'Edit song' : 'Add a song'}${state.fromRequest ? ' <span class="badge pending">FROM REQUEST</span>' : ''}</h3>
-        <label class="field"><span>Song name *</span><input name="title" maxlength="150" required value="${esc(e?.title || '')}"></label>
-        <label class="field"><span>Artist *</span><input name="artist" maxlength="150" required value="${esc(e?.artist || '')}"></label>
-        <label class="field"><span>Album / Movie</span><input name="album" maxlength="150" value="${esc(e?.album || '')}"></label>
-        <label class="field"><span>Song link (direct .mp3, https) *</span><input name="link" type="url" placeholder="https://…/song.mp3" value="${esc(e?.link || '')}"></label>
-        <label class="field"><span>Cover image link</span><input name="imageLink" type="url" placeholder="https://…/cover.jpg" value="${esc(e?.image || '')}"></label>
-        <details class="alt" id="upAlt"><summary>Or upload a file from this computer</summary>
-        ${ghBox()}
-        <div class="field"><span>Song file</span>
-          <label class="drop" id="songDrop"><input type="file" name="songFile" accept="audio/*,.mp3,.m4a,.aac,.ogg,.wav"><span class="ic">♪</span><span class="grow"><b class="ellipsis">Choose MP3 / audio file</b><small>or drag it here · up to 25 MB</small></span></label></div>
-        <div class="field"><span>Cover image</span>
-          <label class="drop" id="imgDrop"><input type="file" name="imgFile" accept="image/*"><span class="ic">🖼</span><span class="grow"><b class="ellipsis">Choose cover image</b><small>JPG / PNG · optional · up to 5 MB</small></span></label></div>
-        </details>
-        <input type="hidden" name="image" value="${esc(e?.image || '')}">
-        <div id="upProg" class="hidden"><div class="bar"><i></i></div><div class="small muted" id="upText"></div></div>
-        <label class="field"><span>Language</span><select name="language">${['', 'hindi', 'punjabi', 'english', 'haryanvi', 'bhojpuri', 'tamil', 'telugu', 'marathi', 'gujarati', 'bengali', 'other'].map((l) => `<option value="${l}" ${e?.language === l ? 'selected' : ''}>${l ? l[0].toUpperCase() + l.slice(1) : '—'}</option>`).join('')}</select></label>
-        <div class="note" id="linkNote"></div>
-        <div class="row"><button type="button" class="btn" id="checkLink">Check link</button><button class="btn primary" type="submit" id="saveSong">${e ? 'Save changes' : 'Add song'}</button>${e || state.fromRequest ? '<button type="button" class="btn" id="cancelEdit">Cancel</button>' : ''}</div>
-      </form>
-      <div id="songList"></div>
-    </div>`;
-  p.querySelectorAll('[data-tab]').forEach((b) => { b.onclick = () => { state.songTab = b.dataset.tab; state.songQuery = ''; renderPanel(); }; });
-  const sq = $('#sq');
-  let t;
-  sq.oninput = () => { state.songQuery = sq.value; clearTimeout(t); t = setTimeout(() => (state.songTab === 'mine' ? renderSongList() : searchCatalog()), state.songTab === 'mine' ? 0 : 350); };
-  $('#songForm').onsubmit = saveSong;
-  wireGh();
-  wireDrop($('#songDrop'), MAX_SONG, (f) => { const t = $('#songForm').elements.title; if (!t.value.trim()) t.value = f.name.replace(/\.[^.]+$/, '').replace(/[_-]+/g, ' ').trim(); });
-  wireDrop($('#imgDrop'), MAX_IMG);
-  $('#checkLink').onclick = async () => {
-    const f = $('#songForm').elements;
-    const n = $('#linkNote'); n.className = 'note'; n.textContent = 'Checking…';
-    if (f.songFile.files[0]) {
-      const d = await fileDuration(f.songFile.files[0]);
-      showLinkNote(d < 0 ? { s: 'bad', why: 'This file can’t be played. Choose an MP3 or M4A file.' } : { s: 'file', d });
-      return;
-    }
-    if (!f.link.value.trim()) { showLinkNote({ s: 'bad', why: 'Paste the song link first.' }); return; }
-    showLinkNote(await testLink(f.link.value.trim()));
-  };
-  if ($('#cancelEdit')) $('#cancelEdit').onclick = () => { state.editing = null; state.fromRequest = null; renderPanel(); };
-  if (state.fromRequest && !e) $('#songForm').elements.title.value = state.fromRequest.text;
-  renderSongList();
-}
-function ghBox() {
-  const gh = ghGet();
-  if (gh.token) return `<div class="gh row" id="ghBox"><span class="grow small">Files upload to <b>${esc(gh.owner)}/${esc(gh.repo)}</b> on GitHub</span><button type="button" class="btn small" id="ghOff">Disconnect</button></div>`;
-  return `<div class="gh" id="ghBox"><b>Connect GitHub once to upload files</b>
-    <ol><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → New fine-grained token</a></li>
-      <li>Repository access: <b>Only select repositories → ${esc(gh.repo || 'argon-web')}</b></li>
-      <li>Permissions → Repository → <b>Contents: Read and write</b> → Generate token</li>
-      <li>Copy the token and paste it below</li></ol>
-    <div class="row"><input class="search grow" id="ghToken" type="password" placeholder="github_pat_…" autocomplete="off" style="min-width:0"><button type="button" class="btn primary small" id="ghSave">Connect</button></div>
-    <div class="small muted" style="margin-top:6px">Saved only in this browser. Never sent to Firebase or the app.</div></div>`;
-}
-function wireGh() {
-  const save = $('#ghSave'), off = $('#ghOff');
-  if (save) save.onclick = async () => {
-    const token = $('#ghToken').value.trim();
-    const gh = ghGet();
-    if (!/^(github_pat_|ghp_)[A-Za-z0-9_]{20,}$/.test(token)) { toast('That doesn’t look like a GitHub token'); return; }
-    if (!gh.owner || !gh.repo) { toast('Open this page from your github.io link to connect'); return; }
-    save.disabled = true; save.textContent = 'Checking…';
-    try {
-      const r = await fetch(`https://api.github.com/repos/${encodeURIComponent(gh.owner)}/${encodeURIComponent(gh.repo)}`, { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } });
-      const j = await r.json().catch(() => ({}));
-      if (!r.ok) throw new Error(r.status === 401 ? 'Token is wrong or expired' : 'This token cannot see ' + gh.owner + '/' + gh.repo);
-      if (j.permissions && !j.permissions.push) throw new Error('Give the token "Contents: Read and write"');
-      ghSet({ owner: gh.owner, repo: gh.repo, token });
-      toast('GitHub connected');
-      $('#ghBox').outerHTML = ghBox(); wireGh();
-    } catch (er) { toast(er.message); save.disabled = false; save.textContent = 'Connect'; }
-  };
-  if (off) off.onclick = () => { ghSet({}); $('#ghBox').outerHTML = ghBox(); wireGh(); };
-}
-function wireDrop(box, max, onPick) {
-  const input = box.querySelector('input');
-  const show = () => {
-    const f = input.files[0];
-    if (f && f.size > max) { toast(`File is too big (${fmtSize(f.size)}). Max ${fmtSize(max)}.`); input.value = ''; }
-    const ok = input.files[0];
-    box.classList.toggle('has', !!ok);
-    if (ok) { box.querySelector('b').textContent = ok.name; box.querySelector('small').textContent = fmtSize(ok.size) + ' · tap to change'; if (onPick) onPick(ok); }
-  };
-  input.onchange = show;
-  ['dragenter', 'dragover'].forEach((t) => box.addEventListener(t, (e) => { e.preventDefault(); box.classList.add('over'); }));
-  ['dragleave', 'drop'].forEach((t) => box.addEventListener(t, (e) => { e.preventDefault(); box.classList.remove('over'); }));
-  box.addEventListener('drop', (e) => { if (e.dataTransfer?.files?.length) { input.files = e.dataTransfer.files; show(); } });
-}
-function renderSongList() {
-  const box = $('#songList'); if (!box) return;
-  if (state.songTab === 'catalog') {
-    box.innerHTML = state.catalog.length ? state.catalog.map((s, i) => `<div class="song">
-        <img class="cover" src="${esc(s.image)}" alt="" loading="lazy">
-        <div class="grow"><div class="name ellipsis">${esc(s.title)}</div><div class="muted small ellipsis">${esc(s.artist)}${s.album ? ' • ' + esc(s.album) : ''}${s.year ? ' • ' + esc(s.year) : ''}</div>
-          <div class="link ellipsis"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a></div></div>
-        <button class="btn small" data-preview="${i}">▶</button></div>`).join('')
-      : `<div class="empty">${state.songQuery ? 'Searching…' : 'Search here first: songs that are already on JioSaavn play in the app automatically, so you only need to add the missing ones.'}</div>`;
-    box.querySelectorAll('[data-preview]').forEach((b) => { b.onclick = () => preview(state.catalog[+b.dataset.preview].audio, b); });
-    return;
-  }
-  const q = state.songQuery.toLowerCase();
-  const list = state.songs.filter((s) => !q || [s.title, s.artist, s.album].some((x) => String(x || '').toLowerCase().includes(q)));
-  box.innerHTML = list.length ? list.map((s) => `<div class="song">
-      ${s.image ? `<img class="cover" src="${esc(s.image)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">` : '<span class="cover" style="display:grid;place-items:center;color:var(--muted)">♪</span>'}
-      <div class="grow"><div class="name ellipsis">${esc(s.title)}</div><div class="muted small ellipsis">${esc(s.artist)}${s.album ? ' • ' + esc(s.album) : ''}${s.language ? ' • ' + esc(s.language) : ''}</div>
-        <div class="link ellipsis"><a href="${esc(s.link)}" target="_blank" rel="noopener">${esc(s.link)}</a></div>
-        <div class="muted small">Added ${fmtDate(s.createdAt)}${s.addedBy ? ' by ' + esc(s.addedBy) : ''}</div></div>
-      <div class="row"><button class="btn small" data-play="${esc(s.id)}">▶</button><button class="btn small" data-copy="${esc(s.id)}">Copy link</button><button class="btn small" data-edit="${esc(s.id)}">Edit</button><button class="btn small danger" data-del="${esc(s.id)}">Delete</button></div></div>`).join('')
-    : `<div class="empty">${state.songs.length ? 'No songs match.' : 'No songs added yet. Songs you add here appear in the app under “New on Argon” and in search.'}</div>`;
-  const find = (id) => state.songs.find((x) => x.id === id);
-  box.querySelectorAll('[data-play]').forEach((b) => { b.onclick = () => preview(find(b.dataset.play).link, b); });
-  box.querySelectorAll('[data-copy]').forEach((b) => { b.onclick = () => navigator.clipboard.writeText(find(b.dataset.copy).link).then(() => toast('Link copied')); });
-  box.querySelectorAll('[data-edit]').forEach((b) => { b.onclick = () => { state.editing = find(b.dataset.edit); state.fromRequest = null; renderPanel(); window.scrollTo({ top: 0, behavior: 'smooth' }); }; });
-  box.querySelectorAll('[data-del]').forEach((b) => {
-    b.onclick = async () => {
-      const s = find(b.dataset.del);
-      if (b.dataset.sure !== '1') { b.dataset.sure = '1'; b.textContent = 'Sure?'; setTimeout(() => { b.dataset.sure = ''; b.textContent = 'Delete'; }, 3000); return; }
-      try { await deleteDoc(doc(db, 'songs', s.id)); toast(`“${s.title}” deleted`); } catch (er) { toast('Not allowed: ' + (er.code || er.message)); }
-    };
-  });
-}
-// Can the app play this link?  ok | nocors (plays, but the app's sound effects can't use it) | bad
-function testLink(url) {
-  if (!/^https:\/\/.+/i.test(url)) return Promise.resolve({ s: 'bad', why: 'The link must start with https://' });
-  const tryLoad = (cors) => new Promise((res) => {
-    const a = new Audio();
-    if (cors) a.crossOrigin = 'anonymous';
-    a.preload = 'metadata';
-    const done = (s, d) => { clearTimeout(timer); a.removeAttribute('src'); a.load(); res({ s, d }); };
-    const timer = setTimeout(() => done('bad'), 15000);
-    a.onloadedmetadata = () => done('ok', a.duration);
-    a.onerror = () => done('bad');
-    a.src = url;
-  });
-  return tryLoad(true).then((r) => (r.s === 'ok' ? r : tryLoad(false).then((r2) => (r2.s === 'ok' ? { s: 'nocors', d: r2.d } : { s: 'bad', why: 'This link can’t be played. Use a direct link to an .mp3 file.' }))));
-}
-function showLinkNote(r) {
-  const n = $('#linkNote'); if (!n) return;
-  const mins = r.d && Number.isFinite(r.d) ? ` (${Math.floor(r.d / 60)}:${String(Math.round(r.d % 60)).padStart(2, '0')})` : '';
-  n.className = 'note ' + (r.s === 'ok' || r.s === 'file' ? 'ok' : r.s === 'nocors' ? 'warn' : 'bad');
-  n.textContent = r.s === 'file' ? `File plays${mins}` : r.s === 'ok' ? `Link works${mins}` : r.s === 'nocors' ? `Link plays${mins}, but this server blocks apps — it may not play in Argon when the Equalizer is on. A GitHub or Firebase link works best.` : r.why;
-}
-async function saveSong(ev) {
-  ev.preventDefault();
-  const f = ev.target.elements;
-  const data = { title: f.title.value.trim(), artist: f.artist.value.trim(), album: f.album.value.trim(), link: f.link.value.trim(), image: f.imageLink.value.trim() || f.image.value.trim(), language: f.language.value };
-  const songFile = f.songFile.files[0], imgFile = f.imgFile.files[0];
-  if (!data.title || !data.artist) { toast('Song name and artist are needed'); return; }
-  if (!songFile && !data.link) { toast('Paste the song link'); return; }
-  if ((songFile || imgFile) && !ghGet().token) { toast('Connect GitHub first (box above) to upload files'); $('#ghToken')?.focus(); return; }
-  const btn = $('#saveSong'); btn.disabled = true;
-  const idle = () => { btn.disabled = false; btn.textContent = state.editing ? 'Save changes' : 'Add song'; $('#upProg')?.classList.add('hidden'); };
-  const prog = (label, part) => { const b = $('#upProg'); if (!b) return; b.classList.remove('hidden'); b.querySelector('i').style.width = Math.round(part * 100) + '%'; $('#upText').textContent = label + ' ' + Math.round(part * 100) + '%'; };
-  let r;
-  if (songFile) {
-    btn.textContent = 'Reading file…';
-    const d = await fileDuration(songFile);
-    if (d < 0) { showLinkNote({ s: 'bad', why: 'This file can’t be played. Choose an MP3 or M4A file.' }); idle(); return; }
-    r = { s: 'file', d };
+  $('get').href = APP_URL;
+  var android = /Android/i.test(navigator.userAgent);
+  var deep = 'argon://song/' + encodeURIComponent(id);
+  if (!id) { $('open').classList.add('hide'); }
+  else if (android) {
+    var fallback = location.href.split('#')[0] + '#noapp';
+    $('open').href = 'intent://song/' + encodeURIComponent(id) + '#Intent;scheme=argon;package=' + PACKAGE + ';S.browser_fallback_url=' + encodeURIComponent(fallback) + ';end';
   } else {
-    btn.textContent = 'Checking link…';
-    r = await testLink(data.link);
+    $('open').href = deep;
+    $('note').textContent = 'Argon Music is an Android app. Open this link on your Android phone.';
   }
-  showLinkNote(r);
-  if (r.s === 'bad') { idle(); return; }
-  if (r.d && Number.isFinite(r.d)) data.duration = Math.round(r.d);
-  const base = `${slug(data.title)}-${slug(data.artist).slice(0, 20)}-${Date.now().toString(36)}`;
-  try {
-    if (songFile) {
-      btn.textContent = 'Uploading…';
-      data.link = await ghUpload(songFile, 'songs', `${base}.${extOf(songFile, 'mp3')}`, (p) => prog('Uploading song', p));
-    }
-    if (imgFile) {
-      btn.textContent = 'Uploading cover…';
-      data.image = await ghUpload(imgFile, 'covers', `${base}.${extOf(imgFile, 'jpg')}`, (p) => prog('Uploading cover', p));
-    }
-  } catch (er) { toast(er.message); idle(); return; }
-  btn.textContent = 'Saving…';
-  try {
-    if (state.editing) {
-      await updateDoc(doc(db, 'songs', state.editing.id), { ...data, updatedAt: serverTimestamp() });
-      toast(`“${data.title}” saved`);
-    } else {
-      await addDoc(collection(db, 'songs'), { ...data, createdAt: serverTimestamp(), addedBy: auth.currentUser?.email || '' });
-      if (state.fromRequest) await updateDoc(doc(db, 'requests', state.fromRequest.id), { status: 'added' }).catch(() => {});
-      toast(songFile ? `“${data.title}” added — it plays in the app in about a minute` : `“${data.title}” added — it's in the app now`);
-    }
-    state.editing = null; state.fromRequest = null;
-    renderPanel();
-  } catch (er) {
-    toast('Not saved: ' + (er.code || er.message));
-    idle();
-  }
-}
-async function searchCatalog() {
-  const q = state.songQuery.trim();
-  if (!q) { state.catalog = []; renderSongList(); return; }
-  try {
-    const r = await fetch(`${SAAVN_API}/search/songs?query=${encodeURIComponent(q)}&limit=30`);
-    const j = await r.json();
-    if (q !== state.songQuery.trim()) return;
-    state.catalog = (j?.data?.results || []).map((s) => ({
-      title: decode(s.name), artist: decode((s.artists?.primary || []).map((a) => a.name).slice(0, 2).join(', ')), album: decode(s.album?.name || ''), year: s.year || '',
-      image: s.image?.[1]?.url || s.image?.[0]?.url || '', url: s.url || '', audio: s.downloadUrl?.[2]?.url || s.downloadUrl?.[0]?.url || '',
-    }));
-  } catch { state.catalog = []; toast('Catalog search failed'); }
-  renderSongList();
-}
-function preview(url, btn) {
-  const a = $('#player');
-  if (!a.paused && a.dataset.url === url) { a.pause(); btn.textContent = '▶'; return; }
-  document.querySelectorAll('[data-play],[data-preview]').forEach((b) => { b.textContent = '▶'; });
-  a.dataset.url = url; a.src = url;
-  a.play().then(() => { btn.textContent = '❚❚'; }).catch(() => toast('This link can’t be played'));
-  a.onended = () => { btn.textContent = '▶'; };
-}
-
-/* ------------------------------------------------------------------ requests */
-function renderRequests(p) {
-  const list = state.requests.filter((r) => state.reqFilter === 'all' || (state.reqFilter === 'added' ? r.status === 'added' : r.status !== 'added'));
-  const chip = (id, label) => `<button class="chip ${state.reqFilter === id ? 'on' : ''}" data-f="${id}">${label}</button>`;
-  p.innerHTML = `<div class="panel-head"><h2>Song requests</h2><div class="chips">${chip('pending', 'Pending')}${chip('added', 'Added')}${chip('all', 'All')}</div></div>
-    ${list.length ? list.map((r) => `<div class="song">
-        <div class="grow"><div class="name ellipsis">${esc(r.text)}</div><div class="muted small">by ${esc(r.name || 'User')} • ${fmtAgo(r.createdAt)}</div></div>
-        <span class="badge ${r.status === 'added' ? 'added' : 'pending'}">${r.status === 'added' ? 'ADDED' : 'PENDING'}</span>
-        <div class="row"><button class="btn small" data-find="${esc(r.id)}">Search JioSaavn</button>${r.status === 'added' ? '' : `<button class="btn small primary" data-add="${esc(r.id)}">Add song</button><button class="btn small" data-done="${esc(r.id)}">Mark added</button>`}<button class="btn small danger" data-del="${esc(r.id)}">Delete</button></div>
-      </div>`).join('') : `<div class="empty">${state.requests.length ? 'Nothing here.' : 'No requests yet. When users ask for a song in the app, it shows up here.'}</div>`}`;
-  const find = (id) => state.requests.find((x) => x.id === id);
-  p.querySelectorAll('[data-f]').forEach((b) => { b.onclick = () => { state.reqFilter = b.dataset.f; renderPanel(); }; });
-  p.querySelectorAll('[data-find]').forEach((b) => { b.onclick = () => { state.view = 'songs'; state.songTab = 'catalog'; state.songQuery = find(b.dataset.find).text; render(); searchCatalog(); }; });
-  p.querySelectorAll('[data-add]').forEach((b) => { b.onclick = () => { state.view = 'songs'; state.songTab = 'mine'; state.songQuery = ''; state.editing = null; state.fromRequest = find(b.dataset.add); render(); }; });
-  p.querySelectorAll('[data-done]').forEach((b) => { b.onclick = () => updateDoc(doc(db, 'requests', b.dataset.done), { status: 'added' }).then(() => toast('Marked as added')).catch((er) => toast('Not allowed: ' + (er.code || er.message))); });
-  p.querySelectorAll('[data-del]').forEach((b) => { b.onclick = () => deleteDoc(doc(db, 'requests', b.dataset.del)).then(() => toast('Request deleted')).catch((er) => toast('Not allowed: ' + (er.code || er.message))); });
-}
-
-/* ------------------------------------------------------------------ YouTube feed */
-function renderFeed(p) {
-  const f = state.feed;
-  const item = (x) => `<div class="song"><div class="grow"><div class="name ellipsis">${esc(x.saavnTitle || x.title)}</div><div class="muted small ellipsis">${esc(x.channel || x.artist || '')}${x.views ? ' • ' + Number(x.views).toLocaleString() + ' views' : ''}</div></div>${x.saavnId ? '<span class="badge added">IN APP</span>' : '<span class="badge">NOT ON JIOSAAVN</span>'}</div>`;
-  p.innerHTML = `<div class="panel-head"><h2>YouTube & Apple Music trending</h2><a class="btn small" href="trending.json" target="_blank" rel="noopener">Open trending.json</a></div>
-    ${!f ? '<div class="empty">trending.json is not available yet. In GitHub: Actions → “Update trending” → Run workflow.</div>'
-      : `<p class="muted">Updated ${f.updated ? fmtAgo(f.updated) : 'never'} · refreshes every hour on GitHub. One YouTube request per hour serves every user.</p>
-        <div class="grid2" style="grid-template-columns:1fr 1fr"><div><h3>YouTube India</h3>${(f.youtube || []).map(item).join('') || '<div class="empty">No YouTube data — check the YT_API_KEY secret.</div>'}</div>
-        <div><h3>Apple Music India</h3>${(f.apple || []).map(item).join('') || '<div class="empty">No data yet.</div>'}</div></div>`}`;
-}
+  if (location.hash === '#noapp') { $('noapp').classList.remove('hide'); $('get').classList.replace('secondary', 'primary'); }
 </script>
 </body>
 </html>
