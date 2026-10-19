@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Listen on Argon Music</title>
+<meta name="description" content="A song shared from Argon Music. Open it in the Argon app." />
+<meta property="og:title" content="Listen on Argon Music" />
+<meta property="og:description" content="A song shared from Argon Music. Tap to open it in the app." />
+<meta name="theme-color" content="#020617" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23fff'/%3E%3Crect x='15' y='40' width='10' height='20' rx='5' fill='%238b5cf6'/%3E%3Crect x='35' y='25' width='10' height='50' rx='5' fill='%236366f1'/%3E%3Crect x='55' y='10' width='10' height='80' rx='5' fill='%233b82f6'/%3E%3Crect x='75' y='30' width='10' height='40' rx='5' fill='%2322d3ee'/%3E%3C/svg%3E" />
+<style>
+  :root { --bg: #020617; --fg: #f8fafc; --muted: #94a3b8; --line: rgba(255,255,255,.1); --accent: #22d3ee; --accent2: #8b5cf6; color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--fg); font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  body { min-height: 100dvh; display: grid; place-items: center; padding: 24px 16px calc(24px + env(safe-area-inset-bottom)); overflow-x: hidden; }
+  .bg { position: fixed; inset: -10%; background-size: cover; background-position: center; filter: blur(60px) saturate(1.3); opacity: .35; transform: scale(1.1); }
+  .glow { position: fixed; width: 40rem; height: 40rem; border-radius: 50%; filter: blur(90px); opacity: .25; pointer-events: none; }
+  .g1 { top: -18rem; left: -14rem; background: var(--accent); } .g2 { bottom: -20rem; right: -16rem; background: var(--accent2); }
+  .card { position: relative; width: min(420px, 100%); text-align: center; padding: 28px 22px 24px; border-radius: 32px; background: rgba(15,23,42,.72); border: 1px solid var(--line); box-shadow: 0 40px 100px -40px #000; }
+  .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: .02em; color: #cbd5e1; font-size: 14px; }
+  .logo { width: 30px; height: 30px; border-radius: 9px; background: #fff; display: grid; place-items: center; }
+  .cover { width: min(260px, 70vw); aspect-ratio: 1; margin: 22px auto 0; border-radius: 26px; object-fit: cover; background: linear-gradient(135deg, #0e7490, #6d28d9); box-shadow: 0 30px 70px -25px rgba(0,0,0,.9); display: block; }
+  h1 { margin: 22px 0 4px; font-size: 26px; line-height: 1.2; letter-spacing: -.01em; overflow-wrap: anywhere; }
+  .artist { color: var(--muted); font-size: 16px; margin: 0; overflow-wrap: anywhere; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 15px 18px; border-radius: 18px; font-weight: 800; font-size: 16px; text-decoration: none; border: 0; cursor: pointer; }
+  .primary { margin-top: 26px; background: linear-gradient(90deg, var(--accent), #3b82f6 55%, var(--accent2)); color: #04121a; box-shadow: 0 12px 30px -10px rgba(34,211,238,.55); }
+  .secondary { margin-top: 10px; background: rgba(255,255,255,.08); color: var(--fg); border: 1px solid var(--line); }
+  .note { margin: 16px 4px 0; color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+  .hide { display: none !important; }
+  .warn { margin-top: 14px; padding: 10px 12px; border-radius: 14px; background: rgba(245,158,11,.12); color: #fcd34d; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="bg" id="bg"></div>
+<div class="glow g1"></div><div class="glow g2"></div>
+<main class="card">
+  <div class="brand"><span class="logo"><svg viewBox="0 0 100 100" width="20" height="20"><rect x="15" y="40" width="10" height="20" rx="5" fill="#8b5cf6"/><rect x="35" y="25" width="10" height="50" rx="5" fill="#6366f1"/><rect x="55" y="10" width="10" height="80" rx="5" fill="#3b82f6"/><rect x="75" y="30" width="10" height="40" rx="5" fill="#22d3ee"/></svg></span>ARGON MUSIC</div>
+  <img class="cover" id="cover" alt="" />
+  <h1 id="title">A song for you</h1>
+  <p class="artist" id="artist">Shared from Argon Music</p>
+  <a class="btn primary" id="open" href="#">▶&nbsp; Open in Argon Music</a>
+  <div class="warn hide" id="noapp">Argon Music isn't installed on this phone yet.</div>
+  <a class="btn secondary" id="get" href="#">Get Argon Music</a>
+  <p class="note" id="note">Opens the song in the Argon Music app on Android.</p>
+</main>
+<script>
+  // Where people download the app (upload the APK to a GitHub Release of this repository)
+  var APP_URL = 'https://github.com/RA0431/argon-web/releases/latest';
+  var PACKAGE = 'com.argon.music';
+
+  var q = new URLSearchParams(location.search);
+  var id = (q.get('id') || '').slice(0, 80);
+  var title = (q.get('t') || '').slice(0, 150);
+  var artist = (q.get('a') || '').slice(0, 150);
+  var img = q.get('i') || '';
+  var $ = function (x) { return document.getElementById(x); };
+  if (title) { $('title').textContent = title; document.title = title + (artist ? ' – ' + artist : '') + ' · Argon Music'; }
+  if (artist) $('artist').textContent = artist;
+  if (/^https:\/\/[^\s"'<>]+$/.test(img)) {
+    $('cover').src = img.replace(/150x150/, '500x500');
+    $('cover').onerror = function () { this.src = img; this.onerror = null; };
+    $('bg').style.backgroundImage = 'url("' + img.replace(/"/g, '') + '")';
+  }
+  $('get').href = APP_URL;
+  var android = /Android/i.test(navigator.userAgent);
+  var deep = 'argon://song/' + encodeURIComponent(id);
+  if (!id) { $('open').classList.add('hide'); }
+  else if (android) {
+    var fallback = location.href.split('#')[0] + '#noapp';
+    $('open').href = 'intent://song/' + encodeURIComponent(id) + '#Intent;scheme=argon;package=' + PACKAGE + ';S.browser_fallback_url=' + encodeURIComponent(fallback) + ';end';
+  } else {
+    $('open').href = deep;
+    $('note').textContent = 'Argon Music is an Android app. Open this link on your Android phone.';
+  }
+  if (location.hash === '#noapp') { $('noapp').classList.remove('hide'); $('get').classList.replace('secondary', 'primary'); }
+</script>
+</body>
+</html>
