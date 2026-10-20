@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T06:39:20.994Z",
+ "updated": "2026-10-20T07:42:41.588Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -58,22 +58,28 @@
    "saavnTitle": "ANTIDOTE"
   },
   {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
-  },
-  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
+  },
+  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
+  },
+  {
+   "title": "Hukum Reloaded",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "haBhsw5G",
+   "saavnTitle": "Hukum Reloaded"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
@@ -88,22 +94,16 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
-  },
-  {
    "title": "Kaali Hoodie",
    "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
    "saavnId": "gNhYtgJc",
    "saavnTitle": "Kaali Hoodie"
   },
   {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
+   "title": "Shaitaan",
+   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
+   "saavnId": "9LT1Sk4o",
+   "saavnTitle": "Shaitaan"
   },
   {
    "title": "Softly",
@@ -112,10 +112,10 @@
    "saavnTitle": "Softly"
   },
   {
-   "title": "Shaitaan",
-   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
-   "saavnId": "9LT1Sk4o",
-   "saavnTitle": "Shaitaan"
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -148,10 +148,10 @@
    "saavnTitle": "Veramaari"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
+   "title": "Dileep Theme (Instrumental)",
+   "artist": "Anirudh Ravichander",
+   "saavnId": "312ev1Dx",
+   "saavnTitle": "Dileep Theme (Instrumental)"
   }
  ]
 }
