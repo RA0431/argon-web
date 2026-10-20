@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:34:33.309Z",
+ "updated": "2026-10-20T17:37:37.919Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -22,10 +22,10 @@
    "saavnTitle": "One Name (From \"Jailer 2\")"
   },
   {
-   "title": "Ala Bolelo (From \"Jailer 2\")",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+   "title": "Straight Up",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "VD-330VU",
+   "saavnTitle": "Straight Up"
   },
   {
    "title": "Putaapu Gang",
@@ -34,22 +34,22 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Straight Up",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "VD-330VU",
-   "saavnTitle": "Straight Up"
-  },
-  {
-   "title": "Jailer 2 Theme",
-   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
-   "saavnId": "iRFJJeqr",
-   "saavnTitle": "Jailer 2 Theme"
+   "title": "Ala Bolelo (From \"Jailer 2\")",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
+  },
+  {
+   "title": "Jailer 2 Theme",
+   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
+   "saavnId": "iRFJJeqr",
+   "saavnTitle": "Jailer 2 Theme"
   },
   {
    "title": "Antidote",
@@ -64,12 +64,6 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
-  },
-  {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
@@ -82,16 +76,16 @@
    "saavnTitle": "Low Fade"
   },
   {
+   "title": "Hukum Reloaded",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "haBhsw5G",
+   "saavnTitle": "Hukum Reloaded"
+  },
+  {
    "title": "Shaitaan",
    "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
    "saavnId": "9LT1Sk4o",
    "saavnTitle": "Shaitaan"
-  },
-  {
-   "title": "Kaali Hoodie",
-   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
-   "saavnId": "gNhYtgJc",
-   "saavnTitle": "Kaali Hoodie"
   },
   {
    "title": "IYKYK",
@@ -106,16 +100,16 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
+   "title": "Kaali Hoodie",
+   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
+   "saavnId": "gNhYtgJc",
+   "saavnTitle": "Kaali Hoodie"
+  },
+  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
-  },
-  {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
   },
   {
    "title": "Softly",
@@ -124,16 +118,22 @@
    "saavnTitle": "Softly"
   },
   {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
+  },
+  {
    "title": "Aujla Szn",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "iAKpx8Y8",
    "saavnTitle": "Aujla Szn"
   },
   {
-   "title": "Veramaari",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "XCgP1cik",
-   "saavnTitle": "Veramaari"
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "For A Reason",
@@ -142,10 +142,10 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+   "title": "Veramaari",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "XCgP1cik",
+   "saavnTitle": "Veramaari"
   },
   {
    "title": "Dileep Theme (Instrumental)",
