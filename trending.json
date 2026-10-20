@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T01:37:09.254Z",
+ "updated": "2026-10-20T02:31:37.956Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -82,6 +82,12 @@
    "saavnTitle": "IYKYK"
   },
   {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
    "title": "Hukum Reloaded",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "haBhsw5G",
@@ -94,10 +100,16 @@
    "saavnTitle": "Kaali Hoodie"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
+  },
+  {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -106,22 +118,10 @@
    "saavnTitle": "Rap Killa"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Shaitaan",
    "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
    "saavnId": "9LT1Sk4o",
    "saavnTitle": "Shaitaan"
-  },
-  {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
   },
   {
    "title": "Aujla Szn",
