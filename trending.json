@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:37:37.919Z",
+ "updated": "2026-10-20T18:37:07.544Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -94,6 +94,12 @@
    "saavnTitle": "IYKYK"
   },
   {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
+  },
+  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
@@ -112,12 +118,6 @@
    "saavnTitle": "Rap Killa"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
@@ -130,16 +130,16 @@
    "saavnTitle": "Aujla Szn"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
    "title": "For A Reason",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "vLSaC03b",
    "saavnTitle": "For A Reason"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Veramaari",
