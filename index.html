@@ -389,9 +389,9 @@ function renderSongs(p) {
         <label class="field"><span>Song name *</span><input name="title" maxlength="150" required value="${esc(e?.title || '')}"></label>
         <label class="field"><span>Artist *</span><input name="artist" maxlength="150" required value="${esc(e?.artist || '')}"></label>
         <label class="field"><span>Album / Movie</span><input name="album" maxlength="150" value="${esc(e?.album || '')}"></label>
-        <label class="field"><span>Song link (direct .mp3, https) *</span><input name="link" type="url" placeholder="https://…/song.mp3" value="${esc(e?.link || '')}"></label>
+        <label class="field"><span>Song link (MP3 file / Google Drive / Dropbox)</span><input name="link" type="url" placeholder="https://…/song.mp3" value="${esc(e?.link || '')}"></label>
         <label class="field"><span>Cover image link</span><input name="imageLink" type="url" placeholder="https://…/cover.jpg" value="${esc(e?.image || '')}"></label>
-        <details class="alt" id="upAlt"><summary>Or upload a file from this computer</summary>
+        <details class="alt" id="upAlt" ${ghGet().token ? 'open' : ''}><summary>Or upload a file from this computer</summary>
         ${ghBox()}
         <div class="field"><span>Song file</span>
           <label class="drop" id="songDrop"><input type="file" name="songFile" accept="audio/*,.mp3,.m4a,.aac,.ogg,.wav"><span class="ic">♪</span><span class="grow"><b class="ellipsis">Choose MP3 / audio file</b><small>or drag it here · up to 25 MB</small></span></label></div>
@@ -423,7 +423,8 @@ function renderSongs(p) {
       return;
     }
     if (!f.link.value.trim()) { showLinkNote({ s: 'bad', why: 'Paste the song link first.' }); return; }
-    showLinkNote(await testLink(f.link.value.trim()));
+    f.link.value = directLink(f.link.value);
+    showLinkNote(await testLink(f.link.value));
   };
   if ($('#cancelEdit')) $('#cancelEdit').onclick = () => { state.editing = null; state.fromRequest = null; renderPanel(); };
   if (state.fromRequest && !e) $('#songForm').elements.title.value = state.fromRequest.text;
@@ -517,8 +518,25 @@ function renderSongList() {
   });
 }
 // Can the app play this link?  ok | nocors (plays, but the app's sound effects can't use it) | bad
+// Share links → the song file itself (Google Drive, Dropbox, GitHub, Firebase need no change)
+function directLink(raw) {
+  const u = String(raw || '').trim();
+  let m = u.match(/drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?(?:export=download&)?id=)([\w-]{20,})/);
+  if (m) return `https://drive.google.com/uc?export=download&id=${m[1]}`;
+  m = u.match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)\/(?:blob|raw)\/(.+)$/);
+  if (m) return `https://raw.githubusercontent.com/${m[1]}/${m[2]}/${m[3]}`;
+  if (/^https:\/\/(www\.)?dropbox\.com\//.test(u)) {
+    if (/[?&]dl=[01]/.test(u)) return u.replace(/([?&])dl=[01]/, '$1raw=1');
+    return /[?&]raw=1/.test(u) ? u : u + (u.includes('?') ? '&' : '?') + 'raw=1';
+  }
+  return u;
+}
+// Links to a song PAGE on another app are not files and can never play here
+const PAGE_SITES = [[/youtube\.com|youtu\.be/, 'YouTube'], [/spotify\.com/, 'Spotify'], [/jiosaavn\.com|saavn\.com/, 'JioSaavn'], [/gaana\.com/, 'Gaana'], [/wynk\.in/, 'Wynk'], [/music\.apple\.com/, 'Apple Music'], [/soundcloud\.com/, 'SoundCloud'], [/instagram\.com|facebook\.com/, 'Instagram / Facebook']];
 function testLink(url) {
   if (!/^https:\/\/.+/i.test(url)) return Promise.resolve({ s: 'bad', why: 'The link must start with https://' });
+  const site = PAGE_SITES.find(([re]) => re.test(url));
+  if (site) return Promise.resolve({ s: 'bad', why: `This is a ${site[1]} page, not a song file — it can't play in Argon. Upload the MP3 file instead (below).` });
   const tryLoad = (cors) => new Promise((res) => {
     const a = new Audio();
     if (cors) a.crossOrigin = 'anonymous';
@@ -529,10 +547,11 @@ function testLink(url) {
     a.onerror = () => done('bad');
     a.src = url;
   });
-  return tryLoad(true).then((r) => (r.s === 'ok' ? r : tryLoad(false).then((r2) => (r2.s === 'ok' ? { s: 'nocors', d: r2.d } : { s: 'bad', why: 'This link can’t be played. Use a direct link to an .mp3 file.' }))));
+  return tryLoad(true).then((r) => (r.s === 'ok' ? r : tryLoad(false).then((r2) => (r2.s === 'ok' ? { s: 'nocors', d: r2.d } : { s: 'bad', why: 'This link can’t be played — it opens a web page, not the song file. Upload the MP3 file instead (below), or use a Google Drive / Dropbox link set to “Anyone with the link”.' }))));
 }
 function showLinkNote(r) {
   const n = $('#linkNote'); if (!n) return;
+  if (r.s === 'bad' && $('#upAlt')) $('#upAlt').open = true; // show the file upload right away
   const mins = r.d && Number.isFinite(r.d) ? ` (${Math.floor(r.d / 60)}:${String(Math.round(r.d % 60)).padStart(2, '0')})` : '';
   n.className = 'note ' + (r.s === 'ok' || r.s === 'file' ? 'ok' : r.s === 'nocors' ? 'warn' : 'bad');
   n.textContent = r.s === 'file' ? `File plays${mins}` : r.s === 'ok' ? `Link works${mins}` : r.s === 'nocors' ? `Link plays${mins}, but this server blocks apps — it may not play in Argon when the Equalizer is on. A GitHub or Firebase link works best.` : r.why;
@@ -540,6 +559,7 @@ function showLinkNote(r) {
 async function saveSong(ev) {
   ev.preventDefault();
   const f = ev.target.elements;
+  if (f.link.value.trim()) f.link.value = directLink(f.link.value);
   const data = { title: f.title.value.trim(), artist: f.artist.value.trim(), album: f.album.value.trim(), link: f.link.value.trim(), image: f.imageLink.value.trim() || f.image.value.trim(), language: f.language.value };
   const songFile = f.songFile.files[0], imgFile = f.imgFile.files[0];
   if (!data.title || !data.artist) { toast('Song name and artist are needed'); return; }
