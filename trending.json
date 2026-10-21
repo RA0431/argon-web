@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T14:36:05.493Z",
+ "updated": "2026-10-21T15:36:19.914Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -58,10 +58,9 @@
    "saavnTitle": "ANTIDOTE"
   },
   {
-   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
-   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": "P5pjB99X",
-   "saavnTitle": "Radhimaa (From \"Think Indie\")"
+   "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
+   "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
+   "saavnId": null
   },
   {
    "title": "Real Bad Man",
@@ -76,9 +75,10 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
-   "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
-   "saavnId": null
+   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
+   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
    "title": "Hukum Reloaded",
@@ -93,12 +93,6 @@
    "saavnTitle": "Shaitaan"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
@@ -111,10 +105,10 @@
    "saavnTitle": "Softly"
   },
   {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -123,16 +117,10 @@
    "saavnTitle": "Rap Killa"
   },
   {
-   "title": "Shree Hanuman Chalisa",
-   "artist": "Hariharan",
-   "saavnId": "7CwLvXc6",
-   "saavnTitle": "Shree Hanuman Chalisa"
-  },
-  {
-   "title": "Kaali Hoodie",
-   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
-   "saavnId": "gNhYtgJc",
-   "saavnTitle": "Kaali Hoodie"
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "For A Reason",
@@ -141,16 +129,28 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+   "title": "Kaali Hoodie",
+   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
+   "saavnId": "gNhYtgJc",
+   "saavnTitle": "Kaali Hoodie"
   },
   {
    "title": "Aujla Szn",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "iAKpx8Y8",
    "saavnTitle": "Aujla Szn"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+  },
+  {
+   "title": "Veramaari",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "XCgP1cik",
+   "saavnTitle": "Veramaari"
   }
  ]
 }
