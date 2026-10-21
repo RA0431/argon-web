@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T02:32:33.964Z",
+ "updated": "2026-10-21T03:33:42.920Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -22,16 +22,16 @@
    "saavnTitle": "One Name (From \"Jailer 2\")"
   },
   {
-   "title": "Straight Up",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "VD-330VU",
-   "saavnTitle": "Straight Up"
-  },
-  {
    "title": "Putaapu Gang",
    "artist": "Anirudh Ravichander & Thamizh Aadhavan",
    "saavnId": "_C23SgA9",
    "saavnTitle": "Putaapu Gang"
+  },
+  {
+   "title": "Straight Up",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "VD-330VU",
+   "saavnTitle": "Straight Up"
   },
   {
    "title": "Ala Bolelo (From \"Jailer 2\")",
@@ -82,6 +82,12 @@
    "saavnTitle": "Hukum Reloaded"
   },
   {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
    "title": "Shaitaan",
    "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
    "saavnId": "9LT1Sk4o",
@@ -94,22 +100,10 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
-  },
-  {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
   },
   {
    "title": "Barsaat",
@@ -118,22 +112,21 @@
    "saavnTitle": "Barsaat"
   },
   {
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
+  },
+  {
    "title": "Kaali Hoodie",
    "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
    "saavnId": "gNhYtgJc",
    "saavnTitle": "Kaali Hoodie"
   },
   {
-   "title": "Aujla Szn",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "iAKpx8Y8",
-   "saavnTitle": "Aujla Szn"
-  },
-  {
-   "title": "For A Reason",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "vLSaC03b",
-   "saavnTitle": "For A Reason"
+   "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
+   "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
+   "saavnId": null
   },
   {
    "title": "Gehra Hua",
@@ -142,9 +135,16 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
-   "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
-   "saavnId": null
+   "title": "For A Reason",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "vLSaC03b",
+   "saavnTitle": "For A Reason"
+  },
+  {
+   "title": "Aujla Szn",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "iAKpx8Y8",
+   "saavnTitle": "Aujla Szn"
   },
   {
    "title": "Dileep Theme (Instrumental)",
