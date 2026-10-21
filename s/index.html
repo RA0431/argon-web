@@ -45,8 +45,8 @@
   <p class="note" id="note">Opens the song in the Argon Music app on Android.</p>
 </main>
 <script>
-  // Where people download the app (upload the APK to a GitHub Release of this repository)
-  var APP_URL = 'https://github.com/RA0431/argon-web/releases/latest';
+  // Where people download the app: the newest APK published in the admin website (App update);
+  // the button shows once that is known
   var PACKAGE = 'com.argon.music';
 
   var q = new URLSearchParams(location.search);
@@ -62,7 +62,10 @@
     $('cover').onerror = function () { this.src = img; this.onerror = null; };
     $('bg').style.backgroundImage = 'url("' + img.replace(/"/g, '') + '")';
   }
-  $('get').href = APP_URL;
+  $('get').classList.add('hide');
+  fetch('../app/version.json', { cache: 'no-cache' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+    if (j && /^https:\/\//.test(j.apk || '')) { $('get').href = j.apk; $('get').textContent = 'Get Argon Music' + (j.version ? ' v' + j.version : ''); $('get').classList.remove('hide'); }
+  }).catch(function () {});
   var android = /Android/i.test(navigator.userAgent);
   var deep = 'argon://song/' + encodeURIComponent(id);
   if (!id) { $('open').classList.add('hide'); }
