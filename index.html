@@ -41,7 +41,9 @@
   .login h2 { margin: 18px 0 6px; font-size: 26px; }
   .login p { color: var(--muted); margin: 0 0 24px; }
   .uidbox { margin-top: 16px; padding: 12px; border-radius: 12px; background: var(--panel2); font: 13px ui-monospace, SFMono-Regular, Menlo, monospace; word-break: break-all; text-align: left; }
-  .tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 24px 0; }
+  .tiles { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin: 24px 0; }
+  .upform textarea { width: 100%; min-height: 96px; background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; outline: none; resize: vertical; font: inherit; color: inherit; }
+  .upform textarea:focus { border-color: var(--accent); }
   .tile { text-align: left; padding: 18px; border-radius: var(--radius); background: var(--panel); border: 1px solid var(--line); position: relative; overflow: hidden; }
   .tile.active { border-color: rgba(34,211,238,.6); box-shadow: 0 0 0 1px rgba(34,211,238,.35), 0 12px 40px -18px rgba(34,211,238,.5); }
   .tile .label { color: var(--muted); font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
@@ -202,7 +204,7 @@ const fb = initializeApp(FIREBASE_CONFIG);
 const auth = getAuth(fb);
 const db = getFirestore(fb);
 
-const state = { view: 'users', users: [], songs: [], requests: [], userFilter: 'all', userQuery: '', reqFilter: 'pending', songTab: 'mine', songQuery: '', editing: null, fromRequest: null, feed: null, catalog: [] };
+const state = { appInfo: null, view: location.hash === '#update' ? 'update' : 'users', users: [], songs: [], requests: [], userFilter: 'all', userQuery: '', reqFilter: 'pending', songTab: 'mine', songQuery: '', editing: null, fromRequest: null, feed: null, catalog: [] };
 let stops = [];
 
 /* ------------------------------------------------------------------ sign in */
@@ -246,6 +248,7 @@ async function start(user) {
   live(query(collection(db, 'users'), orderBy('lastSeen', 'desc'), limit(2000)), 'users');
   live(query(collection(db, 'songs'), orderBy('createdAt', 'desc'), limit(1000)), 'songs');
   live(query(collection(db, 'requests'), orderBy('createdAt', 'desc'), limit(500)), 'requests');
+  loadAppInfo();
   fetch('trending.json', { cache: 'no-cache' }).then((r) => r.json()).then((f) => { state.feed = f; renderTiles(); }).catch(() => { state.feed = false; renderTiles(); });
 }
 
@@ -286,6 +289,7 @@ function renderTiles() {
   $('#tiles').innerHTML = tile('users', 'Users', peopleCount, `${newToday} new today · ${active24} active in 24 h`)
     + tile('songs', 'Songs', state.songs.length, 'Added by you')
     + tile('requests', 'Requests', pending, `${state.requests.length} total`)
+    + tile('update', 'App update', state.appInfo ? 'v' + esc(state.appInfo.version) : '—', state.appInfo ? `Published ${fmtAgo(state.appInfo.at)} · phones get a popup` : state.appInfo === false ? 'Not published yet' : 'Checking…', state.appInfo ? 'ok' : '')
     + tile('youtube', 'YouTube trending', fDot === 'ok' ? 'Live' : fDot === 'warn' ? 'Late' : '—', fText, fDot);
   $('#tiles').querySelectorAll('[data-view]').forEach((b) => { b.onclick = () => { state.view = b.dataset.view; render(); }; });
 }
@@ -295,6 +299,7 @@ function renderPanel() {
   if (state.view === 'users') return renderUsers(p);
   if (state.view === 'songs') return renderSongs(p);
   if (state.view === 'requests') return renderRequests(p);
+  if (state.view === 'update') return renderUpdate(p);
   return renderFeed(p);
 }
 
@@ -651,6 +656,101 @@ function renderRequests(p) {
 }
 
 /* ------------------------------------------------------------------ YouTube feed */
+/* ------------------------------------------------------------------ app update
+   The APK goes to this website (app/argon-music-<version>.apk) and app/version.json tells the
+   installed apps about it → they show an "Update available" popup and update in two taps. */
+const MAX_APK = 95 * 1024 * 1024;
+const codeOf = (v) => { const m = /^(\d+)\.(\d+)$/.exec(String(v || '').trim()); return m ? Number(m[1]) * 100 + Number(m[2]) : 0; };
+const nextVersion = (v) => { const m = /^(\d+)\.(\d+)$/.exec(String(v || '')); return m ? `${m[1]}.${Number(m[2]) + 1}` : ''; };
+function loadAppInfo() {
+  return fetch('app/version.json?t=' + Date.now(), { cache: 'no-store' })
+    .then((r) => (r.ok ? r.json() : null))
+    .then((j) => { state.appInfo = j && j.version ? j : false; })
+    .catch(() => { state.appInfo = false; })
+    .then(() => { if ($('#tiles')) { renderTiles(); if (state.view === 'update') renderPanel(); } });
+}
+const ghApi = (path, opts = {}) => {
+  const gh = ghGet();
+  return fetch(`https://api.github.com/repos/${encodeURIComponent(gh.owner)}/${encodeURIComponent(gh.repo)}/contents/${path}`, {
+    ...opts, headers: { Authorization: 'Bearer ' + gh.token, Accept: 'application/vnd.github+json', ...(opts.headers || {}) },
+  });
+};
+const ghSha = (path) => ghApi(path).then((r) => (r.ok ? r.json() : null)).then((j) => j?.sha || null).catch(() => null);
+async function ghPutText(path, text, message) {
+  const sha = await ghSha(path);
+  const r = await ghApi(path, { method: 'PUT', body: JSON.stringify({ message, content: btoa(unescape(encodeURIComponent(text))), ...(sha ? { sha } : {}) }) });
+  if (r.status === 403 || r.status === 404) throw new Error(NO_WRITE(ghGet()));
+  if (!r.ok) throw new Error('Saving ' + path + ' failed (' + r.status + ')');
+}
+function renderUpdate(p) {
+  const live = state.appInfo;
+  p.innerHTML = `<div class="panel-head"><h2>App update</h2>${live ? `<a class="btn small" href="${esc(live.apk)}" rel="noopener">Download v${esc(live.version)}</a>` : ''}</div>
+    <p class="muted">Publish a new APK here. Every installed Argon app shows an <b>Update available</b> popup and updates in two taps — no more copying the APK to phones.</p>
+    <p class="muted small">${live ? `Now live: <b>v${esc(live.version)}</b> · published ${fmtAgo(live.at)}${live.size ? ' · ' + fmtSize(live.size) : ''}` : state.appInfo === false ? 'Nothing published yet.' : 'Checking…'}</p>
+    <div class="grid2" style="margin-top:14px"><form class="card form upform" id="upForm" autocomplete="off">
+      <h3>Publish a new version</h3>
+      ${ghGet().token ? '' : ghBox()}
+      <div class="field"><span>APK file</span>
+        <label class="drop" id="apkDrop"><input type="file" name="apk" accept=".apk,application/vnd.android.package-archive"><span class="ic">⬆</span><span class="grow"><b class="ellipsis">Choose the APK</b><small>argon-music\\apk\\Argon-Music-v….apk · up to 95 MB</small></span></label></div>
+      <label class="field"><span>Version</span><input name="version" placeholder="${esc(nextVersion(live?.version) || '3.8')}" value="${esc(nextVersion(live?.version))}" inputmode="decimal"></label>
+      <label class="field"><span>What's new (one per line, optional)</span><textarea name="notes" maxlength="600" placeholder="New Browse tab&#10;Faster search"></textarea></label>
+      <div id="apkProg" class="hidden"><div class="bar"><i></i></div><div class="small muted" id="apkText"></div></div>
+      <div class="note" id="apkNote"></div>
+      <div class="row"><button class="btn primary" type="submit" id="publish">Publish update</button></div>
+    </form>
+    <div class="card" style="padding:18px"><h3>How it works</h3>
+      <ol class="muted" style="padding-left:18px;line-height:1.7;margin:8px 0 0">
+        <li>Run <b>UPDATE-ANDROID.bat</b> — it builds the APK into the <b>apk</b> folder.</li>
+        <li>Choose that APK here and tap <b>Publish update</b>.</li>
+        <li>Within a few minutes every Argon app shows the update popup.</li>
+      </ol>
+      <p class="muted small" style="margin-top:12px">The version must be newer than the one that is live. Phones that still have v3.7 or older need this update installed once by hand; after that, updates come by themselves.</p></div></div>`;
+  wireGh();
+  wireDrop($('#apkDrop'), MAX_APK, (f) => {
+    const m = /v?(\d+\.\d+)\.apk$/i.exec(f.name);
+    if (m) $('#upForm').elements.version.value = m[1];
+  });
+  $('#upForm').onsubmit = publishUpdate;
+}
+async function publishUpdate(ev) {
+  ev.preventDefault();
+  const f = ev.target.elements;
+  const file = f.apk.files[0];
+  const version = f.version.value.trim();
+  const note = (msg, cls = 'bad') => { const n = $('#apkNote'); n.className = 'note ' + cls; n.textContent = msg; };
+  const live = state.appInfo;
+  if (!ghGet().token) { note('Connect GitHub first (box above).'); return; }
+  if (!file || !/\.apk$/i.test(file.name)) { note('Choose the APK file.'); return; }
+  if (!codeOf(version)) { note('Write the version like 3.8'); return; }
+  if (live && codeOf(version) <= codeOf(live.version)) { note(`The version must be newer than v${live.version} (the one that is live).`); return; }
+  const btn = $('#publish'); btn.disabled = true; btn.textContent = 'Uploading…';
+  const bar = $('#apkProg'); bar.classList.remove('hidden');
+  const prog = (part) => { bar.querySelector('i').style.width = Math.round(part * 100) + '%'; $('#apkText').textContent = 'Uploading APK ' + Math.round(part * 100) + '%'; };
+  try {
+    const apk = await ghUpload(file, 'app', `argon-music-${version}.apk`, prog);
+    btn.textContent = 'Publishing…';
+    const info = {
+      version, code: codeOf(version), apk, size: file.size, at: new Date().toISOString(),
+      notes: f.notes.value.split('\n').map((x) => x.trim()).filter(Boolean).slice(0, 8),
+    };
+    await ghPutText('app/version.json', JSON.stringify(info, null, 2) + '\n', `Argon v${version}`);
+    // the old APK is not needed any more (keeps the website small)
+    const old = live?.apk && /\/app\/(argon-music-[\w.-]+\.apk)$/.exec(live.apk);
+    if (old && old[1] !== `argon-music-${version}.apk`) {
+      const sha = await ghSha('app/' + old[1]);
+      if (sha) await ghApi('app/' + old[1], { method: 'DELETE', body: JSON.stringify({ message: 'Remove old APK', sha }) }).catch(() => {});
+    }
+    state.appInfo = info;
+    renderTiles();
+    renderUpdate($('#panel'));
+    const n = $('#apkNote'); n.className = 'note ok'; n.textContent = `v${version} is published. Phones get the update popup within a few minutes.`;
+    toast(`Argon v${version} published`);
+  } catch (er) {
+    note(er.message || 'Publishing failed');
+    btn.disabled = false; btn.textContent = 'Publish update'; bar.classList.add('hidden');
+  }
+}
+
 function renderFeed(p) {
   const f = state.feed;
   const item = (x) => `<div class="song"><div class="grow"><div class="name ellipsis">${esc(x.saavnTitle || x.title)}</div><div class="muted small ellipsis">${esc(x.channel || x.artist || '')}${x.views ? ' • ' + Number(x.views).toLocaleString() + ' views' : ''}</div></div>${x.saavnId ? '<span class="badge added">IN APP</span>' : '<span class="badge">NOT ON JIOSAAVN</span>'}</div>`;
