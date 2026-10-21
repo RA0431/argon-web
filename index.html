@@ -168,6 +168,8 @@ const fileDuration = (file) => new Promise((res) => {
   a.preload = 'metadata'; a.onloadedmetadata = () => end(a.duration); a.onerror = () => end(-1); a.src = u; setTimeout(() => end(0), 8000);
 });
 // Upload one file to <repo>/<folder>/<name>; returns the public GitHub Pages link
+// Shown when the token may read but not upload
+const NO_WRITE = (gh) => `This token can't upload to ${gh.owner}/${gh.repo}. On GitHub open Settings → Developer settings → Fine-grained tokens → your token → Edit: Repository access = ${gh.repo}, Repository permissions → Contents = Read and write → Update. The token stays the same, so just try again.`;
 function ghUpload(file, folder, name, onProgress) {
   const gh = ghGet();
   return fileBase64(file).then((content) => new Promise((resolve, reject) => {
@@ -180,7 +182,7 @@ function ghUpload(file, folder, name, onProgress) {
     x.onload = () => {
       if (x.status === 200 || x.status === 201) resolve(`https://${gh.owner.toLowerCase()}.github.io/${gh.repo}/${path}`);
       else if (x.status === 401) reject(new Error('GitHub token is wrong or expired — connect GitHub again.'));
-      else if (x.status === 403 || x.status === 404) reject(new Error('The token cannot write to ' + gh.owner + '/' + gh.repo + ' — give it "Contents: Read and write" for this repository.'));
+      else if (x.status === 403 || x.status === 404) reject(new Error(NO_WRITE(gh)));
       else if (x.status === 413 || x.status === 422) reject(new Error('GitHub refused the file (too big or same name).'));
       else reject(new Error('Upload failed (' + x.status + ')'));
     };
@@ -433,8 +435,9 @@ function ghBox() {
   return `<div class="gh" id="ghBox"><b>Connect GitHub once to upload files</b>
     <ol><li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → New fine-grained token</a></li>
       <li>Repository access: <b>Only select repositories → ${esc(gh.repo || 'argon-web')}</b></li>
-      <li>Permissions → Repository → <b>Contents: Read and write</b> → Generate token</li>
+      <li>Repository permissions → <b>Contents</b> → Access: <b>Read and write</b> → Generate token</li>
       <li>Copy the token and paste it below</li></ol>
+    <div class="small muted" style="margin:-4px 0 8px">Made a token already? Open it on GitHub → Edit → Contents: Read and write → Update. The token stays the same.</div>
     <div class="row"><input class="search grow" id="ghToken" type="password" placeholder="github_pat_…" autocomplete="off" style="min-width:0"><button type="button" class="btn primary small" id="ghSave">Connect</button></div>
     <div class="small muted" style="margin-top:6px">Saved only in this browser. Never sent to Firebase or the app.</div></div>`;
 }
@@ -451,6 +454,14 @@ function wireGh() {
       const j = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(r.status === 401 ? 'Token is wrong or expired' : 'This token cannot see ' + gh.owner + '/' + gh.repo);
       if (j.permissions && !j.permissions.push) throw new Error('Give the token "Contents: Read and write"');
+      // A token that may only read passes the check above, so test a real upload once (a 2-byte file)
+      const t = await fetch(`https://api.github.com/repos/${encodeURIComponent(gh.owner)}/${encodeURIComponent(gh.repo)}/contents/songs/.argon`, {
+        method: 'PUT', headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' },
+        body: JSON.stringify({ message: 'Argon: upload check', content: btoa('ok') }),
+      });
+      // 201 = uploaded · 422 = the file is there already (so uploading is allowed)
+      if (t.status === 403 || t.status === 404) throw new Error(NO_WRITE(gh));
+      if (t.status === 401) throw new Error('Token is wrong or expired');
       ghSet({ owner: gh.owner, repo: gh.repo, token });
       toast('GitHub connected');
       $('#ghBox').outerHTML = ghBox(); wireGh();
