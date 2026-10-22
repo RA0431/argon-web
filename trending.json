@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T19:35:21.467Z",
+ "updated": "2026-10-22T20:32:38.776Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -63,16 +63,16 @@
    "saavnTitle": "Jailer 2 Theme"
   },
   {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
-  },
-  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
+  },
+  {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -87,6 +87,12 @@
    "saavnTitle": "Softly"
   },
   {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
+  },
+  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
@@ -99,28 +105,22 @@
    "saavnTitle": "Shaitaan"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
-  },
-  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
+  },
+  {
+   "title": "Hukum Reloaded",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "haBhsw5G",
+   "saavnTitle": "Hukum Reloaded"
   },
   {
    "title": "For A Reason",
@@ -141,16 +141,16 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Kaali Hoodie",
-   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
-   "saavnId": "gNhYtgJc",
-   "saavnTitle": "Kaali Hoodie"
-  },
-  {
    "title": "I Really Do...",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "1vja2Ptl",
    "saavnTitle": "I Really Do..."
+  },
+  {
+   "title": "Kaali Hoodie",
+   "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
+   "saavnId": "gNhYtgJc",
+   "saavnTitle": "Kaali Hoodie"
   }
  ]
 }
