@@ -1,13 +1,10 @@
 {
-  "version": "3.9",
-  "code": 309,
-  "apk": "https://ra0431.github.io/argon-web/app/argon-music-3.9.apk",
-  "size": 6163693,
-  "at": "2026-10-22T19:10:32.696Z",
+  "version": "4.0",
+  "code": 400,
+  "apk": "https://ra0431.github.io/argon-web/app/argon-music-4.0.apk",
+  "size": 6165781,
+  "at": "2026-10-22T19:51:16.287Z",
   "notes": [
-    "Instant Search & Fast Fallback: Streamlined API fetching to deliver search results and songs instantly without lag.",
-    "Song Request & Notification System: Added a simple request form and top-right notifications for tracking added music.",
-    "Smart Trending Rotation: Dynamic content rotation to ensure fresh, non-repeating charts in \"Trending Today\".",
-    "Profile Updates & Deep Bass: Added \"Check for Update\" under the app version in profile settings and enhanced audio options with Deep Bass."
+    "New updates"
   ]
 }
