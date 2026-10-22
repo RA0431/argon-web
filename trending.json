@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T08:39:49.554Z",
+ "updated": "2026-10-22T09:36:38.998Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -34,10 +34,9 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Ala Bolelo (From \"Jailer 2\")",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+   "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
+   "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
+   "saavnId": null
   },
   {
    "title": "Bindaas",
@@ -46,9 +45,10 @@
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
-   "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
-   "saavnId": null
+   "title": "Ala Bolelo (From \"Jailer 2\")",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
    "title": "Jailer 2 Theme",
@@ -63,10 +63,10 @@
    "saavnTitle": "ANTIDOTE"
   },
   {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
+   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
+   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
    "title": "Low Fade",
@@ -75,16 +75,28 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
-   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": "P5pjB99X",
-   "saavnTitle": "Radhimaa (From \"Think Indie\")"
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "Shaitaan",
+   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
+   "saavnId": "9LT1Sk4o",
+   "saavnTitle": "Shaitaan"
+  },
+  {
+   "title": "Hukum Reloaded",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "haBhsw5G",
+   "saavnTitle": "Hukum Reloaded"
   },
   {
    "title": "Softly",
@@ -99,22 +111,10 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
-  },
-  {
-   "title": "Shaitaan",
-   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
-   "saavnId": "9LT1Sk4o",
-   "saavnTitle": "Shaitaan"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -123,16 +123,16 @@
    "saavnTitle": "Rap Killa"
   },
   {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
+  },
+  {
    "title": "For A Reason",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "vLSaC03b",
    "saavnTitle": "For A Reason"
-  },
-  {
-   "title": "Aujla Szn",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "iAKpx8Y8",
-   "saavnTitle": "Aujla Szn"
   },
   {
    "title": "Gehra Hua",
@@ -141,16 +141,16 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
+   "title": "Aujla Szn",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "iAKpx8Y8",
+   "saavnTitle": "Aujla Szn"
+  },
+  {
    "title": "Kaali Hoodie",
    "artist": "Sidhu Moose Wala, Bohemia & The Kidd",
    "saavnId": "gNhYtgJc",
    "saavnTitle": "Kaali Hoodie"
-  },
-  {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
   }
  ]
 }
