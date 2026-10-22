@@ -603,8 +603,9 @@ async function saveSong(ev) {
       await updateDoc(doc(db, 'songs', state.editing.id), { ...data, updatedAt: serverTimestamp() });
       toast(`“${data.title}” saved`);
     } else {
-      await addDoc(collection(db, 'songs'), { ...data, createdAt: serverTimestamp(), addedBy: auth.currentUser?.email || '' });
-      if (state.fromRequest) await updateDoc(doc(db, 'requests', state.fromRequest.id), { status: 'added' }).catch(() => {});
+      const ref = await addDoc(collection(db, 'songs'), { ...data, createdAt: serverTimestamp(), addedBy: auth.currentUser?.email || '' });
+      // the user who asked gets a notification in the app with this song
+      if (state.fromRequest) await updateDoc(doc(db, 'requests', state.fromRequest.id), { status: 'added', songId: ref.id, songTitle: data.title, addedAt: serverTimestamp() }).catch(() => {});
       toast(songFile ? `“${data.title}” added — it plays in the app in about a minute` : `“${data.title}” added — it's in the app now`);
     }
     state.editing = null; state.fromRequest = null;
@@ -643,7 +644,7 @@ function renderRequests(p) {
   const chip = (id, label) => `<button class="chip ${state.reqFilter === id ? 'on' : ''}" data-f="${id}">${label}</button>`;
   p.innerHTML = `<div class="panel-head"><h2>Song requests</h2><div class="chips">${chip('pending', 'Pending')}${chip('added', 'Added')}${chip('all', 'All')}</div></div>
     ${list.length ? list.map((r) => `<div class="song">
-        <div class="grow"><div class="name ellipsis">${esc(r.text)}</div><div class="muted small">by ${esc(r.name || 'User')} • ${fmtAgo(r.createdAt)}</div></div>
+        <div class="grow"><div class="name ellipsis">${esc(r.text)}</div><div class="muted small">by ${esc(r.name || 'User')} • ${fmtAgo(r.createdAt)}${/^https:\/\/(www\.|m\.|music\.)?(youtube\.com|youtu\.be)\//i.test(r.link || '') ? ` • <a href="${esc(r.link)}" target="_blank" rel="noopener noreferrer">YouTube link</a>` : ''}</div></div>
         <span class="badge ${r.status === 'added' ? 'added' : 'pending'}">${r.status === 'added' ? 'ADDED' : 'PENDING'}</span>
         <div class="row"><button class="btn small" data-find="${esc(r.id)}">Search JioSaavn</button>${r.status === 'added' ? '' : `<button class="btn small primary" data-add="${esc(r.id)}">Add song</button><button class="btn small" data-done="${esc(r.id)}">Mark added</button>`}<button class="btn small danger" data-del="${esc(r.id)}">Delete</button></div>
       </div>`).join('') : `<div class="empty">${state.requests.length ? 'Nothing here.' : 'No requests yet. When users ask for a song in the app, it shows up here.'}</div>`}`;
@@ -651,7 +652,7 @@ function renderRequests(p) {
   p.querySelectorAll('[data-f]').forEach((b) => { b.onclick = () => { state.reqFilter = b.dataset.f; renderPanel(); }; });
   p.querySelectorAll('[data-find]').forEach((b) => { b.onclick = () => { state.view = 'songs'; state.songTab = 'catalog'; state.songQuery = find(b.dataset.find).text; render(); searchCatalog(); }; });
   p.querySelectorAll('[data-add]').forEach((b) => { b.onclick = () => { state.view = 'songs'; state.songTab = 'mine'; state.songQuery = ''; state.editing = null; state.fromRequest = find(b.dataset.add); render(); }; });
-  p.querySelectorAll('[data-done]').forEach((b) => { b.onclick = () => updateDoc(doc(db, 'requests', b.dataset.done), { status: 'added' }).then(() => toast('Marked as added')).catch((er) => toast('Not allowed: ' + (er.code || er.message))); });
+  p.querySelectorAll('[data-done]').forEach((b) => { b.onclick = () => updateDoc(doc(db, 'requests', b.dataset.done), { status: 'added', songTitle: find(b.dataset.done)?.text || '', addedAt: serverTimestamp() }).then(() => toast('Marked as added')).catch((er) => toast('Not allowed: ' + (er.code || er.message))); });
   p.querySelectorAll('[data-del]').forEach((b) => { b.onclick = () => deleteDoc(doc(db, 'requests', b.dataset.del)).then(() => toast('Request deleted')).catch((er) => toast('Not allowed: ' + (er.code || er.message))); });
 }
 
