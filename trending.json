@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T06:36:08.709Z",
+ "updated": "2026-10-24T07:35:56.910Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -70,22 +70,27 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
-  },
-  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
+  },
+  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
   },
   {
    "title": "Barsaat",
@@ -100,11 +105,6 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
-  },
-  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
@@ -117,16 +117,16 @@
    "saavnTitle": "Shaitaan"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
    "title": "Hukum Reloaded",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "haBhsw5G",
    "saavnTitle": "Hukum Reloaded"
+  },
+  {
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
   },
   {
    "title": "For A Reason",
@@ -135,22 +135,22 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Aujla Szn",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "iAKpx8Y8",
-   "saavnTitle": "Aujla Szn"
-  },
-  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
+   "title": "Aujla Szn",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "iAKpx8Y8",
+   "saavnTitle": "Aujla Szn"
+  },
+  {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
   }
  ]
 }
