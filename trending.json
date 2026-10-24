@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T11:30:32.056Z",
+ "updated": "2026-10-24T12:35:57.353Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -76,6 +76,11 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
@@ -86,11 +91,6 @@
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
   },
   {
    "title": "Barsaat",
@@ -141,16 +141,16 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Aujla Szn",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "iAKpx8Y8",
-   "saavnTitle": "Aujla Szn"
-  },
-  {
    "title": "Shree Hanuman Chalisa",
    "artist": "Hariharan",
    "saavnId": "7CwLvXc6",
    "saavnTitle": "Shree Hanuman Chalisa"
+  },
+  {
+   "title": "Aujla Szn",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "iAKpx8Y8",
+   "saavnTitle": "Aujla Szn"
   }
  ]
 }
