@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T17:28:48.275Z",
+ "updated": "2026-10-25T18:31:33.787Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -34,6 +34,11 @@
    "saavnTitle": "Straight Up"
   },
   {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Ala Bolelo (From \"Jailer 2\")",
    "artist": "Anirudh Ravichander & Arunraja Kamaraj",
    "saavnId": "3h6F8ui8",
@@ -52,11 +57,6 @@
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
-  },
-  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
@@ -67,12 +67,6 @@
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
-  },
-  {
-   "title": "Jailer 2 Theme",
-   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
-   "saavnId": "iRFJJeqr",
-   "saavnTitle": "Jailer 2 Theme"
   },
   {
    "title": "Low Fade",
@@ -87,16 +81,16 @@
    "saavnTitle": "Real Bad Man"
   },
   {
+   "title": "Jailer 2 Theme",
+   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
+   "saavnId": "iRFJJeqr",
+   "saavnTitle": "Jailer 2 Theme"
+  },
+  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
   },
   {
    "title": "Softly",
@@ -111,22 +105,16 @@
    "saavnTitle": "IYKYK"
   },
   {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
+  },
+  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
-  },
-  {
-   "title": "Shaitaan",
-   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
-   "saavnId": "9LT1Sk4o",
-   "saavnTitle": "Shaitaan"
   },
   {
    "title": "For A Reason",
@@ -141,16 +129,28 @@
    "saavnTitle": "Rap Killa"
   },
   {
+   "title": "Hukum Reloaded",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "haBhsw5G",
+   "saavnTitle": "Hukum Reloaded"
+  },
+  {
+   "title": "Shaitaan",
+   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
+   "saavnId": "9LT1Sk4o",
+   "saavnTitle": "Shaitaan"
+  },
+  {
    "title": "Aujla Szn",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "iAKpx8Y8",
    "saavnTitle": "Aujla Szn"
   },
   {
-   "title": "Raga of Revenge (From \"DC\")",
-   "artist": "Anirudh Ravichander",
-   "saavnId": "Ck1V-H4b",
-   "saavnTitle": "Raga of Revenge (From \"DC\")"
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
   }
  ]
 }
