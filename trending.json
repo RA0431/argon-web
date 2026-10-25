@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T04:31:58.018Z",
+ "updated": "2026-10-25T05:31:17.084Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -75,10 +75,10 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
    "title": "Jailer 2 Theme",
@@ -87,16 +87,10 @@
    "saavnTitle": "Jailer 2 Theme"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
   },
   {
    "title": "Barsaat",
@@ -105,22 +99,16 @@
    "saavnTitle": "Barsaat"
   },
   {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
+  },
+  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
-  },
-  {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
-   "title": "Shaitaan",
-   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
-   "saavnId": "9LT1Sk4o",
-   "saavnTitle": "Shaitaan"
   },
   {
    "title": "For A Reason",
@@ -129,16 +117,28 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
   },
   {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+  },
+  {
+   "title": "Shaitaan",
+   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
+   "saavnId": "9LT1Sk4o",
+   "saavnTitle": "Shaitaan"
+  },
+  {
+   "title": "Hukum Reloaded",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "haBhsw5G",
+   "saavnTitle": "Hukum Reloaded"
   },
   {
    "title": "Aujla Szn",
