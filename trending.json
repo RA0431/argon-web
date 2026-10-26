@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T23:25:41.736Z",
+ "updated": "2026-10-26T00:52:39.729Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -75,6 +75,12 @@
    "saavnTitle": "Low Fade"
   },
   {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
@@ -87,28 +93,22 @@
    "saavnTitle": "Jailer 2 Theme"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
+  },
+  {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "Gehra Hua",
