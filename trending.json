@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:34:47.890Z",
+ "updated": "2026-10-26T22:35:07.547Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -34,28 +34,28 @@
    "saavnTitle": "Straight Up"
   },
   {
-   "title": "Putaapu Gang",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "_C23SgA9",
-   "saavnTitle": "Putaapu Gang"
-  },
-  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
    "saavnTitle": "ANTIDOTE"
   },
   {
-   "title": "Ala Bolelo (From \"Jailer 2\")",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+   "title": "Putaapu Gang",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "_C23SgA9",
+   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
+  },
+  {
+   "title": "Ala Bolelo (From \"Jailer 2\")",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -82,6 +82,12 @@
    "saavnTitle": "Real Bad Man"
   },
   {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
+  },
+  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
@@ -94,22 +100,10 @@
    "saavnTitle": "Jailer 2 Theme"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
-  },
-  {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "For A Reason",
@@ -118,9 +112,10 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -151,6 +146,11 @@
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "iAKpx8Y8",
    "saavnTitle": "Aujla Szn"
+  },
+  {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
   }
  ]
 }
