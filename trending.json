@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T11:37:09.328Z",
+ "updated": "2026-10-27T12:44:00.515Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -34,16 +34,16 @@
    "saavnTitle": "Straight Up"
   },
   {
-   "title": "Putaapu Gang",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "_C23SgA9",
-   "saavnTitle": "Putaapu Gang"
-  },
-  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
    "saavnTitle": "ANTIDOTE"
+  },
+  {
+   "title": "Putaapu Gang",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "_C23SgA9",
+   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Bindaas",
@@ -70,16 +70,16 @@
    "saavnTitle": "Shree Hanuman Chalisa"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
+  },
+  {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
    "title": "Low Fade",
@@ -88,16 +88,16 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Jailer 2 Theme",
-   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
-   "saavnId": "iRFJJeqr",
-   "saavnTitle": "Jailer 2 Theme"
-  },
-  {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
    "saavnTitle": "Real Bad Man"
+  },
+  {
+   "title": "Jailer 2 Theme",
+   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
+   "saavnId": "iRFJJeqr",
+   "saavnTitle": "Jailer 2 Theme"
   },
   {
    "title": "Barsaat",
@@ -112,6 +112,12 @@
    "saavnTitle": "IYKYK"
   },
   {
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
+  },
+  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
@@ -124,22 +130,16 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
+   "title": "Hukum Reloaded",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "haBhsw5G",
+   "saavnTitle": "Hukum Reloaded"
   },
   {
    "title": "Shaitaan",
    "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
    "saavnId": "9LT1Sk4o",
    "saavnTitle": "Shaitaan"
-  },
-  {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
   },
   {
    "title": "I Really Do...",
