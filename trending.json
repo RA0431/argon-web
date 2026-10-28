@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T20:41:58.864Z",
+ "updated": "2026-10-28T21:40:24.257Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -40,16 +40,16 @@
    "saavnTitle": "ANTIDOTE"
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
-  },
-  {
    "title": "Putaapu Gang",
    "artist": "Anirudh Ravichander & Thamizh Aadhavan",
    "saavnId": "_C23SgA9",
    "saavnTitle": "Putaapu Gang"
+  },
+  {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
   },
   {
    "title": "Ala Bolelo (From \"Jailer 2\")",
@@ -76,16 +76,21 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "Real Bad Man",
+   "title": "On Top",
    "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
+   "saavnId": null
   },
   {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
+  },
+  {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
   },
   {
    "title": "Softly",
@@ -98,11 +103,6 @@
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
