@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T06:51:06.888Z",
+ "updated": "2026-10-28T07:58:04.097Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -58,10 +58,16 @@
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
+   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
+   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
+  },
+  {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
@@ -70,10 +76,10 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
-   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": "P5pjB99X",
-   "saavnTitle": "Radhimaa (From \"Think Indie\")"
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "Low Fade",
@@ -100,16 +106,16 @@
    "saavnTitle": "Real Bad Man"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
    "title": "Jailer 2 Theme",
    "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
    "saavnId": "iRFJJeqr",
    "saavnTitle": "Jailer 2 Theme"
+  },
+  {
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
   },
   {
    "title": "Gehra Hua",
@@ -124,12 +130,6 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
-  },
-  {
    "title": "Shaitaan",
    "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
    "saavnId": "9LT1Sk4o",
@@ -142,16 +142,16 @@
    "saavnTitle": "Hukum Reloaded"
   },
   {
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
+  },
+  {
    "title": "Aujla Szn",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "iAKpx8Y8",
    "saavnTitle": "Aujla Szn"
-  },
-  {
-   "title": "Winning Speech",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "DF6eazs2",
-   "saavnTitle": "Winning Speech"
   }
  ]
 }
