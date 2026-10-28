@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T17:45:26.048Z",
+ "updated": "2026-10-28T18:47:28.221Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -64,22 +64,16 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
    "title": "Real Bad Man",
@@ -88,16 +82,27 @@
    "saavnTitle": "Real Bad Man"
   },
   {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
+  },
+  {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
+  },
+  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -112,27 +117,16 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Jailer 2 Theme",
-   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
-   "saavnId": "iRFJJeqr",
-   "saavnTitle": "Jailer 2 Theme"
-  },
-  {
    "title": "For A Reason",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "vLSaC03b",
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Shree Hanuman Chalisa",
-   "artist": "Hariharan",
-   "saavnId": "7CwLvXc6",
-   "saavnTitle": "Shree Hanuman Chalisa"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
+   "title": "Jailer 2 Theme",
+   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
+   "saavnId": "iRFJJeqr",
+   "saavnTitle": "Jailer 2 Theme"
   },
   {
    "title": "I Really Do...",
@@ -141,16 +135,22 @@
    "saavnTitle": "I Really Do..."
   },
   {
+   "title": "Aujla Szn",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "iAKpx8Y8",
+   "saavnTitle": "Aujla Szn"
+  },
+  {
    "title": "Said & Done",
    "artist": "Arjan Dhillon & Qarn Mallhi",
    "saavnId": "_A1mPVbo",
    "saavnTitle": "Said & Done"
   },
   {
-   "title": "Aujla Szn",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "iAKpx8Y8",
-   "saavnTitle": "Aujla Szn"
+   "title": "Shaitaan",
+   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
+   "saavnId": "9LT1Sk4o",
+   "saavnTitle": "Shaitaan"
   }
  ]
 }
