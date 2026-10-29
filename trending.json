@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T11:42:38.269Z",
+ "updated": "2026-10-29T12:53:04.822Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -40,16 +40,16 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
-  },
-  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
    "saavnTitle": "ANTIDOTE"
+  },
+  {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
   },
   {
    "title": "Ala Bolelo (From \"Jailer 2\")",
@@ -88,22 +88,16 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Shree Hanuman Chalisa",
    "artist": "Hariharan",
    "saavnId": "7CwLvXc6",
    "saavnTitle": "Shree Hanuman Chalisa"
   },
   {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "Gehra Hua",
@@ -112,9 +106,10 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "On Top",
+   "title": "Real Bad Man",
    "artist": "Karan Aujla",
-   "saavnId": null
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -135,6 +130,11 @@
    "saavnTitle": "For A Reason"
   },
   {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Raga of Revenge (From \"DC\")",
    "artist": "Anirudh Ravichander",
    "saavnId": "Ck1V-H4b",
@@ -147,10 +147,10 @@
    "saavnTitle": "I Really Do..."
   },
   {
-   "title": "Hukum Reloaded",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "haBhsw5G",
-   "saavnTitle": "Hukum Reloaded"
+   "title": "Shaitaan",
+   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
+   "saavnId": "9LT1Sk4o",
+   "saavnTitle": "Shaitaan"
   }
  ]
 }
