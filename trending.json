@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:42:02.400Z",
+ "updated": "2026-10-29T23:37:58.287Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -64,16 +64,22 @@
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "IYKYK",
@@ -86,12 +92,6 @@
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
-  },
-  {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
   },
   {
    "title": "Real Bad Man",
@@ -130,28 +130,28 @@
    "saavnTitle": "I Really Do..."
   },
   {
-   "title": "Said & Done",
-   "artist": "Arjan Dhillon & Qarn Mallhi",
-   "saavnId": "_A1mPVbo",
-   "saavnTitle": "Said & Done"
-  },
-  {
    "title": "Raga of Revenge (From \"DC\")",
    "artist": "Anirudh Ravichander",
    "saavnId": "Ck1V-H4b",
    "saavnTitle": "Raga of Revenge (From \"DC\")"
   },
   {
+   "title": "Alfaaz - Vocals",
+   "artist": "Hamza Malik & Zain Zohaib",
+   "saavnId": "aTwAMFOa",
+   "saavnTitle": "Alfaaz - Vocals"
+  },
+  {
+   "title": "Said & Done",
+   "artist": "Arjan Dhillon & Qarn Mallhi",
+   "saavnId": "_A1mPVbo",
+   "saavnTitle": "Said & Done"
+  },
+  {
    "title": "Aujla Szn",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "iAKpx8Y8",
    "saavnTitle": "Aujla Szn"
-  },
-  {
-   "title": "Winning Speech",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "DF6eazs2",
-   "saavnTitle": "Winning Speech"
   }
  ]
 }
