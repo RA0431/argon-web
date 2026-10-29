@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T00:52:19.588Z",
+ "updated": "2026-10-29T01:55:36.697Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -64,12 +64,6 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
@@ -79,6 +73,18 @@
    "title": "On Top",
    "artist": "Karan Aujla",
    "saavnId": null
+  },
+  {
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
+  },
+  {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "IYKYK",
@@ -97,12 +103,6 @@
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
-  },
-  {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -141,16 +141,16 @@
    "saavnTitle": "Aujla Szn"
   },
   {
+   "title": "Khat",
+   "artist": "Navjot Ahuja",
+   "saavnId": "IKc2REl8",
+   "saavnTitle": "Khat"
+  },
+  {
    "title": "Said & Done",
    "artist": "Arjan Dhillon & Qarn Mallhi",
    "saavnId": "_A1mPVbo",
    "saavnTitle": "Said & Done"
-  },
-  {
-   "title": "Shaitaan",
-   "artist": "Anirudh Ravichander, Romy, Vivek & Super Subu",
-   "saavnId": "9LT1Sk4o",
-   "saavnTitle": "Shaitaan"
   }
  ]
 }
