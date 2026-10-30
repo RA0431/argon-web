@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T07:59:50.371Z",
+ "updated": "2026-10-30T08:55:48.432Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -16,16 +16,16 @@
    "saavnTitle": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]"
   },
   {
-   "title": "One Sun One Moon",
-   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": "GGqUD2RU",
-   "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
-  },
-  {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "3-acMgK2",
    "saavnTitle": "One Name"
+  },
+  {
+   "title": "One Sun One Moon",
+   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
+   "saavnId": "GGqUD2RU",
+   "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
   },
   {
    "title": "Straight Up",
@@ -34,10 +34,10 @@
    "saavnTitle": "Straight Up"
   },
   {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": "OTmiAydz",
-   "saavnTitle": "ANTIDOTE"
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
   },
   {
    "title": "Putaapu Gang",
@@ -46,10 +46,10 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -82,6 +82,18 @@
    "saavnTitle": "Low Fade"
   },
   {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+  },
+  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
@@ -92,12 +104,6 @@
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
-  },
-  {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Real Bad Man",
@@ -124,34 +130,28 @@
    "saavnTitle": "Jailer 2 Theme"
   },
   {
-   "title": "Raga of Revenge (From \"DC\")",
-   "artist": "Anirudh Ravichander",
-   "saavnId": "Ck1V-H4b",
-   "saavnTitle": "Raga of Revenge (From \"DC\")"
-  },
-  {
    "title": "Alfaaz - Vocals",
    "artist": "Hamza Malik & Zain Zohaib",
    "saavnId": "aTwAMFOa",
    "saavnTitle": "Alfaaz - Vocals"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
-  },
-  {
-   "title": "Khat",
-   "artist": "Navjot Ahuja",
-   "saavnId": "IKc2REl8",
-   "saavnTitle": "Khat"
+   "title": "Raga of Revenge (From \"DC\")",
+   "artist": "Anirudh Ravichander",
+   "saavnId": "Ck1V-H4b",
+   "saavnTitle": "Raga of Revenge (From \"DC\")"
   },
   {
    "title": "Magale (From \"Baththa\")",
    "artist": "Sai Abhyankkar, Harini & Karthik Netha",
    "saavnId": "kmYeF4aI",
    "saavnTitle": "Magale (From \"Baththa\")"
+  },
+  {
+   "title": "Khat",
+   "artist": "Navjot Ahuja",
+   "saavnId": "IKc2REl8",
+   "saavnTitle": "Khat"
   }
  ]
 }
