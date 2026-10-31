@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T23:37:11.199Z",
+ "updated": "2026-10-31T00:56:07.249Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -18,8 +18,8 @@
   {
    "title": "One Sun One Moon",
    "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": "GGqUD2RU",
-   "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
+   "saavnId": "bWAryKJA",
+   "saavnTitle": "One Sun One Moon"
   },
   {
    "title": "One Name",
@@ -52,27 +52,21 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
-  },
-  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
-  },
-  {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
@@ -87,22 +81,28 @@
    "saavnTitle": "Barsaat"
   },
   {
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
-  },
-  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+  },
+  {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "Real Bad Man",
@@ -123,21 +123,15 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
-  },
-  {
    "title": "Alfaaz - Vocals",
    "artist": "Hamza Malik & Zain Zohaib",
    "saavnId": null
   },
   {
-   "title": "Said & Done",
-   "artist": "Arjan Dhillon & Qarn Mallhi",
-   "saavnId": "_A1mPVbo",
-   "saavnTitle": "Said & Done"
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
   },
   {
    "title": "Jailer 2 Theme",
@@ -146,10 +140,16 @@
    "saavnTitle": "Jailer 2 Theme"
   },
   {
-   "title": "Aujla Szn",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "iAKpx8Y8",
-   "saavnTitle": "Aujla Szn"
+   "title": "Said & Done",
+   "artist": "Arjan Dhillon & Qarn Mallhi",
+   "saavnId": "_A1mPVbo",
+   "saavnTitle": "Said & Done"
+  },
+  {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
   }
  ]
 }
