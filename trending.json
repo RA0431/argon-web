@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T06:50:01.632Z",
+ "updated": "2026-10-31T07:52:08.365Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -34,27 +34,22 @@
    "saavnTitle": "Straight Up"
   },
   {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": "OTmiAydz",
-   "saavnTitle": "ANTIDOTE"
-  },
-  {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
   },
   {
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
+  },
+  {
    "title": "Putaapu Gang",
    "artist": "Anirudh Ravichander & Thamizh Aadhavan",
    "saavnId": "_C23SgA9",
    "saavnTitle": "Putaapu Gang"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -69,22 +64,27 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
   },
   {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
-  },
-  {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
    "title": "Gehra Hua",
@@ -123,34 +123,34 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Alfaaz - Vocals",
-   "artist": "Hamza Malik & Zain Zohaib",
-   "saavnId": "aTwAMFOa",
-   "saavnTitle": "Alfaaz - Vocals"
-  },
-  {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
-  },
-  {
-   "title": "Khat",
-   "artist": "Navjot Ahuja",
-   "saavnId": "IKc2REl8",
-   "saavnTitle": "Khat"
-  },
-  {
    "title": "Magale (From \"Baththa\")",
    "artist": "Sai Abhyankkar, Harini & Karthik Netha",
    "saavnId": "kmYeF4aI",
    "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
+  },
+  {
+   "title": "Alfaaz - Vocals",
+   "artist": "Hamza Malik & Zain Zohaib",
+   "saavnId": "aTwAMFOa",
+   "saavnTitle": "Alfaaz - Vocals"
+  },
+  {
    "title": "Jailer 2 Theme",
    "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
    "saavnId": "iRFJJeqr",
    "saavnTitle": "Jailer 2 Theme"
+  },
+  {
+   "title": "Khat",
+   "artist": "Navjot Ahuja",
+   "saavnId": "IKc2REl8",
+   "saavnTitle": "Khat"
   }
  ]
 }
