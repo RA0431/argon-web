@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T01:55:48.375Z",
+ "updated": "2026-10-31T02:47:27.026Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -24,8 +24,8 @@
   {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "3-acMgK2",
-   "saavnTitle": "One Name"
+   "saavnId": "MR9vBb1t",
+   "saavnTitle": "One Name (From \"Jailer 2\")"
   },
   {
    "title": "Straight Up",
@@ -63,12 +63,6 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
@@ -81,22 +75,28 @@
    "saavnTitle": "Barsaat"
   },
   {
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
+  },
+  {
    "title": "Ala Bolelo",
    "artist": "Anirudh Ravichander & Arunraja Kamaraj",
    "saavnId": "3h6F8ui8",
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+  },
+  {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "IYKYK",
@@ -125,7 +125,8 @@
   {
    "title": "Alfaaz - Vocals",
    "artist": "Hamza Malik & Zain Zohaib",
-   "saavnId": null
+   "saavnId": "aTwAMFOa",
+   "saavnTitle": "Alfaaz - Vocals"
   },
   {
    "title": "I Really Do...",
@@ -134,22 +135,22 @@
    "saavnTitle": "I Really Do..."
   },
   {
-   "title": "Jailer 2 Theme",
-   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
-   "saavnId": "iRFJJeqr",
-   "saavnTitle": "Jailer 2 Theme"
-  },
-  {
-   "title": "Said & Done",
-   "artist": "Arjan Dhillon & Qarn Mallhi",
-   "saavnId": "_A1mPVbo",
-   "saavnTitle": "Said & Done"
+   "title": "Khat",
+   "artist": "Navjot Ahuja",
+   "saavnId": "IKc2REl8",
+   "saavnTitle": "Khat"
   },
   {
    "title": "Magale (From \"Baththa\")",
    "artist": "Sai Abhyankkar, Harini & Karthik Netha",
    "saavnId": "kmYeF4aI",
    "saavnTitle": "Magale (From \"Baththa\")"
+  },
+  {
+   "title": "Jailer 2 Theme",
+   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
+   "saavnId": "iRFJJeqr",
+   "saavnTitle": "Jailer 2 Theme"
   }
  ]
 }
