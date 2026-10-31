@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T22:35:41.231Z",
+ "updated": "2026-10-31T23:35:22.392Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -52,16 +52,16 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
-   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": "P5pjB99X",
-   "saavnTitle": "Radhimaa (From \"Think Indie\")"
-  },
-  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
+  },
+  {
+   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
+   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
    "title": "Gehra Hua",
@@ -82,28 +82,22 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
   },
   {
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
+  },
+  {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
-  },
-  {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -118,6 +112,12 @@
    "saavnTitle": "For A Reason"
   },
   {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
+  },
+  {
    "title": "I Really Do...",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "1vja2Ptl",
@@ -130,10 +130,10 @@
    "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
-   "title": "Jailer 2 Theme",
-   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
-   "saavnId": "iRFJJeqr",
-   "saavnTitle": "Jailer 2 Theme"
+   "title": "Alfaaz - Vocals",
+   "artist": "Hamza Malik & Zain Zohaib",
+   "saavnId": "P_A9UxD8",
+   "saavnTitle": "alfaaz"
   },
   {
    "title": "Winning Speech",
@@ -142,16 +142,16 @@
    "saavnTitle": "Winning Speech"
   },
   {
-   "title": "Alfaaz - Vocals",
-   "artist": "Hamza Malik & Zain Zohaib",
-   "saavnId": "P_A9UxD8",
-   "saavnTitle": "alfaaz"
+   "title": "Jailer 2 Theme",
+   "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
+   "saavnId": "iRFJJeqr",
+   "saavnTitle": "Jailer 2 Theme"
   },
   {
-   "title": "At Peace",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "dpbO4QWZ",
-   "saavnTitle": "At Peace"
+   "title": "Naal Nachna",
+   "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
+   "saavnId": "HPfQu3xR",
+   "saavnTitle": "Naal Nachna"
   }
  ]
 }
