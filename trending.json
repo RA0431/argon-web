@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:46:37.691Z",
+ "updated": "2026-10-31T13:44:55.082Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -16,16 +16,16 @@
    "saavnTitle": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]"
   },
   {
-   "title": "One Sun One Moon",
-   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": "bWAryKJA",
-   "saavnTitle": "One Sun One Moon"
-  },
-  {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "MR9vBb1t",
    "saavnTitle": "One Name (From \"Jailer 2\")"
+  },
+  {
+   "title": "One Sun One Moon",
+   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
+   "saavnId": "bWAryKJA",
+   "saavnTitle": "One Sun One Moon"
   },
   {
    "title": "Straight Up",
@@ -34,16 +34,16 @@
    "saavnTitle": "Straight Up"
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
-  },
-  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
    "saavnTitle": "ANTIDOTE"
+  },
+  {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
   },
   {
    "title": "Putaapu Gang",
@@ -64,28 +64,28 @@
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
    "saavnTitle": "Softly"
+  },
+  {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "Low Fade",
@@ -100,27 +100,16 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Shree Hanuman Chalisa",
-   "artist": "Hariharan",
-   "saavnId": "7CwLvXc6",
-   "saavnTitle": "Shree Hanuman Chalisa"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
   },
   {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
    "saavnTitle": "Real Bad Man"
-  },
-  {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
   },
   {
    "title": "For A Reason",
@@ -135,22 +124,33 @@
    "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
+  },
+  {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Jailer 2 Theme",
    "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
    "saavnId": "iRFJJeqr",
    "saavnTitle": "Jailer 2 Theme"
   },
   {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
+  },
+  {
    "title": "Alfaaz - Vocals",
    "artist": "Hamza Malik & Zain Zohaib",
    "saavnId": "P_A9UxD8",
    "saavnTitle": "alfaaz"
-  },
-  {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
   }
  ]
 }
