@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T09:43:30.504Z",
+ "updated": "2026-11-01T10:39:31.719Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -18,8 +18,8 @@
   {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "MR9vBb1t",
-   "saavnTitle": "One Name (From \"Jailer 2\")"
+   "saavnId": "3-acMgK2",
+   "saavnTitle": "One Name"
   },
   {
    "title": "One Sun One Moon",
@@ -58,28 +58,28 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Ala Bolelo",
    "artist": "Anirudh Ravichander & Arunraja Kamaraj",
    "saavnId": "3h6F8ui8",
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "Barsaat",
@@ -106,6 +106,12 @@
    "saavnTitle": "For A Reason"
   },
   {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
+  },
+  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
@@ -118,10 +124,10 @@
    "saavnTitle": "Real Bad Man"
   },
   {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
+   "title": "Raga of Revenge (From \"DC\")",
+   "artist": "Anirudh Ravichander",
+   "saavnId": "Ck1V-H4b",
+   "saavnTitle": "Raga of Revenge (From \"DC\")"
   },
   {
    "title": "I Really Do...",
@@ -130,28 +136,21 @@
    "saavnTitle": "I Really Do..."
   },
   {
-   "title": "Raga of Revenge (From \"DC\")",
-   "artist": "Anirudh Ravichander",
-   "saavnId": "Ck1V-H4b",
-   "saavnTitle": "Raga of Revenge (From \"DC\")"
-  },
-  {
-   "title": "Alfaaz - Vocals",
-   "artist": "Hamza Malik & Zain Zohaib",
-   "saavnId": "P_A9UxD8",
-   "saavnTitle": "alfaaz"
-  },
-  {
-   "title": "Khat",
-   "artist": "Navjot Ahuja",
-   "saavnId": "IKc2REl8",
-   "saavnTitle": "Khat"
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
   },
   {
    "title": "Jailer 2 Theme",
    "artist": "Anirudh Ravichander, M.S Krsna & Super Subu",
    "saavnId": "iRFJJeqr",
    "saavnTitle": "Jailer 2 Theme"
+  },
+  {
+   "title": "Alfaaz - Vocals",
+   "artist": "Hamza Malik & Zain Zohaib",
+   "saavnId": "P_A9UxD8",
+   "saavnTitle": "alfaaz"
   }
  ]
 }
