@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T22:36:52.676Z",
+ "updated": "2026-11-01T23:35:33.630Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -58,16 +58,21 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
   },
   {
    "title": "Softly",
@@ -82,21 +87,10 @@
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
-  },
-  {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
   },
   {
    "title": "For A Reason",
@@ -105,10 +99,22 @@
    "saavnTitle": "For A Reason"
   },
   {
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
+  },
+  {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
+  },
+  {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -123,22 +129,10 @@
    "saavnTitle": "Real Bad Man"
   },
   {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
-  },
-  {
    "title": "I Really Do...",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "1vja2Ptl",
    "saavnTitle": "I Really Do..."
-  },
-  {
-   "title": "Naal Nachna",
-   "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
-   "saavnId": "HPfQu3xR",
-   "saavnTitle": "Naal Nachna"
   },
   {
    "title": "Alfaaz - Vocals",
@@ -149,8 +143,14 @@
   {
    "title": "Tujhe Kitna Chahne Lage",
    "artist": "Arijit Singh",
-   "saavnId": "3NsydDin",
+   "saavnId": "qGdkL03h",
    "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
+  },
+  {
+   "title": "Naal Nachna",
+   "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
+   "saavnId": "HPfQu3xR",
+   "saavnTitle": "Naal Nachna"
   }
  ]
 }
