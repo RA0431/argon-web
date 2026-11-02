@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T06:00:21.877Z",
+ "updated": "2026-11-02T07:22:30.659Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -46,12 +46,6 @@
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
    "title": "Putaapu Gang",
    "artist": "Anirudh Ravichander & Thamizh Aadhavan",
    "saavnId": "_C23SgA9",
@@ -62,6 +56,12 @@
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -135,16 +135,16 @@
    "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
   },
   {
-   "title": "Alfaaz - Vocals",
-   "artist": "Hamza Malik & Zain Zohaib",
-   "saavnId": "P_A9UxD8",
-   "saavnTitle": "alfaaz"
-  },
-  {
    "title": "I Really Do...",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "1vja2Ptl",
    "saavnTitle": "I Really Do..."
+  },
+  {
+   "title": "Alfaaz - Vocals",
+   "artist": "Hamza Malik & Zain Zohaib",
+   "saavnId": "P_A9UxD8",
+   "saavnTitle": "alfaaz"
   },
   {
    "title": "Khat",
