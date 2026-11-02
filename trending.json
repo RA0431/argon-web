@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T13:02:40.929Z",
+ "updated": "2026-11-02T14:17:12.496Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -22,16 +22,16 @@
    "saavnTitle": "One Name (From \"Jailer 2\")"
   },
   {
-   "title": "One Sun One Moon",
-   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": "GGqUD2RU",
-   "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
-  },
-  {
    "title": "Straight Up",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "VD-330VU",
    "saavnTitle": "Straight Up"
+  },
+  {
+   "title": "One Sun One Moon",
+   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
+   "saavnId": "GGqUD2RU",
+   "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
   },
   {
    "title": "Antidote",
@@ -40,15 +40,15 @@
    "saavnTitle": "ANTIDOTE"
   },
   {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
   },
   {
    "title": "Putaapu Gang",
@@ -63,22 +63,16 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Softly",
@@ -87,16 +81,16 @@
    "saavnTitle": "Softly"
   },
   {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
+  },
+  {
    "title": "Ala Bolelo",
    "artist": "Anirudh Ravichander & Arunraja Kamaraj",
    "saavnId": "3h6F8ui8",
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
-  },
-  {
-   "title": "Shree Hanuman Chalisa",
-   "artist": "Hariharan",
-   "saavnId": "7CwLvXc6",
-   "saavnTitle": "Shree Hanuman Chalisa"
   },
   {
    "title": "IYKYK",
@@ -105,10 +99,10 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
   },
   {
    "title": "For A Reason",
@@ -117,10 +111,10 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -135,22 +129,28 @@
    "saavnTitle": "Real Bad Man"
   },
   {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
+  },
+  {
    "title": "Alfaaz - Vocals",
    "artist": "Hamza Malik & Zain Zohaib",
    "saavnId": "P_A9UxD8",
    "saavnTitle": "alfaaz"
   },
   {
-   "title": "Tujhe Kitna Chahne Lage",
-   "artist": "Arijit Singh",
-   "saavnId": "3NsydDin",
-   "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
-  },
-  {
    "title": "I Really Do...",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "1vja2Ptl",
    "saavnTitle": "I Really Do..."
+  },
+  {
+   "title": "Tujhe Kitna Chahne Lage",
+   "artist": "Arijit Singh",
+   "saavnId": "3NsydDin",
+   "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
   }
  ]
 }
