@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T21:41:20.563Z",
+ "updated": "2026-11-02T22:41:20.736Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -51,28 +51,28 @@
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
-   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": "P5pjB99X",
-   "saavnTitle": "Radhimaa (From \"Think Indie\")"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "Putaapu Gang",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "_C23SgA9",
-   "saavnTitle": "Putaapu Gang"
+   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
+   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+  },
+  {
+   "title": "Putaapu Gang",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "_C23SgA9",
+   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Softly",
@@ -117,16 +117,16 @@
    "saavnTitle": "Rap Killa"
   },
   {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
-  },
-  {
    "title": "Magale (From \"Baththa\")",
    "artist": "Sai Abhyankkar, Harini & Karthik Netha",
    "saavnId": "kmYeF4aI",
    "saavnTitle": "Magale (From \"Baththa\")"
+  },
+  {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
   },
   {
    "title": "I Really Do...",
@@ -141,15 +141,15 @@
    "saavnTitle": "alfaaz"
   },
   {
-   "title": "Winning Speech",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "DF6eazs2",
-   "saavnTitle": "Winning Speech"
+   "title": "Khat",
+   "artist": "Navjot Ahuja",
+   "saavnId": "IKc2REl8",
+   "saavnTitle": "Khat"
   },
   {
    "title": "Tujhe Kitna Chahne Lage",
    "artist": "Arijit Singh",
-   "saavnId": "qGdkL03h",
+   "saavnId": "RMYQjcAP",
    "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
   }
  ]
