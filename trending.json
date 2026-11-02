@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T15:58:58.499Z",
+ "updated": "2026-11-02T17:01:50.079Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -16,16 +16,16 @@
    "saavnTitle": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]"
   },
   {
-   "title": "One Name",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "MR9vBb1t",
-   "saavnTitle": "One Name (From \"Jailer 2\")"
-  },
-  {
    "title": "Straight Up",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "VD-330VU",
    "saavnTitle": "Straight Up"
+  },
+  {
+   "title": "One Name",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "MR9vBb1t",
+   "saavnTitle": "One Name (From \"Jailer 2\")"
   },
   {
    "title": "One Sun One Moon",
@@ -34,15 +34,15 @@
    "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
   },
   {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
    "saavnTitle": "ANTIDOTE"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
   },
   {
    "title": "Bindaas",
@@ -51,16 +51,16 @@
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "Putaapu Gang",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "_C23SgA9",
-   "saavnTitle": "Putaapu Gang"
-  },
-  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
+  },
+  {
+   "title": "Putaapu Gang",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "_C23SgA9",
+   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
@@ -87,16 +87,16 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
-  },
-  {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
+  },
+  {
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
    "title": "Low Fade",
@@ -111,16 +111,16 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
-  },
-  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
+  },
+  {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
    "title": "Real Bad Man",
@@ -129,10 +129,10 @@
    "saavnTitle": "Real Bad Man"
   },
   {
-   "title": "Shree Hanuman Chalisa",
-   "artist": "Hariharan",
-   "saavnId": "7CwLvXc6",
-   "saavnTitle": "Shree Hanuman Chalisa"
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
   },
   {
    "title": "Alfaaz - Vocals",
@@ -141,16 +141,16 @@
    "saavnTitle": "alfaaz"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
-  },
-  {
    "title": "Tujhe Kitna Chahne Lage",
    "artist": "Arijit Singh",
-   "saavnId": "3NsydDin",
+   "saavnId": "34N50OoB",
    "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
+  },
+  {
+   "title": "Khat",
+   "artist": "Navjot Ahuja",
+   "saavnId": "IKc2REl8",
+   "saavnTitle": "Khat"
   }
  ]
 }
