@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T19:53:20.080Z",
+ "updated": "2026-11-02T20:44:15.045Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -57,16 +57,16 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Putaapu Gang",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "_C23SgA9",
-   "saavnTitle": "Putaapu Gang"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "Putaapu Gang",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "_C23SgA9",
+   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Gehra Hua",
@@ -93,12 +93,6 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
-  },
-  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
@@ -111,22 +105,28 @@
    "saavnTitle": "For A Reason"
   },
   {
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
   },
   {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
-  },
-  {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
    "saavnTitle": "Real Bad Man"
+  },
+  {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
    "title": "I Really Do...",
@@ -141,16 +141,16 @@
    "saavnTitle": "alfaaz"
   },
   {
-   "title": "Tujhe Kitna Chahne Lage",
-   "artist": "Arijit Singh",
-   "saavnId": "34N50OoB",
-   "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
+   "title": "Winning Speech",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "DF6eazs2",
+   "saavnTitle": "Winning Speech"
   },
   {
-   "title": "Khat",
-   "artist": "Navjot Ahuja",
-   "saavnId": "IKc2REl8",
-   "saavnTitle": "Khat"
+   "title": "Tujhe Kitna Chahne Lage",
+   "artist": "Arijit Singh",
+   "saavnId": "RMYQjcAP",
+   "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
   }
  ]
 }
