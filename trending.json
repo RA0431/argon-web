@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:38:02.807Z",
+ "updated": "2026-11-03T00:57:54.252Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -57,16 +57,16 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
-   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": "P5pjB99X",
-   "saavnTitle": "Radhimaa (From \"Think Indie\")"
-  },
-  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+  },
+  {
+   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
+   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
    "title": "Putaapu Gang",
@@ -75,16 +75,16 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
+  },
+  {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "IYKYK",
@@ -147,10 +147,10 @@
    "saavnTitle": "Khat"
   },
   {
-   "title": "Tujhe Kitna Chahne Lage",
-   "artist": "Arijit Singh",
-   "saavnId": "3NsydDin",
-   "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
+   "title": "Tu Mil Jaaye (From \"KING\")",
+   "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
+   "saavnId": "QcfFd62t",
+   "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
   }
  ]
 }
