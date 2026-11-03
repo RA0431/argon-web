@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T01:59:29.333Z",
+ "updated": "2026-11-03T02:51:24.945Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -69,16 +69,16 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Putaapu Gang",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "_C23SgA9",
-   "saavnTitle": "Putaapu Gang"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
+  },
+  {
+   "title": "Putaapu Gang",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "_C23SgA9",
+   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Softly",
@@ -111,28 +111,22 @@
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
    "title": "Magale (From \"Baththa\")",
    "artist": "Sai Abhyankkar, Harini & Karthik Netha",
    "saavnId": "kmYeF4aI",
    "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
+  },
+  {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
    "saavnTitle": "Real Bad Man"
-  },
-  {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
   },
   {
    "title": "Alfaaz - Vocals",
@@ -147,10 +141,16 @@
    "saavnTitle": "Khat"
   },
   {
-   "title": "Tu Mil Jaaye (From \"KING\")",
-   "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
-   "saavnId": "QcfFd62t",
-   "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
+  },
+  {
+   "title": "Tujhe Kitna Chahne Lage",
+   "artist": "Arijit Singh",
+   "saavnId": "qGdkL03h",
+   "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
   }
  ]
 }
