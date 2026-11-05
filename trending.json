@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T04:58:15.239Z",
+ "updated": "2026-11-05T05:59:45.145Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -57,28 +57,28 @@
    "saavnId": null
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
-  },
-  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "Softly",
@@ -111,6 +111,12 @@
    "saavnTitle": "Low Fade"
   },
   {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
+  },
+  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
@@ -129,12 +135,6 @@
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
-  },
-  {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
@@ -147,10 +147,10 @@
    "saavnTitle": "Naal Nachna"
   },
   {
-   "title": "Winning Speech",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "DF6eazs2",
-   "saavnTitle": "Winning Speech"
+   "title": "Khat",
+   "artist": "Navjot Ahuja",
+   "saavnId": "IKc2REl8",
+   "saavnTitle": "Khat"
   }
  ]
 }
