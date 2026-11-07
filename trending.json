@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:41:59.365Z",
+ "updated": "2026-11-07T11:38:34.842Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -82,16 +82,21 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "For A Reason",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "vLSaC03b",
-   "saavnTitle": "For A Reason"
-  },
-  {
    "title": "Putaapu Gang",
    "artist": "Anirudh Ravichander & Thamizh Aadhavan",
    "saavnId": "_C23SgA9",
    "saavnTitle": "Putaapu Gang"
+  },
+  {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
+   "title": "For A Reason",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "vLSaC03b",
+   "saavnTitle": "For A Reason"
   },
   {
    "title": "Low Fade",
@@ -100,16 +105,22 @@
    "saavnTitle": "Low Fade"
   },
   {
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+   "title": "Naal Nachna",
+   "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
+   "saavnId": "HPfQu3xR",
+   "saavnTitle": "Naal Nachna"
   },
   {
    "title": "I Really Do...",
@@ -124,33 +135,22 @@
    "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
-   "title": "Naal Nachna",
-   "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
-   "saavnId": "HPfQu3xR",
-   "saavnTitle": "Naal Nachna"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
-  },
-  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
   },
   {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
-  },
-  {
    "title": "Guzarish",
    "artist": "Satinder Sartaaj",
    "saavnId": "_ahsglLz",
    "saavnTitle": "Guzarish"
+  },
+  {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
   }
  ]
 }
