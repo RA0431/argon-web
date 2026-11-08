@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:56:19.477Z",
+ "updated": "2026-11-08T07:59:59.806Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -34,16 +34,16 @@
    "saavnTitle": "One Name"
   },
   {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": "OTmiAydz",
-   "saavnTitle": "ANTIDOTE"
-  },
-  {
    "title": "One Sun One Moon",
    "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
    "saavnId": "GGqUD2RU",
    "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
+  },
+  {
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
   },
   {
    "title": "Gehra Hua",
@@ -63,16 +63,16 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
+  },
+  {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "IYKYK",
@@ -81,16 +81,16 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "For A Reason",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "vLSaC03b",
-   "saavnTitle": "For A Reason"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "For A Reason",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "vLSaC03b",
+   "saavnTitle": "For A Reason"
   },
   {
    "title": "Putaapu Gang",
@@ -105,22 +105,16 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
-  },
-  {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
-  },
-  {
    "title": "Ala Bolelo",
    "artist": "Anirudh Ravichander & Arunraja Kamaraj",
    "saavnId": "3h6F8ui8",
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "Naal Nachna",
@@ -129,16 +123,10 @@
    "saavnTitle": "Naal Nachna"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
-   "title": "Real Bad Man",
-   "artist": "Karan Aujla",
-   "saavnId": "TK0gKgde",
-   "saavnTitle": "Real Bad Man"
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
   },
   {
    "title": "Magale (From \"Baththa\")",
@@ -147,10 +135,22 @@
    "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
+  },
+  {
    "title": "Guzarish",
    "artist": "Satinder Sartaaj",
    "saavnId": "_ahsglLz",
    "saavnTitle": "Guzarish"
+  },
+  {
+   "title": "Real Bad Man",
+   "artist": "Karan Aujla",
+   "saavnId": "TK0gKgde",
+   "saavnTitle": "Real Bad Man"
   }
  ]
 }
