@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:38:55.512Z",
+ "updated": "2026-11-08T17:36:15.070Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -52,6 +52,12 @@
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
+  },
+  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
@@ -62,12 +68,6 @@
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
-  },
-  {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
   },
   {
    "title": "IYKYK",
@@ -88,6 +88,12 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
+  },
+  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
@@ -100,15 +106,10 @@
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   },
   {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
-  },
-  {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
   },
   {
    "title": "Naal Nachna",
@@ -117,10 +118,10 @@
    "saavnTitle": "Naal Nachna"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
   },
   {
    "title": "Barsaat",
@@ -129,16 +130,9 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
   },
   {
    "title": "Real Bad Man",
@@ -151,6 +145,12 @@
    "artist": "Satinder Sartaaj",
    "saavnId": "_ahsglLz",
    "saavnTitle": "Guzarish"
+  },
+  {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
   }
  ]
 }
