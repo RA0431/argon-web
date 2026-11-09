@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:08:33.564Z",
+ "updated": "2026-11-09T08:27:46.491Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -28,22 +28,10 @@
    "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
   },
   {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": "OTmiAydz",
-   "saavnTitle": "ANTIDOTE"
-  },
-  {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "3-acMgK2",
    "saavnTitle": "One Name"
-  },
-  {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "One Sun One Moon",
@@ -52,10 +40,16 @@
    "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -70,16 +64,16 @@
    "saavnTitle": "Bindaas"
   },
   {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
+  },
+  {
    "title": "For A Reason",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "vLSaC03b",
    "saavnTitle": "For A Reason"
-  },
-  {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
@@ -88,10 +82,10 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "Putaapu Gang",
@@ -100,10 +94,22 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
    "title": "Naal Nachna",
    "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
    "saavnId": "HPfQu3xR",
    "saavnTitle": "Naal Nachna"
+  },
+  {
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
   },
   {
    "title": "I Really Do...",
@@ -112,16 +118,16 @@
    "saavnTitle": "I Really Do..."
   },
   {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
+  },
+  {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -136,22 +142,15 @@
    "saavnTitle": "Real Bad Man"
   },
   {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
   },
   {
-   "title": "Guzarish",
-   "artist": "Satinder Sartaaj",
-   "saavnId": "_ahsglLz",
-   "saavnTitle": "Guzarish"
-  },
-  {
-   "title": "Winning Speech",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "DF6eazs2",
-   "saavnTitle": "Winning Speech"
+   "title": "Tujhe Kitna Chahne Lage",
+   "artist": "Arijit Singh",
+   "saavnId": "34N50OoB",
+   "saavnTitle": "Tujhe Kitna Chahne Lage (From \"Kabir Singh\")"
   }
  ]
 }
