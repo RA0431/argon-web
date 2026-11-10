@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:51:06.486Z",
+ "updated": "2026-11-10T12:59:31.700Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -64,11 +64,6 @@
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
-  },
-  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
@@ -111,10 +106,21 @@
    "saavnTitle": "Low Fade"
   },
   {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
+  },
+  {
    "title": "Ala Bolelo",
    "artist": "Anirudh Ravichander & Arunraja Kamaraj",
    "saavnId": "3h6F8ui8",
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
+   "title": "Jaiye Sajana",
+   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
+   "saavnId": "wgBpyZTR",
+   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
   },
   {
    "title": "Magale (From \"Baththa\")",
@@ -139,12 +145,6 @@
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
-  },
-  {
-   "title": "Jaiye Sajana",
-   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
-   "saavnId": "wgBpyZTR",
-   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
   },
   {
    "title": "Guzarish",
