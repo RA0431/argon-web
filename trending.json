@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T18:51:13.596Z",
+ "updated": "2026-11-10T19:53:10.178Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -28,16 +28,16 @@
    "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
    "saavnTitle": "ANTIDOTE"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "One Name",
@@ -76,16 +76,22 @@
    "saavnTitle": "For A Reason"
   },
   {
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
+  },
+  {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
+   "title": "Jaiye Sajana",
+   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
+   "saavnId": "wgBpyZTR",
+   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
@@ -100,22 +106,10 @@
    "saavnTitle": "Naal Nachna"
   },
   {
-   "title": "Jaiye Sajana",
-   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
-   "saavnId": "wgBpyZTR",
-   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
-  },
-  {
    "title": "I Really Do...",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "1vja2Ptl",
    "saavnTitle": "I Really Do..."
-  },
-  {
-   "title": "Putaapu Gang",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "_C23SgA9",
-   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Barsaat",
@@ -124,33 +118,40 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
-  },
-  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": null
-  },
-  {
-   "title": "Magale (From \"Baththa\")",
-   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
-   "saavnId": "kmYeF4aI",
-   "saavnTitle": "Magale (From \"Baththa\")"
+   "title": "Putaapu Gang",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "_C23SgA9",
+   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Real Bad Man",
    "artist": "Karan Aujla",
    "saavnId": "TK0gKgde",
    "saavnTitle": "Real Bad Man"
+  },
+  {
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
+   "title": "Guzarish",
+   "artist": "Satinder Sartaaj",
+   "saavnId": "_ahsglLz",
+   "saavnTitle": "Guzarish"
+  },
+  {
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
   }
  ]
 }
