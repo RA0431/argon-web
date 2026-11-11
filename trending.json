@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T03:55:04.915Z",
+ "updated": "2026-11-11T04:58:35.945Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -64,16 +64,22 @@
    "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
    "title": "For A Reason",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "vLSaC03b",
    "saavnTitle": "For A Reason"
+  },
+  {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
   },
   {
    "title": "IYKYK",
@@ -88,12 +94,6 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
    "title": "Jaiye Sajana",
    "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
    "saavnId": "wgBpyZTR",
@@ -106,16 +106,16 @@
    "saavnTitle": "Naal Nachna"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
-  },
-  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
    "saavnTitle": "Barsaat"
+  },
+  {
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
   },
   {
    "title": "Rap Killa (feat. Azaad 4L)",
@@ -136,22 +136,22 @@
    "saavnTitle": "Real Bad Man"
   },
   {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
-  },
-  {
    "title": "Guzarish",
    "artist": "Satinder Sartaaj",
    "saavnId": "_ahsglLz",
    "saavnTitle": "Guzarish"
   },
   {
-   "title": "Winning Speech",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "DF6eazs2",
-   "saavnTitle": "Winning Speech"
+   "title": "Magale (From \"Baththa\")",
+   "artist": "Sai Abhyankkar, Harini & Karthik Netha",
+   "saavnId": "kmYeF4aI",
+   "saavnTitle": "Magale (From \"Baththa\")"
+  },
+  {
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   }
  ]
 }
