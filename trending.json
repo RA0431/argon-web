@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:54:39.384Z",
+ "updated": "2026-11-12T20:50:11.148Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -64,16 +64,16 @@
    "saavnTitle": "One Sun One Moon"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
+  },
+  {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "Low Fade",
@@ -124,16 +124,16 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Guzarish",
-   "artist": "Satinder Sartaaj",
-   "saavnId": "_ahsglLz",
-   "saavnTitle": "Guzarish"
-  },
-  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
+  },
+  {
+   "title": "Guzarish",
+   "artist": "Satinder Sartaaj",
+   "saavnId": "_ahsglLz",
+   "saavnTitle": "Guzarish"
   },
   {
    "title": "Naal Nachna",
@@ -148,10 +148,10 @@
    "saavnTitle": "Real Bad Man"
   },
   {
-   "title": "Khuda Jaane",
-   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
-   "saavnId": "eS7R0kd6",
-   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
+   "title": "Winning Speech",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "DF6eazs2",
+   "saavnTitle": "Winning Speech"
   }
  ]
 }
