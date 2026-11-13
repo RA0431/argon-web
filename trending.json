@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T16:54:24.147Z",
+ "updated": "2026-11-13T17:51:10.093Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -70,16 +70,22 @@
    "saavnTitle": "IYKYK"
   },
   {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
+  },
+  {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
+   "title": "Low Fade",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
   },
   {
    "title": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]",
@@ -92,12 +98,6 @@
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "P-3rf5qD",
-   "saavnTitle": "Low Fade"
   },
   {
    "title": "For A Reason",
@@ -118,6 +118,12 @@
    "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
   },
   {
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
+  },
+  {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
    "saavnId": "b--Duq8D",
@@ -130,28 +136,22 @@
    "saavnTitle": "Guzarish"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
-  },
-  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
    "saavnTitle": "Rap Killa"
   },
   {
-   "title": "Khuda Jaane",
-   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
-   "saavnId": "eS7R0kd6",
-   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
-  },
-  {
    "title": "Naal Nachna",
    "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
    "saavnId": "HPfQu3xR",
    "saavnTitle": "Naal Nachna"
+  },
+  {
+   "title": "Khuda Jaane",
+   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
+   "saavnId": "eS7R0kd6",
+   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
   }
  ]
 }
