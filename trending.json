@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T11:55:28.967Z",
+ "updated": "2026-11-13T13:04:35.834Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -34,16 +34,16 @@
    "saavnTitle": "On Top"
   },
   {
-   "title": "One Name",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "3-acMgK2",
-   "saavnTitle": "One Name"
-  },
-  {
    "title": "Antidote",
    "artist": "Karan Aujla",
    "saavnId": "OTmiAydz",
    "saavnTitle": "ANTIDOTE"
+  },
+  {
+   "title": "One Name",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "3-acMgK2",
+   "saavnTitle": "One Name"
   },
   {
    "title": "Gehra Hua",
@@ -64,16 +64,22 @@
    "saavnTitle": "One Sun One Moon"
   },
   {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
+  },
+  {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
   },
   {
    "title": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]",
@@ -88,12 +94,6 @@
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
@@ -104,6 +104,12 @@
    "artist": "Karan Aujla & Ikky",
    "saavnId": "vLSaC03b",
    "saavnTitle": "For A Reason"
+  },
+  {
+   "title": "Dilruba Dilnasheen",
+   "artist": "Rito Riba & Siddhant Kaushal",
+   "saavnId": "ISio-iOf",
+   "saavnTitle": "Dilruba Dilnasheen"
   },
   {
    "title": "Jaiye Sajana",
@@ -118,12 +124,6 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Dilruba Dilnasheen",
-   "artist": "Rito Riba & Siddhant Kaushal",
-   "saavnId": "ISio-iOf",
-   "saavnTitle": "Dilruba Dilnasheen"
-  },
-  {
    "title": "Guzarish",
    "artist": "Satinder Sartaaj",
    "saavnId": "_ahsglLz",
@@ -136,16 +136,16 @@
    "saavnTitle": "I Really Do..."
   },
   {
-   "title": "Putaapu Gang",
-   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
-   "saavnId": "_C23SgA9",
-   "saavnTitle": "Putaapu Gang"
+   "title": "Rap Killa (feat. Azaad 4L)",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "t0A9bgXS",
+   "saavnTitle": "Rap Killa"
   },
   {
-   "title": "Shree Hanuman Chalisa",
-   "artist": "Hariharan",
-   "saavnId": "7CwLvXc6",
-   "saavnTitle": "Shree Hanuman Chalisa"
+   "title": "Khuda Jaane",
+   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
+   "saavnId": "eS7R0kd6",
+   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
   },
   {
    "title": "Naal Nachna",
