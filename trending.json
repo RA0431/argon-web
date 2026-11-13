@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T05:59:39.209Z",
+ "updated": "2026-11-13T07:13:47.805Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -70,12 +70,6 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
@@ -88,6 +82,18 @@
    "saavnTitle": "Bindaas"
   },
   {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "iMzGQX6_",
+   "saavnTitle": "Softly"
+  },
+  {
+   "title": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]",
+   "artist": "Sai Abhyankkar & Thamizh Aadhavan",
+   "saavnId": "3xoxFPY_",
+   "saavnTitle": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]"
+  },
+  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
@@ -98,12 +104,6 @@
    "artist": "Karan Aujla & Ikky",
    "saavnId": "vLSaC03b",
    "saavnTitle": "For A Reason"
-  },
-  {
-   "title": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]",
-   "artist": "Sai Abhyankkar & Thamizh Aadhavan",
-   "saavnId": "3xoxFPY_",
-   "saavnTitle": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]"
   },
   {
    "title": "Jaiye Sajana",
@@ -130,6 +130,12 @@
    "saavnTitle": "Guzarish"
   },
   {
+   "title": "Khuda Jaane",
+   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
+   "saavnId": "eS7R0kd6",
+   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
+  },
+  {
    "title": "Rap Killa (feat. Azaad 4L)",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "t0A9bgXS",
@@ -140,12 +146,6 @@
    "artist": "Shashwat Sachdev, Afsana Khan, Irshad Kamil & Reble",
    "saavnId": "HPfQu3xR",
    "saavnTitle": "Naal Nachna"
-  },
-  {
-   "title": "Khuda Jaane",
-   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
-   "saavnId": "eS7R0kd6",
-   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
   },
   {
    "title": "Dilruba Dilnasheen",
