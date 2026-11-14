@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T18:42:56.084Z",
+ "updated": "2026-11-14T19:42:41.739Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -118,22 +118,16 @@
    "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
   },
   {
-   "title": "Guzarish",
-   "artist": "Satinder Sartaaj",
-   "saavnId": "_ahsglLz",
-   "saavnTitle": "Guzarish"
-  },
-  {
    "title": "Putaapu Gang",
    "artist": "Anirudh Ravichander & Thamizh Aadhavan",
    "saavnId": "_C23SgA9",
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
+   "title": "Guzarish",
+   "artist": "Satinder Sartaaj",
+   "saavnId": "_ahsglLz",
+   "saavnTitle": "Guzarish"
   },
   {
    "title": "I Really Do...",
@@ -146,6 +140,12 @@
    "artist": "Anirudh Ravichander & Arunraja Kamaraj",
    "saavnId": "3h6F8ui8",
    "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+  },
+  {
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "Khuda Jaane",
