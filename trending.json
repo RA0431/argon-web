@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T04:53:00.722Z",
+ "updated": "2026-11-14T05:50:17.777Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -46,16 +46,16 @@
    "saavnTitle": "One Name"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
    "saavnId": "P5pjB99X",
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "One Sun One Moon",
@@ -64,16 +64,16 @@
    "saavnTitle": "One Sun One Moon"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
-  },
-  {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": "JPJ6pL-U",
    "saavnTitle": "Bindaas"
+  },
+  {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "Softly",
@@ -142,16 +142,16 @@
    "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
   },
   {
-   "title": "Rap Killa (feat. Azaad 4L)",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "t0A9bgXS",
-   "saavnTitle": "Rap Killa"
-  },
-  {
    "title": "Putaapu Gang",
    "artist": "Anirudh Ravichander & Thamizh Aadhavan",
    "saavnId": "_C23SgA9",
    "saavnTitle": "Putaapu Gang"
+  },
+  {
+   "title": "Tainu Khabar Nahi",
+   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
+   "saavnId": "dpPkaWEY",
+   "saavnTitle": "Tainu Khabar Nahi"
   }
  ]
 }
