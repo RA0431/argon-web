@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T11:40:36.542Z",
+ "updated": "2026-11-15T12:51:16.772Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -52,28 +52,28 @@
    "saavnTitle": "ANTIDOTE"
   },
   {
-   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
-   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": "P5pjB99X",
-   "saavnTitle": "Radhimaa (From \"Think Indie\")"
-  },
-  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
+   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
+   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
    "title": "Dilruba Dilnasheen",
    "artist": "Rito Riba & Siddhant Kaushal",
    "saavnId": "ISio-iOf",
    "saavnTitle": "Dilruba Dilnasheen"
+  },
+  {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
   },
   {
    "title": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]",
@@ -88,6 +88,12 @@
    "saavnTitle": "Softly"
   },
   {
+   "title": "Never Left",
+   "artist": "Shubh",
+   "saavnId": "5omW19YD",
+   "saavnTitle": "Never Left"
+  },
+  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
@@ -98,12 +104,6 @@
    "artist": "Jxggi, Dishant & Sickboi",
    "saavnId": "Dt-jvWr_",
    "saavnTitle": "IYKYK"
-  },
-  {
-   "title": "Never Left",
-   "artist": "Shubh",
-   "saavnId": "5omW19YD",
-   "saavnTitle": "Never Left"
   },
   {
    "title": "For A Reason",
@@ -136,22 +136,22 @@
    "saavnTitle": "Low Fade"
   },
   {
+   "title": "Jaiye Sajana",
+   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
+   "saavnId": "wgBpyZTR",
+   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
+  },
+  {
    "title": "Khuda Jaane",
    "artist": "Vishal & Shekhar, KK & Shilpa Rao",
    "saavnId": "eS7R0kd6",
    "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
   },
   {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
-  },
-  {
-   "title": "Jaiye Sajana",
-   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
-   "saavnId": "wgBpyZTR",
-   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
+   "title": "Tainu Khabar Nahi",
+   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
+   "saavnId": "oNVUJZ5W",
+   "saavnTitle": "Tainu Khabar Nahi"
   }
  ]
 }
