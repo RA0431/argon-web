@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:37:53.889Z",
+ "updated": "2026-11-15T18:44:39.420Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -22,16 +22,16 @@
    "saavnTitle": "Straight Up"
   },
   {
-   "title": "Tu Mil Jaaye (From \"KING\")",
-   "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
-   "saavnId": "QcfFd62t",
-   "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
-  },
-  {
    "title": "On Top",
    "artist": "Karan Aujla",
    "saavnId": "JRn8aUP9",
    "saavnTitle": "On Top"
+  },
+  {
+   "title": "Tu Mil Jaaye (From \"KING\")",
+   "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
+   "saavnId": "QcfFd62t",
+   "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
   },
   {
    "title": "One Name",
@@ -52,16 +52,16 @@
    "saavnTitle": "One Sun One Moon"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
    "title": "Dilruba Dilnasheen",
    "artist": "Rito Riba & Siddhant Kaushal",
    "saavnId": "ISio-iOf",
    "saavnTitle": "Dilruba Dilnasheen"
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -76,6 +76,12 @@
    "saavnTitle": "Bindaas"
   },
   {
+   "title": "Never Left",
+   "artist": "Shubh",
+   "saavnId": "5omW19YD",
+   "saavnTitle": "Never Left"
+  },
+  {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
    "saavnId": "iMzGQX6_",
@@ -88,22 +94,16 @@
    "saavnTitle": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]"
   },
   {
-   "title": "Never Left",
-   "artist": "Shubh",
-   "saavnId": "5omW19YD",
-   "saavnTitle": "Never Left"
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
   },
   {
    "title": "For A Reason",
@@ -124,6 +124,18 @@
    "saavnTitle": "Guzarish"
   },
   {
+   "title": "Jaiye Sajana",
+   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
+   "saavnId": "wgBpyZTR",
+   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
+  },
+  {
+   "title": "Tainu Khabar Nahi",
+   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
+   "saavnId": "I2I575mb",
+   "saavnTitle": "Tainu Khabar Nahi"
+  },
+  {
    "title": "Ala Bolelo",
    "artist": "Anirudh Ravichander & Arunraja Kamaraj",
    "saavnId": "3h6F8ui8",
@@ -136,22 +148,10 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Jaiye Sajana",
-   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
-   "saavnId": "wgBpyZTR",
-   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
-  },
-  {
    "title": "Khuda Jaane",
    "artist": "Vishal & Shekhar, KK & Shilpa Rao",
    "saavnId": "eS7R0kd6",
    "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
-  },
-  {
-   "title": "Tainu Khabar Nahi",
-   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
-   "saavnId": "SYgwGtw9",
-   "saavnTitle": "Tainu Khabar Nahi"
   }
  ]
 }
