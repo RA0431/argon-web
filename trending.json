@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T19:44:09.330Z",
+ "updated": "2026-11-15T20:39:36.859Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -22,22 +22,16 @@
    "saavnTitle": "Straight Up"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": "JRn8aUP9",
-   "saavnTitle": "On Top"
-  },
-  {
    "title": "Tu Mil Jaaye (From \"KING\")",
    "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
    "saavnId": "QcfFd62t",
    "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
   },
   {
-   "title": "One Name",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": "3-acMgK2",
-   "saavnTitle": "One Name"
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": "JRn8aUP9",
+   "saavnTitle": "On Top"
   },
   {
    "title": "Antidote",
@@ -46,16 +40,22 @@
    "saavnTitle": "ANTIDOTE"
   },
   {
-   "title": "One Sun One Moon",
-   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": "bWAryKJA",
-   "saavnTitle": "One Sun One Moon"
+   "title": "One Name",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "3-acMgK2",
+   "saavnTitle": "One Name"
   },
   {
    "title": "Dilruba Dilnasheen",
    "artist": "Rito Riba & Siddhant Kaushal",
    "saavnId": "ISio-iOf",
    "saavnTitle": "Dilruba Dilnasheen"
+  },
+  {
+   "title": "One Sun One Moon",
+   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
+   "saavnId": "bWAryKJA",
+   "saavnTitle": "One Sun One Moon"
   },
   {
    "title": "Gehra Hua",
@@ -94,16 +94,16 @@
    "saavnTitle": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": "Dt-jvWr_",
-   "saavnTitle": "IYKYK"
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "For A Reason",
@@ -112,16 +112,22 @@
    "saavnTitle": "For A Reason"
   },
   {
+   "title": "Guzarish",
+   "artist": "Satinder Sartaaj",
+   "saavnId": "_ahsglLz",
+   "saavnTitle": "Guzarish"
+  },
+  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Guzarish",
-   "artist": "Satinder Sartaaj",
-   "saavnId": "_ahsglLz",
-   "saavnTitle": "Guzarish"
+   "title": "Tainu Khabar Nahi",
+   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
+   "saavnId": "dpPkaWEY",
+   "saavnTitle": "Tainu Khabar Nahi"
   },
   {
    "title": "Jaiye Sajana",
@@ -130,16 +136,10 @@
    "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
   },
   {
-   "title": "Tainu Khabar Nahi",
-   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
-   "saavnId": "I2I575mb",
-   "saavnTitle": "Tainu Khabar Nahi"
-  },
-  {
-   "title": "Ala Bolelo",
-   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
-   "saavnId": "3h6F8ui8",
-   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
+   "title": "Khuda Jaane",
+   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
+   "saavnId": "eS7R0kd6",
+   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
   },
   {
    "title": "Putaapu Gang",
@@ -148,10 +148,10 @@
    "saavnTitle": "Putaapu Gang"
   },
   {
-   "title": "Khuda Jaane",
-   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
-   "saavnId": "eS7R0kd6",
-   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "1vja2Ptl",
+   "saavnTitle": "I Really Do..."
   }
  ]
 }
