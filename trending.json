@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:10:48.891Z",
+ "updated": "2026-11-16T09:40:37.928Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -12,8 +12,7 @@
   {
    "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
    "artist": "Sai Abhyankkar, Tippu & Arun Srinivasan",
-   "saavnId": "jlBMldVu",
-   "saavnTitle": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]"
+   "saavnId": null
   },
   {
    "title": "Straight Up",
@@ -34,12 +33,6 @@
    "saavnTitle": "On Top"
   },
   {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": "OTmiAydz",
-   "saavnTitle": "ANTIDOTE"
-  },
-  {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "3-acMgK2",
@@ -58,10 +51,10 @@
    "saavnTitle": "One Sun One Moon"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -70,16 +63,27 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": "JPJ6pL-U",
-   "saavnTitle": "Bindaas"
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Never Left",
    "artist": "Shubh",
    "saavnId": "5omW19YD",
    "saavnTitle": "Never Left"
+  },
+  {
+   "title": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]",
+   "artist": "Sai Abhyankkar & Thamizh Aadhavan",
+   "saavnId": null
+  },
+  {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
@@ -90,14 +94,7 @@
   {
    "title": "Softly",
    "artist": "Karan Aujla & Ikky",
-   "saavnId": "iMzGQX6_",
-   "saavnTitle": "Softly"
-  },
-  {
-   "title": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]",
-   "artist": "Sai Abhyankkar & Thamizh Aadhavan",
-   "saavnId": "3xoxFPY_",
-   "saavnTitle": "FA FA FA (From \"OM Chapter 1: Udhiram - The Blood Wood\") [Tamil]"
+   "saavnId": null
   },
   {
    "title": "IYKYK",
@@ -106,22 +103,28 @@
    "saavnTitle": "IYKYK"
   },
   {
-   "title": "For A Reason",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "vLSaC03b",
-   "saavnTitle": "For A Reason"
-  },
-  {
    "title": "Guzarish",
    "artist": "Satinder Sartaaj",
    "saavnId": "_ahsglLz",
    "saavnTitle": "Guzarish"
   },
   {
-   "title": "Khuda Jaane",
-   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
-   "saavnId": "eS7R0kd6",
-   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
+   "title": "For A Reason",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "sN24LH3L",
+   "saavnTitle": "For A Reason"
+  },
+  {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
+  },
+  {
+   "title": "Tainu Khabar Nahi",
+   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
+   "saavnId": "oNVUJZ5W",
+   "saavnTitle": "Tainu Khabar Nahi"
   },
   {
    "title": "Low Fade",
@@ -130,10 +133,10 @@
    "saavnTitle": "Low Fade"
   },
   {
-   "title": "Tainu Khabar Nahi",
-   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
-   "saavnId": "dpPkaWEY",
-   "saavnTitle": "Tainu Khabar Nahi"
+   "title": "Putaapu Gang",
+   "artist": "Anirudh Ravichander & Thamizh Aadhavan",
+   "saavnId": "_C23SgA9",
+   "saavnTitle": "Putaapu Gang"
   },
   {
    "title": "Barsaat",
@@ -142,16 +145,10 @@
    "saavnTitle": "Barsaat"
   },
   {
-   "title": "Jaiye Sajana",
-   "artist": "Shashwat Sachdev, Jasmine Sandlas & Satinder Sartaaj",
-   "saavnId": "wgBpyZTR",
-   "saavnTitle": "Jaiye Sajana (From \"Dhurandhar The Revenge\")"
-  },
-  {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": "1vja2Ptl",
-   "saavnTitle": "I Really Do..."
+   "title": "Ala Bolelo",
+   "artist": "Anirudh Ravichander & Arunraja Kamaraj",
+   "saavnId": "3h6F8ui8",
+   "saavnTitle": "Ala Bolelo (From \"Jailer 2\")"
   }
  ]
 }
