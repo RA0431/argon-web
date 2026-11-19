@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T12:51:54.860Z",
+ "updated": "2026-11-19T21:23:53.127Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -15,22 +15,21 @@
    "saavnId": null
   },
   {
-   "title": "Straight Up",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": "VD-330VU",
-   "saavnTitle": "Straight Up"
-  },
-  {
    "title": "Dilruba Dilnasheen",
    "artist": "Rito Riba & Siddhant Kaushal",
    "saavnId": "ISio-iOf",
    "saavnTitle": "Dilruba Dilnasheen"
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
-   "saavnId": "JRn8aUP9",
-   "saavnTitle": "On Top"
+   "title": "Straight Up",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "VD-330VU",
+   "saavnTitle": "Straight Up"
+  },
+  {
+   "title": "FA FA FA (From \"O.M: Operation Mole\")",
+   "artist": "Sai Abhyankkar & Thamizh Aadhavan",
+   "saavnId": null
   },
   {
    "title": "Tu Mil Jaaye (From \"KING\")",
@@ -39,21 +38,22 @@
    "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
   },
   {
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
+  },
+  {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
    "saavnId": "3-acMgK2",
    "saavnTitle": "One Name"
   },
   {
-   "title": "FA FA FA (From \"O.M: Operation Mole\")",
-   "artist": "Sai Abhyankkar & Thamizh Aadhavan",
-   "saavnId": null
-  },
-  {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": "OTmiAydz",
-   "saavnTitle": "ANTIDOTE"
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Never Left",
@@ -68,16 +68,9 @@
    "saavnTitle": "One Sun One Moon"
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": "YiVML4Zo",
-   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
-  },
-  {
-   "title": "Arz Kiya Hai  Coke Studio Bharat",
-   "artist": "Anuv Jain",
-   "saavnId": "cli-P2pu",
-   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": null
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
@@ -86,9 +79,10 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": null
+   "title": "Arz Kiya Hai  Coke Studio Bharat",
+   "artist": "Anuv Jain",
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
    "title": "Bindaas",
@@ -121,21 +115,26 @@
    "saavnTitle": "For A Reason"
   },
   {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
-   "saavnId": "b--Duq8D",
-   "saavnTitle": "Barsaat"
+   "title": "I Really Do...",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": null
+  },
+  {
+   "title": "On Top",
+   "artist": "Karan Aujla",
+   "saavnId": null
   },
   {
    "title": "Tainu Khabar Nahi",
    "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
-   "saavnId": "h7n2PnJN",
+   "saavnId": "oNVUJZ5W",
    "saavnTitle": "Tainu Khabar Nahi"
   },
   {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": null
+   "title": "Barsaat",
+   "artist": "Banjaare & Roni",
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
    "title": "Winning Speech",
@@ -144,10 +143,9 @@
    "saavnTitle": "Winning Speech"
   },
   {
-   "title": "Khuda Jaane",
-   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
-   "saavnId": "eS7R0kd6",
-   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
+   "title": "At Peace",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": null
   }
  ]
 }
