@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-22T03:01:58.461Z",
+ "updated": "2026-11-22T11:06:21.278Z",
  "region": "IN",
  "youtube": [],
  "apple": [
   {
    "title": "Ashke",
    "artist": "Karan Aujla & MXRCI",
-   "saavnId": null
+   "saavnId": "AhkSYQEF",
+   "saavnTitle": "Ashke"
   },
   {
    "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
@@ -16,12 +17,8 @@
   {
    "title": "Dilruba Dilnasheen",
    "artist": "Rito Riba & Siddhant Kaushal",
-   "saavnId": null
-  },
-  {
-   "title": "Straight Up",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": null
+   "saavnId": "ISio-iOf",
+   "saavnTitle": "Dilruba Dilnasheen"
   },
   {
    "title": "FA FA FA (From \"O.M: Operation Mole\")",
@@ -29,19 +26,16 @@
    "saavnId": null
   },
   {
+   "title": "Straight Up",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "VD-330VU",
+   "saavnTitle": "Straight Up"
+  },
+  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": null
-  },
-  {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": null
-  },
-  {
-   "title": "Tu Mil Jaaye (From \"KING\")",
-   "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
-   "saavnId": null
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
    "title": "Alaakaa Loova (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
@@ -49,24 +43,46 @@
    "saavnId": null
   },
   {
-   "title": "One Name",
-   "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": null
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
   },
   {
-   "title": "Never Left",
-   "artist": "Shubh",
-   "saavnId": null
+   "title": "One Name",
+   "artist": "Anirudh Ravichander & Super Subu",
+   "saavnId": "3-acMgK2",
+   "saavnTitle": "One Name"
+  },
+  {
+   "title": "Tu Mil Jaaye (From \"KING\")",
+   "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
+   "saavnId": "QcfFd62t",
+   "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
   },
   {
    "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
    "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": null
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
    "title": "Bindaas",
    "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": null
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
+  },
+  {
+   "title": "Never Left",
+   "artist": "Shubh",
+   "saavnId": "5omW19YD",
+   "saavnTitle": "Never Left"
+  },
+  {
+   "title": "One Sun One Moon",
+   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
+   "saavnId": "bWAryKJA",
+   "saavnTitle": "One Sun One Moon"
   },
   {
    "title": "Softly",
@@ -74,39 +90,45 @@
    "saavnId": null
   },
   {
-   "title": "One Sun One Moon",
-   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": null
-  },
-  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
-   "saavnId": null
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
   },
   {
    "title": "Guzarish",
    "artist": "Satinder Sartaaj",
-   "saavnId": null
+   "saavnId": "_ahsglLz",
+   "saavnTitle": "Guzarish"
   },
   {
-   "title": "IYKYK",
-   "artist": "Jxggi, Dishant & Sickboi",
+   "title": "Tainu Khabar Nahi",
+   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
+   "saavnId": "oNVUJZ5W",
+   "saavnTitle": "Tainu Khabar Nahi"
+  },
+  {
+   "title": "On Top",
+   "artist": "Karan Aujla",
    "saavnId": null
   },
   {
    "title": "For A Reason",
    "artist": "Karan Aujla & Ikky",
-   "saavnId": null
+   "saavnId": "sN24LH3L",
+   "saavnTitle": "For A Reason"
+  },
+  {
+   "title": "IYKYK",
+   "artist": "Jxggi, Dishant & Sickboi",
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   },
   {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
-   "saavnId": null
-  },
-  {
-   "title": "Tainu Khabar Nahi",
-   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
-   "saavnId": null
+   "saavnId": "P-3rf5qD",
+   "saavnTitle": "Low Fade"
   },
   {
    "title": "I Really Do...",
@@ -116,17 +138,14 @@
   {
    "title": "Barsaat",
    "artist": "Banjaare & Roni",
-   "saavnId": null
+   "saavnId": "b--Duq8D",
+   "saavnTitle": "Barsaat"
   },
   {
-   "title": "Winning Speech",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": null
-  },
-  {
-   "title": "Flower In A Hurricane [From GTAVI: Original Score]",
-   "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
-   "saavnId": null
+   "title": "Khuda Jaane",
+   "artist": "Vishal & Shekhar, KK & Shilpa Rao",
+   "saavnId": "eS7R0kd6",
+   "saavnTitle": "Khuda Jaane (From \"Bachna Ae Haseeno\")"
   }
  ]
 }
