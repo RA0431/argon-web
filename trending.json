@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:17:16.663Z",
+ "updated": "2026-11-25T12:37:56.272Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -32,21 +32,16 @@
    "saavnTitle": "Straight Up"
   },
   {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": "OTmiAydz",
-   "saavnTitle": "ANTIDOTE"
-  },
-  {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": "YiVML4Zo",
    "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Alaakaa Loova (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
-   "artist": "Sai Abhyankkar & Rokesh",
-   "saavnId": null
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
   },
   {
    "title": "Tu Mil Jaaye (From \"KING\")",
@@ -61,8 +56,8 @@
    "saavnTitle": "One Name"
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
+   "title": "Alaakaa Loova (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
+   "artist": "Sai Abhyankkar & Rokesh",
    "saavnId": null
   },
   {
@@ -72,16 +67,21 @@
    "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": null
+  },
+  {
+   "title": "Shree Hanuman Chalisa",
+   "artist": "Hariharan",
+   "saavnId": "7CwLvXc6",
+   "saavnTitle": "Shree Hanuman Chalisa"
+  },
+  {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
    "saavnId": "cli-P2pu",
    "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
-  },
-  {
-   "title": "Never Left",
-   "artist": "Shubh",
-   "saavnId": "5omW19YD",
-   "saavnTitle": "Never Left"
   },
   {
    "title": "Bindaas",
@@ -90,16 +90,22 @@
    "saavnTitle": "Bindaas"
   },
   {
-   "title": "Guzarish",
-   "artist": "Satinder Sartaaj",
-   "saavnId": "_ahsglLz",
-   "saavnTitle": "Guzarish"
+   "title": "Never Left",
+   "artist": "Shubh",
+   "saavnId": "5omW19YD",
+   "saavnTitle": "Never Left"
   },
   {
    "title": "One Sun One Moon",
    "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": "bWAryKJA",
-   "saavnTitle": "One Sun One Moon"
+   "saavnId": "GGqUD2RU",
+   "saavnTitle": "One Sun One Moon (From \"Jailer 2\")"
+  },
+  {
+   "title": "Guzarish",
+   "artist": "Satinder Sartaaj",
+   "saavnId": "_ahsglLz",
+   "saavnTitle": "Guzarish"
   },
   {
    "title": "IYKYK",
@@ -114,21 +120,16 @@
    "saavnTitle": "For A Reason"
   },
   {
+   "title": "Tainu Khabar Nahi",
+   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
+   "saavnId": "SYgwGtw9",
+   "saavnTitle": "Tainu Khabar Nahi"
+  },
+  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": "P-3rf5qD",
    "saavnTitle": "Low Fade"
-  },
-  {
-   "title": "Flower In A Hurricane [From GTAVI: Original Score]",
-   "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
-   "saavnId": null
-  },
-  {
-   "title": "Tainu Khabar Nahi",
-   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
-   "saavnId": "h7n2PnJN",
-   "saavnTitle": "Tainu Khabar Nahi"
   },
   {
    "title": "I Really Do...",
@@ -136,10 +137,9 @@
    "saavnId": null
   },
   {
-   "title": "Khat",
-   "artist": "Navjot Ahuja",
-   "saavnId": "yW-Q7wIS",
-   "saavnTitle": "Khat Likhu"
+   "title": "Flower In A Hurricane [From GTAVI: Original Score]",
+   "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
+   "saavnId": null
   },
   {
    "title": "Barsaat",
