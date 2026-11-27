@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T08:09:57.562Z",
+ "updated": "2026-11-27T18:51:06.029Z",
  "region": "IN",
  "youtube": [],
  "apple": [
@@ -29,8 +29,13 @@
    "saavnId": null
   },
   {
-   "title": "Gehra Hua",
-   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
+   "title": "Luxury",
+   "artist": "Cheema Y & Gur Sidhu",
+   "saavnId": null
+  },
+  {
+   "title": "Louie V (feat. Gurlez Akhtar)",
+   "artist": "Cheema Y & Gur Sidhu",
    "saavnId": null
   },
   {
@@ -39,8 +44,18 @@
    "saavnId": null
   },
   {
-   "title": "Tu Mil Jaaye (From \"KING\")",
-   "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
+   "title": "Baba Marley",
+   "artist": "Cheema Y & Gur Sidhu",
+   "saavnId": null
+  },
+  {
+   "title": "Brownie",
+   "artist": "Cheema Y & Gur Sidhu",
+   "saavnId": null
+  },
+  {
+   "title": "Gehra Hua",
+   "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
    "saavnId": null
   },
   {
@@ -49,8 +64,18 @@
    "saavnId": null
   },
   {
-   "title": "On Top",
-   "artist": "Karan Aujla",
+   "title": "Tu Mil Jaaye (From \"KING\")",
+   "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
+   "saavnId": null
+  },
+  {
+   "title": "Softly",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": null
+  },
+  {
+   "title": "Ghost",
+   "artist": "Cheema Y & Gur Sidhu",
    "saavnId": null
   },
   {
@@ -59,8 +84,13 @@
    "saavnId": null
   },
   {
-   "title": "Softly",
-   "artist": "Karan Aujla & Ikky",
+   "title": "Pull Up",
+   "artist": "Cheema Y & Gur Sidhu",
+   "saavnId": null
+  },
+  {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
    "saavnId": null
   },
   {
@@ -74,8 +104,13 @@
    "saavnId": null
   },
   {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "title": "For A Reason",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": null
+  },
+  {
+   "title": "G-Star",
+   "artist": "Cheema Y & Gur Sidhu",
    "saavnId": null
   },
   {
@@ -84,48 +119,13 @@
    "saavnId": null
   },
   {
-   "title": "Guzarish",
-   "artist": "Satinder Sartaaj",
-   "saavnId": null
-  },
-  {
-   "title": "For A Reason",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": null
-  },
-  {
-   "title": "One Sun One Moon",
-   "artist": "Anirudh Ravichander, Super Subu, M.S Krsna & HEISENBERG",
-   "saavnId": null
-  },
-  {
-   "title": "Never Left",
-   "artist": "Shubh",
-   "saavnId": null
-  },
-  {
    "title": "Low Fade",
    "artist": "Karan Aujla & MXRCI",
    "saavnId": null
   },
   {
-   "title": "Tainu Khabar Nahi",
-   "artist": "Sachin-Jigar, Arijit Singh & Amitabh Bhattacharya",
-   "saavnId": null
-  },
-  {
-   "title": "KALYANI (Remix)",
-   "artist": "ARJN, KDS, FIFTY4 & Shreya Ghoshal",
-   "saavnId": null
-  },
-  {
-   "title": "I Really Do...",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": null
-  },
-  {
-   "title": "Barsaat",
-   "artist": "Banjaare & Roni",
+   "title": "Guzarish",
+   "artist": "Satinder Sartaaj",
    "saavnId": null
   }
  ]
