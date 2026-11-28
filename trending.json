@@ -1,12 +1,13 @@
 {
- "updated": "2026-11-27T18:51:06.029Z",
+ "updated": "2026-11-28T01:53:28.398Z",
  "region": "IN",
  "youtube": [],
  "apple": [
   {
    "title": "Ashke",
    "artist": "Karan Aujla & MXRCI",
-   "saavnId": null
+   "saavnId": "AhkSYQEF",
+   "saavnTitle": "Ashke"
   },
   {
    "title": "Veezha Veera (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
@@ -16,7 +17,8 @@
   {
    "title": "Dilruba Dilnasheen",
    "artist": "Rito Riba & Siddhant Kaushal",
-   "saavnId": null
+   "saavnId": "ISio-iOf",
+   "saavnTitle": "Dilruba Dilnasheen"
   },
   {
    "title": "FA FA FA (From \"O.M: Operation Mole\")",
@@ -24,49 +26,70 @@
    "saavnId": null
   },
   {
-   "title": "Straight Up",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": null
-  },
-  {
    "title": "Luxury",
    "artist": "Cheema Y & Gur Sidhu",
-   "saavnId": null
+   "saavnId": "8v3hrNHV",
+   "saavnTitle": "Luxury"
+  },
+  {
+   "title": "Straight Up",
+   "artist": "Karan Aujla & MXRCI",
+   "saavnId": "VD-330VU",
+   "saavnTitle": "Straight Up"
   },
   {
    "title": "Louie V (feat. Gurlez Akhtar)",
    "artist": "Cheema Y & Gur Sidhu",
-   "saavnId": null
-  },
-  {
-   "title": "Antidote",
-   "artist": "Karan Aujla",
-   "saavnId": null
+   "saavnId": "BGN9mEA7",
+   "saavnTitle": "Louie V"
   },
   {
    "title": "Baba Marley",
    "artist": "Cheema Y & Gur Sidhu",
-   "saavnId": null
+   "saavnId": "AUxSLcRs",
+   "saavnTitle": "Baba Marley"
   },
   {
    "title": "Brownie",
    "artist": "Cheema Y & Gur Sidhu",
-   "saavnId": null
+   "saavnId": "jE5oLvZK",
+   "saavnTitle": "Brownie"
+  },
+  {
+   "title": "Antidote",
+   "artist": "Karan Aujla",
+   "saavnId": "OTmiAydz",
+   "saavnTitle": "ANTIDOTE"
   },
   {
    "title": "Gehra Hua",
    "artist": "Shashwat Sachdev, Arijit Singh, Irshad Kamil & Armaan Khan",
-   "saavnId": null
+   "saavnId": "YiVML4Zo",
+   "saavnTitle": "Gehra Hua (From \"Dhurandhar\")"
   },
   {
-   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
-   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
-   "saavnId": null
+   "title": "Ghost",
+   "artist": "Cheema Y & Gur Sidhu",
+   "saavnId": "fBlL7tzT",
+   "saavnTitle": "Ghost"
+  },
+  {
+   "title": "Pull Up",
+   "artist": "Cheema Y & Gur Sidhu",
+   "saavnId": "85AGFeQU",
+   "saavnTitle": "Pull Up"
   },
   {
    "title": "Tu Mil Jaaye (From \"KING\")",
    "artist": "Sachin-Jigar, Arijit Singh, Ed Sheeran, Madhubanti Bagchi & Kumaar",
-   "saavnId": null
+   "saavnId": "QcfFd62t",
+   "saavnTitle": "Tu Mil Jaaye (From \"KING\")"
+  },
+  {
+   "title": "Radhimaa (feat. Sai Smriti) [From \"Think Indie\"]",
+   "artist": "Sai Abhyankkar, Nargis Teji, Asma Teji & Vivek",
+   "saavnId": "P5pjB99X",
+   "saavnTitle": "Radhimaa (From \"Think Indie\")"
   },
   {
    "title": "Softly",
@@ -74,29 +97,40 @@
    "saavnId": null
   },
   {
-   "title": "Ghost",
+   "title": "G-Star",
    "artist": "Cheema Y & Gur Sidhu",
-   "saavnId": null
+   "saavnId": "uj4HhKx9",
+   "saavnTitle": "G-Star"
   },
   {
    "title": "One Name",
    "artist": "Anirudh Ravichander & Super Subu",
-   "saavnId": null
+   "saavnId": "3-acMgK2",
+   "saavnTitle": "One Name"
   },
   {
-   "title": "Pull Up",
+   "title": "LOA",
    "artist": "Cheema Y & Gur Sidhu",
-   "saavnId": null
-  },
-  {
-   "title": "Bindaas",
-   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
-   "saavnId": null
+   "saavnId": "DdcPVfhK",
+   "saavnTitle": "LOA"
   },
   {
    "title": "Arz Kiya Hai  Coke Studio Bharat",
    "artist": "Anuv Jain",
-   "saavnId": null
+   "saavnId": "cli-P2pu",
+   "saavnTitle": "Arz Kiya Hai | Coke Studio Bharat"
+  },
+  {
+   "title": "Bindaas",
+   "artist": "Deepthi Suresh, Anirudh Ravichander & Super Subu",
+   "saavnId": "JPJ6pL-U",
+   "saavnTitle": "Bindaas"
+  },
+  {
+   "title": "For A Reason",
+   "artist": "Karan Aujla & Ikky",
+   "saavnId": "sN24LH3L",
+   "saavnTitle": "For A Reason"
   },
   {
    "title": "Alaakaa Loova (From \"OM Chapter 1: Udhiram  - The Blood Wood\") [Tamil]",
@@ -104,29 +138,16 @@
    "saavnId": null
   },
   {
-   "title": "For A Reason",
-   "artist": "Karan Aujla & Ikky",
-   "saavnId": null
-  },
-  {
-   "title": "G-Star",
+   "title": "Customs",
    "artist": "Cheema Y & Gur Sidhu",
-   "saavnId": null
+   "saavnId": "1zNKv5ee",
+   "saavnTitle": "Customs"
   },
   {
    "title": "IYKYK",
    "artist": "Jxggi, Dishant & Sickboi",
-   "saavnId": null
-  },
-  {
-   "title": "Low Fade",
-   "artist": "Karan Aujla & MXRCI",
-   "saavnId": null
-  },
-  {
-   "title": "Guzarish",
-   "artist": "Satinder Sartaaj",
-   "saavnId": null
+   "saavnId": "Dt-jvWr_",
+   "saavnTitle": "IYKYK"
   }
  ]
 }
